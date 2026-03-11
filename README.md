@@ -48,6 +48,17 @@ femic prep validate-case --run-config config/run_profile.k3z.yaml --tipsy-config
 femic run --run-config config/run_profile.k3z.yaml
 ```
 
+## Standalone Docs
+
+This repository now includes a standalone Sphinx docs site under `docs/`.
+
+Build locally:
+
+```bash
+python -m pip install -r docs/requirements.txt
+sphinx-build -b html docs docs/_build/html -W
+```
+
 ## Update Cadence
 
 This repository is maintained as **snapshot releases** tied to FEMIC run/release milestones.
