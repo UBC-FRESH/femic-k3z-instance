@@ -10,5 +10,9 @@ This documentation site is the standalone operator guide for the
 
    getting-started
    model-anatomy
+   data-package-crosswalk
+   land-base-and-netdown
+   assumptions-registry
+   base-case-analysis
    rebuild-and-qa
    troubleshooting
