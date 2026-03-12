@@ -5,7 +5,6 @@ _MANAGED_,feature.SpeciesProp.managed.CW,feature.SpeciesProp.managed.CW,1
 _MANAGED_,feature.SpeciesProp.managed.DR,feature.SpeciesProp.managed.DR,1
 _MANAGED_,feature.SpeciesProp.managed.FDC,feature.SpeciesProp.managed.FDC,1
 _MANAGED_,feature.SpeciesProp.managed.HW,feature.SpeciesProp.managed.HW,1
-_MANAGED_,feature.SpeciesProp.managed.PL,feature.SpeciesProp.managed.PL,1
 _MANAGED_,feature.SpeciesProp.managed.PLC,feature.SpeciesProp.managed.PLC,1
 _MANAGED_,feature.SpeciesProp.managed.SS,feature.SpeciesProp.managed.SS,1
 _MANAGED_,feature.SpeciesProp.managed.YC,feature.SpeciesProp.managed.YC,1
@@ -14,7 +13,6 @@ _MANAGED_,feature.Yield.managed.CW,feature.Yield.managed.CW,1
 _MANAGED_,feature.Yield.managed.DR,feature.Yield.managed.DR,1
 _MANAGED_,feature.Yield.managed.FDC,feature.Yield.managed.FDC,1
 _MANAGED_,feature.Yield.managed.HW,feature.Yield.managed.HW,1
-_MANAGED_,feature.Yield.managed.PL,feature.Yield.managed.PL,1
 _MANAGED_,feature.Yield.managed.PLC,feature.Yield.managed.PLC,1
 _MANAGED_,feature.Yield.managed.SS,feature.Yield.managed.SS,1
 _MANAGED_,feature.Yield.managed.Total,feature.Yield.managed.Total,1
@@ -24,7 +22,6 @@ _MANAGED_,product.HarvestedVolume.managed.CW.CC,product.HarvestedVolume.managed.
 _MANAGED_,product.HarvestedVolume.managed.DR.CC,product.HarvestedVolume.managed.DR.CC,1
 _MANAGED_,product.HarvestedVolume.managed.FDC.CC,product.HarvestedVolume.managed.FDC.CC,1
 _MANAGED_,product.HarvestedVolume.managed.HW.CC,product.HarvestedVolume.managed.HW.CC,1
-_MANAGED_,product.HarvestedVolume.managed.PL.CC,product.HarvestedVolume.managed.PL.CC,1
 _MANAGED_,product.HarvestedVolume.managed.PLC.CC,product.HarvestedVolume.managed.PLC.CC,1
 _MANAGED_,product.HarvestedVolume.managed.SS.CC,product.HarvestedVolume.managed.SS.CC,1
 _MANAGED_,product.HarvestedVolume.managed.Total.CC,product.HarvestedVolume.managed.Total.CC,1
@@ -34,7 +31,6 @@ _MANAGED_,product.SpeciesProp.managed.CW,product.SpeciesProp.managed.CW,1
 _MANAGED_,product.SpeciesProp.managed.DR,product.SpeciesProp.managed.DR,1
 _MANAGED_,product.SpeciesProp.managed.FDC,product.SpeciesProp.managed.FDC,1
 _MANAGED_,product.SpeciesProp.managed.HW,product.SpeciesProp.managed.HW,1
-_MANAGED_,product.SpeciesProp.managed.PL,product.SpeciesProp.managed.PL,1
 _MANAGED_,product.SpeciesProp.managed.PLC,product.SpeciesProp.managed.PLC,1
 _MANAGED_,product.SpeciesProp.managed.SS,product.SpeciesProp.managed.SS,1
 _MANAGED_,product.SpeciesProp.managed.YC,product.SpeciesProp.managed.YC,1
@@ -44,7 +40,6 @@ _MANAGED_,product.Yield.managed.CW,product.Yield.managed.CW,1
 _MANAGED_,product.Yield.managed.DR,product.Yield.managed.DR,1
 _MANAGED_,product.Yield.managed.FDC,product.Yield.managed.FDC,1
 _MANAGED_,product.Yield.managed.HW,product.Yield.managed.HW,1
-_MANAGED_,product.Yield.managed.PL,product.Yield.managed.PL,1
 _MANAGED_,product.Yield.managed.PLC,product.Yield.managed.PLC,1
 _MANAGED_,product.Yield.managed.SS,product.Yield.managed.SS,1
 _MANAGED_,product.Yield.managed.Total,product.Yield.managed.Total,1
