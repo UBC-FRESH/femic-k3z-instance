@@ -16,6 +16,7 @@ Primary evidence sources:
 - ``models/k3z_patchworks_model/tracks/*.csv``
 - ``vdyp_io/logs/patchworks_matrixbuilder_manifest-*.json``
 - run-id-specific matrix logs and manifests under ``vdyp_io/logs/``
+- Appendix figure catalog in :ref:`k3z-figure-appendix`
 
 Base Case Output and Interpretation
 -----------------------------------
@@ -70,6 +71,14 @@ Discussion
 K3Z is intentionally compact for training and collaboration. It supports
 repeatable end-to-end rebuild/testing while preserving operational realism for
 core modeling mechanics.
+
+Figure Appendix Linkage
+-----------------------
+
+Use :ref:`k3z-figure-appendix` as the canonical catalog for K3Z diagnostic and
+teaching figures. Reference specific plot files by name in interpretation notes
+and classroom material so readers can connect narrative claims to exact
+artifacts.
 
 Known Limitations and Uncertainty
 ---------------------------------

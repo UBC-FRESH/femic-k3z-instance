@@ -33,9 +33,10 @@ Actions:
         --instance-root .
 
 2. If diagnostics reports ``total OK, species-wise empty``:
-   - inspect ``tracks/products.csv`` + ``tracks/curves.csv`` for nonzero
-     species label signal;
-   - inspect matrix manifest ``accounts_sync.excluded_patterns`` for accidental
+
+   - Inspect ``tracks/products.csv`` + ``tracks/curves.csv`` for nonzero
+     species label signal.
+   - Inspect matrix manifest ``accounts_sync.excluded_patterns`` for accidental
      over-filtering.
 3. Re-run deterministic rebuild with Patchworks enabled:
 

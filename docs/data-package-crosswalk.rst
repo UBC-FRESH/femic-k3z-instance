@@ -30,6 +30,9 @@ Section Crosswalk
      - ``base-case-analysis.rst``
    * - Discussion
      - ``base-case-analysis.rst``
+   * - Figures, charts, and map exhibits
+     - ``figure-appendix.rst`` plus cross-references from
+       ``land-base-and-netdown.rst`` and ``base-case-analysis.rst``
    * - References
      - ``base-case-analysis.rst`` and ``assumptions-registry.rst``
 
