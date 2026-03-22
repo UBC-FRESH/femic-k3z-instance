@@ -1,24 +1,8 @@
-pre_commercial_thinning:
-  enabled: true
-  state_field: "SILV_STATE"
-  from_state: "cc_pl"
-  to_state: "cc_pl_pct"
-  eligible_au_ids:
-    - 985502001  # FDC+HW-M
-    - 985502002  # CW+HW-M
-  min_origin: "planted"
-  age_by_au:
-    985502001: 10
-    985502002: 10
-  residual_stems_per_ha: 900
-  remove_species:
-    - "HW"
-
 commercial_thinning:
   enabled: true
   state_field: "SILV_STATE"
-  from_state: "cc_pl_pct"
-  to_state: "cc_pl_pct_ct"
+  from_state: "cc_pl"
+  to_state: "cc_pl_ct"
   eligible_au_ids:
     - 985502001  # FDC+HW-M
     - 985502002  # CW+HW-M
@@ -30,19 +14,29 @@ commercial_thinning:
   basal_area_to_volume_ratio: 1.0
 
 fertilization:
-  enabled: false
+  enabled: true
   state_field: "SILV_STATE"
   response_years: 10
   growth_speedup_fraction: 0.10
   first_application:
-    from_state: "cc_pl_pct_ct"
-    to_state: "cc_pl_pct_ct_f1"
+    from_state: "cc_pl_ct"
+    to_state: "cc_pl_ct_f1"
     timing_rule: "cai_argmax"
+  second_application:
+    enabled: true
+    from_state: "cc_pl_ct_f1"
+    to_state: "cc_pl_ct_f1_f2"
+    years_after_previous: 10
+  third_application:
+    enabled: true
+    from_state: "cc_pl_ct_f1_f2"
+    to_state: "cc_pl_ct_f1_f2_f3"
+    years_after_previous: 10
 
 qmd:
   enabled: true
   source: "synthetic"
-  notes: "Placeholder AU-wise QMD curves for PCT/CT scaffolding until observed or Nemora-derived curves are supplied."
+  notes: "Placeholder AU-wise QMD curves for CT/fert scaffolding until observed or Nemora-derived curves are supplied."
 
 retention:
   default_retention_fraction: 0.05

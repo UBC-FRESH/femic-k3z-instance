@@ -1,0 +1,24 @@
+variant_id: ctfert
+label: "K3Z optional CT + fert variant"
+description: "Optional K3Z Patchworks variant with CT, provisional QMD, and F1/F2/F3 treatment chain compiled into a distinct tracks surface."
+patchworks:
+  runtime_config: config/patchworks.runtime.ctfert.windows.yaml
+  analysis_pin: models/k3z_patchworks_model/analysis/ctfert.pin
+  tracks_dir: models/k3z_patchworks_model/tracks_ctfert
+  forestmodel_xml: models/k3z_patchworks_model/yield/forestmodel_ctfert.xml
+  fragments_shapefile: output/patchworks_k3z_ctfert_validated/fragments/fragments.shp
+  silviculture_config: config/silviculture.k3z.ctfert.yaml
+build:
+  export_command: >-
+    femic export patchworks --tsa k3z --instance-root external/femic-k3z-instance
+    --output-dir output/patchworks_k3z_ctfert_validated --seral-stage-config config/seral.k3z.yaml
+    --silviculture-config config/silviculture.k3z.ctfert.yaml
+  publish_forestmodel_note: >-
+    After export, copy output/patchworks_k3z_ctfert_validated/forestmodel.xml to
+    models/k3z_patchworks_model/yield/forestmodel_ctfert.xml before matrix build.
+  matrix_build_command: >-
+    femic patchworks matrix-build --instance-root external/femic-k3z-instance
+    --config config/patchworks.runtime.ctfert.windows.yaml --run-id k3z_ctfert
+notes:
+  - "Use this variant only when CT/QMD/F1/F2/F3 behavior is wanted."
+  - "Patchworks launch entrypoint: analysis/ctfert.pin"

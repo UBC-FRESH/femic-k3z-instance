@@ -77,7 +77,7 @@ fragments dataset.
 
 Current K3Z baseline:
 
-- the teaching baseline on ``main`` uses ``RETENTION = 0.05`` for all fragments
+- the teaching baseline on ``main`` uses ``RETENTION = 0.05`` for all fragments, configured in ``config/silviculture.k3z.baseline.yaml``
 - retained area is therefore withdrawn from the managed landbase and compiled
   into unmanaged area/tracks/accounts in Patchworks
 
@@ -95,7 +95,7 @@ instance on ``main``.
 Additional state/config artifacts for that variant:
 
 - fragment/XML state field: ``SILV_STATE``
-- silviculture config: ``config/silviculture.k3z.yaml``
+- silviculture config: ``config/silviculture.k3z.ctfert.yaml``
 - provisional QMD outputs:
   - ``feature.QMD.managed.<au_id>``
   - ``feature.QMD.unmanaged.<au_id>``

@@ -166,19 +166,19 @@ int PatchWorks_Init() {
     UniqueValueTheme currTreatTheme = new UniqueValueTheme(blockData);
     currTreatTheme.setFieldname("CURRENTTREATMENT");
     currTreatTheme.addElement(new ThemeElement("CC",
-        new PolygonSymbol(new Color(200, 60, 60))),
+        PolygonSymbol.getDefault(Symbol.FILL, Symbol.GEMS, 0)),
         "CC");
     currTreatTheme.addElement(new ThemeElement("CT",
-        new PolygonSymbol(new Color(80, 170, 110))),
+        PolygonSymbol.getDefault(Symbol.FILL, Symbol.STRIPES, 0)),
         "CT");
     currTreatTheme.addElement(new ThemeElement("F1",
-        new PolygonSymbol(new Color(80, 140, 220))),
+        PolygonSymbol.getDefault(Symbol.FILL, Symbol.HORIZONTAL, 0)),
         "F1");
     currTreatTheme.addElement(new ThemeElement("F2",
-        new PolygonSymbol(new Color(170, 110, 210))),
+        PolygonSymbol.getDefault(Symbol.FILL, Symbol.VERTICAL, 0)),
         "F2");
     currTreatTheme.addElement(new ThemeElement("F3",
-        new PolygonSymbol(new Color(230, 160, 70))),
+        PolygonSymbol.getDefault(Symbol.FILL, Symbol.DIAGONAL, 0)),
         "F3");
     currTreatTheme.setCaption("Current Treatments");
     currTreatTheme.setUnclassified(new ThemeElement("", PolygonSymbol.erase));
@@ -193,19 +193,19 @@ int PatchWorks_Init() {
     UniqueValueTheme latestTreatTheme = new UniqueValueTheme(blockData);
     latestTreatTheme.setFieldname("LASTTREATMENT");
     latestTreatTheme.addElement(new ThemeElement("CC",
-        new PolygonSymbol(new Color(200, 60, 60))),
+        PolygonSymbol.getDefault(Symbol.FILL, Symbol.GEMS, 0)),
         "CC");
     latestTreatTheme.addElement(new ThemeElement("CT",
-        new PolygonSymbol(new Color(80, 170, 110))),
+        PolygonSymbol.getDefault(Symbol.FILL, Symbol.STRIPES, 0)),
         "CT");
     latestTreatTheme.addElement(new ThemeElement("F1",
-        new PolygonSymbol(new Color(80, 140, 220))),
+        PolygonSymbol.getDefault(Symbol.FILL, Symbol.HORIZONTAL, 0)),
         "F1");
     latestTreatTheme.addElement(new ThemeElement("F2",
-        new PolygonSymbol(new Color(170, 110, 210))),
+        PolygonSymbol.getDefault(Symbol.FILL, Symbol.VERTICAL, 0)),
         "F2");
     latestTreatTheme.addElement(new ThemeElement("F3",
-        new PolygonSymbol(new Color(230, 160, 70))),
+        PolygonSymbol.getDefault(Symbol.FILL, Symbol.DIAGONAL, 0)),
         "F3");
     latestTreatTheme.setCaption("Latest Treatments");
     latestTreatTheme.setUnclassified(new ThemeElement("", PolygonSymbol.erase));
@@ -297,5 +297,4 @@ int PatchWorks_Init() {
     return 1;
 }
 /* END */
-
 
