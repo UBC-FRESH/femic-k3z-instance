@@ -125,12 +125,10 @@ Variant-specific expectations:
 - ``SILV_STATE``-specific tracknames/strata materialize for:
   - ``cc_pl_pct``
   - ``cc_pl_pct_ct``
+- ``tracks_pctct`` retains species-wise managed yield / harvested-volume
+  accounts in addition to the ``Total`` surfaces.
 - Live Patchworks smoke should show that pulling on a minimum ``CT``
   treated-area target induces upstream ``PCT`` and ``CC`` in earlier periods.
-- Current checked-in limitation: species-wise managed growing-stock /
-  harvest-volume accounts may still collapse to ``Total`` only. Treat that as
-  a tracked bug in account materialization, not as intended ``pctct``
-  behavior.
 
 Deep reference: :doc:`silviculture-logic`
 

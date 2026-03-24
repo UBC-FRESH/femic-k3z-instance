@@ -148,13 +148,6 @@ The PCT->CT variant YAML controls:
 - CT age and removal assumptions without any fertilization chain.
 - deep reference: :doc:`silviculture-logic`
 
-Current known limitation:
-
-- the checked-in ``pctct`` teaching surface launches and carries the intended
-  ``PCT -> CT`` path, but species-wise managed growing-stock /
-  harvest-volume accounts are still incomplete and are being tracked as a
-  separate bug fix.
-
 Baseline overlay subvariants:
 
 - ``config/patchworks.runtime.overlay.basecase_riparian.windows.yaml``

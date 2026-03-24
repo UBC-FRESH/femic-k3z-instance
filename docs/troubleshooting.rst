@@ -74,7 +74,7 @@ Actions:
    compiled.
 3. Inspect ``models/k3z_patchworks_model/yield/forestmodel_pctct.xml`` to see
    whether species-wise managed yield surfaces were exported upstream.
-4. Treat this as a known bug if the treatment path is otherwise correct. Do
+4. Treat this as a regression if the treatment path is otherwise correct. Do
    not reinterpret the result as intentional ``pctct`` design.
 5. Compare against ``base`` or ``ctfert`` to confirm the missing surface is a
    variant-specific regression, not a repo-wide account failure.

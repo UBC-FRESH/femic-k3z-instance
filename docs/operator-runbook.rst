@@ -117,9 +117,9 @@ Variant review points:
   ``product.Treated.managed.PCT`` and ``product.Treated.managed.CT``.
 - Patchworks smoke expectation: pulling on the ``CT`` treated-area target should
   induce the upstream chain ``PCT`` -> ``CC``.
-- Current known limitation: the checked-in ``pctct`` surface still needs a
-  separate bug fix to restore species-wise managed growing-stock /
-  harvest-volume accounts.
+- ``models/k3z_patchworks_model/tracks_pctct/accounts.csv`` / ``products.csv``
+  should also retain species-wise managed yield / harvest-volume surfaces,
+  not just ``Total``.
 - Deep reference: :doc:`silviculture-logic`
 
 Baseline Overlay Subvariant Workflow
