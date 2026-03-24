@@ -143,7 +143,10 @@ Optional PCT->CT variant:
 The PCT->CT variant YAML controls:
 
 - PCT eligibility AUs,
+- current issue-14 target cohort: medium/high SI ``HW+FDC`` and ``FDC+HW``
+  AUs ``985502000``, ``985503000``, ``985502001``, and ``985503001``,
 - PCT default age (currently 10),
+- planted regen mix for those eligible AUs: ``900 CW + 3100 HW``,
 - post-PCT removal of the ``HW`` species component (Western Hemlock) from the
   planted path,
 - CT eligibility only after the PCT gate,

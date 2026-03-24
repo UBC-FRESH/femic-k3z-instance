@@ -25,10 +25,12 @@ Growth and Yield Assumptions
   VDYP-derived SI, not the older scaled-from-VDYP fallback.
 - ``CWHvm_CW+YC`` and ``CWHvm_CW+PLC`` are intentionally excluded from the
   BatchTIPSY treated path and retained out of THLB with ``RETENTION = 1.0``.
-- Remaining treated AUs use the simplified teaching planting logic:
-  - FD-pair AUs: ``900 FD + 3100 HW``
-  - CW-pair AUs: ``900 CW + 3100 HW``
-  - all other remaining treated AUs: ``600 CW + 300 FD + 3100 HW``
+- Issue-14 ``pctct`` target AUs ``985502000``, ``985503000``, ``985502001``,
+  and ``985503001`` use ``900 CW + 3100 HW``.
+- Remaining treated AUs outside that `pctct` cohort use the simplified
+  teaching planting logic:
+  FD-pair AUs use ``900 FD + 3100 HW``; CW-pair AUs use ``900 CW + 3100 HW``;
+  all other remaining treated AUs use ``600 CW + 300 FD + 3100 HW``.
 - Current unmanaged smoothing baseline is the accepted relaxed toe/tail policy
   plus extra DR+HW-specific overrides recorded in the Phase 23 notes.
 

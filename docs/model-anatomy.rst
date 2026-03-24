@@ -142,7 +142,11 @@ Additional state/config artifacts for that variant:
 
 Optional treatment surfaces for that variant:
 
+- ``PCT`` / ``CT`` eligibility retargeted to medium/high SI ``HW+FDC`` and
+  ``FDC+HW`` AUs ``985502000``, ``985503000``, ``985502001``, and
+  ``985503001``
 - ``PCT`` at age 10 by default on the planted path
+- planted regen mix for those eligible AUs prepared as ``900 CW + 3100 HW``
 - post-PCT managed species proportions with the ``HW`` species component
   removed
 - ``CT`` available only after ``PCT``

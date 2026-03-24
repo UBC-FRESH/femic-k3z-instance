@@ -4,12 +4,16 @@ pre_commercial_thinning:
   from_state: "cc_pl"
   to_state: "cc_pl_pct"
   eligible_au_ids:
+    - 985502000  # HW+FDC-M
+    - 985503000  # HW+FDC-H
     - 985502001  # FDC+HW-M
-    - 985502002  # CW+HW-M
+    - 985503001  # FDC+HW-H
   min_origin: "planted"
   age_by_au:
+    985502000: 10
+    985503000: 10
     985502001: 10
-    985502002: 10
+    985503001: 10
   residual_stems_per_ha: 900
   remove_species:
     - "HW"
@@ -20,12 +24,16 @@ commercial_thinning:
   from_state: "cc_pl_pct"
   to_state: "cc_pl_pct_ct"
   eligible_au_ids:
+    - 985502000  # HW+FDC-M
+    - 985503000  # HW+FDC-H
     - 985502001  # FDC+HW-M
-    - 985502002  # CW+HW-M
+    - 985503001  # FDC+HW-H
   min_origin: "planted"
   age_by_au:
+    985502000: 40
+    985503000: 40
     985502001: 40
-    985502002: 40
+    985503001: 40
   basal_area_removal_fraction: 0.30
   basal_area_to_volume_ratio: 1.0
 

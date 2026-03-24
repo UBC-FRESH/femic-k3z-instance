@@ -3,10 +3,14 @@ succession,0,,985502004,unmanaged,planted,cc_pl,0.05
 succession,0,,985502004,managed,planted,cc_pl,0.05
 succession,0,,985503001,unmanaged,planted,cc_pl,0.05
 succession,0,,985503001,managed,planted,cc_pl,0.05
+succession,1,,985503001,managed,planted,cc_pl_pct,0.05
+succession,2,,985503001,managed,planted,cc_pl_pct_ct,0.05
 succession,0,,985502003,unmanaged,planted,cc_pl,0.05
 succession,0,,985502003,managed,planted,cc_pl,0.05
 succession,0,,985503000,unmanaged,planted,cc_pl,0.05
 succession,0,,985503000,managed,planted,cc_pl,0.05
+succession,1,,985503000,managed,planted,cc_pl_pct,0.05
+succession,2,,985503000,managed,planted,cc_pl_pct_ct,0.05
 succession,0,,985501003,unmanaged,natural,baseline,0.05
 succession,0,,985501003,managed,natural,baseline,0.05
 succession,1,,985501003,managed,planted,cc_pl,0.05
@@ -15,8 +19,6 @@ succession,0,,985501001,managed,planted,cc_pl,0.05
 succession,0,,985502002,unmanaged,natural,baseline,0.05
 succession,0,,985502002,managed,natural,baseline,0.05
 succession,1,,985502002,managed,planted,cc_pl,0.05
-succession,2,,985502002,managed,planted,cc_pl_pct,0.05
-succession,3,,985502002,managed,planted,cc_pl_pct_ct,0.05
 succession,0,,985501000,unmanaged,planted,cc_pl,0.05
 succession,0,,985501000,managed,planted,cc_pl,0.05
 succession,0,,985502001,unmanaged,planted,cc_pl,0.05

@@ -100,7 +100,7 @@ Treatment parameter table:
    * - Element
      - Current implementation
    * - Eligible AUs
-     - ``985502001`` and ``985502002``
+     - ``985502000``, ``985503000``, ``985502001``, and ``985503001``
    * - Eligibility gate
      - planted-only path (``min_origin: planted``)
    * - State transition field
@@ -108,7 +108,9 @@ Treatment parameter table:
    * - PCT transition
      - ``cc_pl -> cc_pl_pct``
    * - PCT age
-     - age ``10`` for both eligible AUs
+     - age ``10`` for all eligible AUs
+   * - Planted regen mix
+     - ``900 CW + 3100 HW`` for all eligible AUs
    * - Residual stems
      - ``900`` stems/ha
    * - Species removal rule
@@ -116,7 +118,7 @@ Treatment parameter table:
    * - CT transition
      - ``cc_pl_pct -> cc_pl_pct_ct``
    * - CT age
-     - age ``40`` for both eligible AUs
+     - age ``40`` for all eligible AUs
    * - CT removal
      - ``basal_area_removal_fraction = 0.30``
    * - BA:volume conversion

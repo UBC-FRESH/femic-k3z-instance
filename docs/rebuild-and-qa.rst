@@ -129,6 +129,9 @@ Variant-specific expectations:
 - ``tracks_pctct/treatments.csv`` includes ``PCT`` and ``CT``.
 - ``tracks_pctct/accounts.csv`` includes ``product.Treated.managed.PCT`` and ``product.Treated.managed.CT``.
 - ``tracks_pctct/products.csv`` includes the matching treated-product surface.
+- the issue-14 `pctct` footprint is centered on medium/high SI ``HW+FDC`` and
+  ``FDC+HW`` AUs ``985502000``, ``985503000``, ``985502001``, and
+  ``985503001``.
 - ``tracks_pctct`` does not materialize ``F1``, ``F2``, or ``F3``.
 - ``SILV_STATE``-specific tracknames/strata materialize for:
   - ``cc_pl_pct``

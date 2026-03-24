@@ -76,6 +76,27 @@ defaults:
     GW_age_5: null
 
 rules:
+  - id: "k3z_pctct_high_si_cw_target_pathway"
+    when:
+      au_id_in: [985502000, 985503000, 985502001, 985503001]
+    assign:
+      e:
+        Regen_Delay: 2
+        Density: 4000
+        Util_DBH_cm: 12.5
+        SPP_1: "HW"
+        PCT_1: 77.5
+        SPP_2: "CW"
+        PCT_2: 22.5
+      f:
+        Regen_Delay: 2
+        Density: 4000
+        Util_DBH_cm: 12.5
+        SPP_1: "HW"
+        PCT_1: 77.5
+        SPP_2: "CW"
+        PCT_2: 22.5
+
   - id: "k3z_fd_pair_pathway"
     when:
       stratum_code_in: ["CWHvm_HW+FDC", "CWHvm_FDC+HW"]
