@@ -52,6 +52,33 @@ Actions:
    ``expected_zero``.
 5. If needed, compare report baseline diff output before changing allowlist.
 
+PCT->CT Variant Shows Total Managed Yield But Species Accounts Are Missing
+--------------------------------------------------------------------------
+
+Symptoms:
+
+- ``pctct`` launches and treatment products look correct, but managed
+  species-wise growing-stock / harvest-volume accounts are absent while
+  ``product.Yield.managed.Total`` still exists.
+
+Actions:
+
+1. Confirm you are actually on the ``pctct`` surface:
+
+   .. code-block:: bash
+
+      femic patchworks matrix-build --config config/patchworks.runtime.pctct.windows.yaml --run-id k3z_pctct_check
+
+2. Inspect ``models/k3z_patchworks_model/tracks_pctct/accounts.csv`` and
+   ``products.csv`` to confirm whether only total managed yield surfaces were
+   compiled.
+3. Inspect ``models/k3z_patchworks_model/yield/forestmodel_pctct.xml`` to see
+   whether species-wise managed yield surfaces were exported upstream.
+4. Treat this as a known bug if the treatment path is otherwise correct. Do
+   not reinterpret the result as intentional ``pctct`` design.
+5. Compare against ``base`` or ``ctfert`` to confirm the missing surface is a
+   variant-specific regression, not a repo-wide account failure.
+
 Patchworks Runtime Preflight Fails
 ----------------------------------
 

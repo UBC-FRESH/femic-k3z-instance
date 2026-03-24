@@ -42,6 +42,23 @@ The intended launch pairings are:
 
 For the full launch matrix, use :doc:`variants-and-subvariants`.
 
+Quick Surface Picker
+--------------------
+
+.. list-table::
+   :header-rows: 1
+
+   * - Use case
+     - Recommended surface
+   * - Default teaching runs, baseline comparisons, and old-growth review
+     - ``base``
+   * - CT plus fertilization teaching exercise
+     - ``ctfert``
+   * - PCT-gated CT teaching exercise
+     - ``pctct``
+   * - Retained-area sensitivity exercise driven by the student workbook
+     - one of the four baseline overlay subvariants
+
 Prerequisites
 -------------
 
@@ -75,19 +92,19 @@ Quickstart
 
       femic tsa post-tipsy --run-config config/run_profile.k3z.yaml --tsa k3z --run-id k3z_stage01a
 
-3. Run the baseline Patchworks matrix build:
+5. Run the baseline Patchworks matrix build:
 
    .. code-block:: bash
 
       femic patchworks matrix-build --config config/patchworks.runtime.windows.yaml --run-id k3z_baseline
 
-4. Run the optional CT/fert Patchworks matrix build:
+6. Run the optional CT/fert Patchworks matrix build:
 
    .. code-block:: bash
 
       femic patchworks matrix-build --config config/patchworks.runtime.ctfert.windows.yaml --run-id k3z_ctfert
 
-5. Run the optional PCT->CT Patchworks matrix build:
+7. Run the optional PCT->CT Patchworks matrix build:
 
    .. code-block:: bash
 
@@ -129,6 +146,13 @@ The PCT->CT variant YAML controls:
 - CT eligibility only after the PCT gate,
 - CT age and removal assumptions without any fertilization chain.
 - deep reference: :doc:`silviculture-logic`
+
+Current known limitation:
+
+- the checked-in ``pctct`` teaching surface launches and carries the intended
+  ``PCT -> CT`` path, but species-wise managed growing-stock /
+  harvest-volume accounts are still incomplete and are being tracked as a
+  separate bug fix.
 
 Baseline overlay subvariants:
 

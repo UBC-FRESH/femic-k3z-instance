@@ -57,6 +57,23 @@ Review:
 
 - ``vdyp_io/logs/patchworks_matrixbuilder_manifest-<run_id>.json``
 
+Surface Selection Cheatsheet
+----------------------------
+
+.. list-table::
+   :header-rows: 1
+
+   * - If you need...
+     - Launch this
+   * - accepted teaching baseline
+     - ``config/patchworks.runtime.windows.yaml`` + ``analysis/base.pin``
+   * - CT plus fertilization
+     - ``config/patchworks.runtime.ctfert.windows.yaml`` + ``analysis/ctfert.pin``
+   * - PCT gated ahead of CT
+     - ``config/patchworks.runtime.pctct.windows.yaml`` + ``analysis/pctct.pin``
+   * - retained-area sensitivity only
+     - one of the overlay runtime configs + the matching ``analysis/overlay_*.pin``
+
 Optional CT/Fert Variant Workflow
 ---------------------------------
 
@@ -100,6 +117,9 @@ Variant review points:
   ``product.Treated.managed.PCT`` and ``product.Treated.managed.CT``.
 - Patchworks smoke expectation: pulling on the ``CT`` treated-area target should
   induce the upstream chain ``PCT`` -> ``CC``.
+- Current known limitation: the checked-in ``pctct`` surface still needs a
+  separate bug fix to restore species-wise managed growing-stock /
+  harvest-volume accounts.
 - Deep reference: :doc:`silviculture-logic`
 
 Baseline Overlay Subvariant Workflow

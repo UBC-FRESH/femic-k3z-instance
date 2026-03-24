@@ -17,6 +17,16 @@ Control Fields
 In both intensive variants, treatment history is carried by ``SILV_STATE``,
 not by overloading ``ORIGIN``.
 
+Gate Summary
+------------
+
+- ``ORIGIN`` gates entry into both intensive paths: only planted-origin stands
+  are eligible.
+- ``SILV_STATE`` records where a stand currently sits in the treatment chain
+  and therefore gates the next treatment in sequence.
+- ``IFM`` still separates managed vs unmanaged land-base behavior; unmanaged
+  tracks do not enter the intensive treatment chains.
+
 CT/Fert Variant
 ---------------
 
@@ -124,6 +134,12 @@ Sequencing logic:
    residual planted conifer component.
 4. ``CT`` is available only after the ``PCT`` gate is satisfied.
 5. No ``F1`` / ``F2`` / ``F3`` chain is compiled in this variant.
+
+Current limitation:
+
+- the intended treatment-state machine is correct, but the currently checked-in
+  compiled ``pctct`` account surface still needs a separate bug fix to restore
+  species-wise managed yield / harvested-volume accounts.
 
 State Machines
 --------------

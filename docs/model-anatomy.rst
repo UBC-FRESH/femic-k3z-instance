@@ -97,7 +97,7 @@ instance on ``main``.
 Additional state/config artifacts for that variant:
 
 - fragment/XML state field: ``SILV_STATE``
-- silviculture config: ``config/silviculture.k3z.yaml``
+- silviculture config: ``config/silviculture.k3z.ctfert.yaml``
 - provisional QMD outputs:
   - ``feature.QMD.managed.<au_id>``
   - ``feature.QMD.unmanaged.<au_id>``
@@ -151,6 +151,10 @@ Optional treatment surfaces for that variant:
 
 This variant is intended as a teaching scaffold for ``PCT`` -> ``CT`` path
 logic without the added complexity of fertilization.
+
+Current known limitation: the checked-in ``pctct`` build still needs a
+separate bug fix to restore species-wise managed growing-stock /
+harvest-volume accounts.
 
 Deep references
 ---------------

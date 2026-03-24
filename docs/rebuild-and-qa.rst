@@ -77,6 +77,33 @@ Validate against baseline:
    femic run --run-config config/run_profile.k3z.yaml --run-id k3z_compare
    femic patchworks matrix-build --config config/patchworks.runtime.windows.yaml --run-id k3z_compare
 
+Optional CT/Fert Variant QA
+---------------------------
+
+These checks apply only to the CT/fert variant
+(``config/patchworks.variant.ctfert.yaml``, ``analysis/ctfert.pin``).
+
+Variant command pattern:
+
+.. code-block:: bash
+
+   femic patchworks matrix-build --config config/patchworks.runtime.ctfert.windows.yaml --run-id k3z_ctfert
+
+Variant-specific expectations:
+
+- ``tracks_ctfert/treatments.csv`` includes ``CT``, ``F1``, ``F2``, and
+  ``F3``.
+- ``tracks_ctfert/accounts.csv`` includes the matching
+  ``product.Treated.managed.*`` surfaces.
+- ``tracks_ctfert/products.csv`` includes the matching treated-product
+  surfaces.
+- ``SILV_STATE``-specific tracknames/strata materialize for the CT/fert
+  sequence.
+- Live Patchworks smoke should show that pulling on a minimum ``F3``
+  treated-area target induces upstream ``F2`` -> ``F1`` -> ``CT`` -> ``CC``.
+
+Deep reference: :doc:`silviculture-logic`
+
 
 Optional PCT->CT Variant QA
 ---------------------------
@@ -100,6 +127,10 @@ Variant-specific expectations:
   - ``cc_pl_pct_ct``
 - Live Patchworks smoke should show that pulling on a minimum ``CT``
   treated-area target induces upstream ``PCT`` and ``CC`` in earlier periods.
+- Current checked-in limitation: species-wise managed growing-stock /
+  harvest-volume accounts may still collapse to ``Total`` only. Treat that as
+  a tracked bug in account materialization, not as intended ``pctct``
+  behavior.
 
 Deep reference: :doc:`silviculture-logic`
 

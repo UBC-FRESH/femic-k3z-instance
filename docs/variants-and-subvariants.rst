@@ -9,6 +9,28 @@ Patchworks variants and four baseline-derived overlay subvariants.
 
 Use this page as the canonical launch and interpretation map.
 
+Quick Launch Selector
+---------------------
+
+.. list-table::
+   :header-rows: 1
+
+   * - If the teaching question is...
+     - Launch this surface
+     - Exact pairing
+   * - "What does the accepted K3Z baseline do?"
+     - ``base``
+     - ``config/patchworks.runtime.windows.yaml`` + ``analysis/base.pin``
+   * - "What changes if we add CT plus repeated fertilization?"
+     - ``ctfert``
+     - ``config/patchworks.runtime.ctfert.windows.yaml`` + ``analysis/ctfert.pin``
+   * - "What changes if CT is gated behind an earlier PCT?"
+     - ``pctct``
+     - ``config/patchworks.runtime.pctct.windows.yaml`` + ``analysis/pctct.pin``
+   * - "What changes if retained area follows the student overlay table?"
+     - one of the four baseline overlay subvariants
+     - the matching ``config/patchworks.runtime.overlay.*.windows.yaml`` + ``analysis/overlay_*.pin``
+
 Variant Matrix
 --------------
 
@@ -37,7 +59,7 @@ Variant Matrix
      - ``config/patchworks.runtime.pctct.windows.yaml`` + ``analysis/pctct.pin``
      - ``tracks_pctct/`` + ``yield/forestmodel_pctct.xml`` + ``output/patchworks_k3z_pctct_validated/fragments/fragments.shp``
      - Adds ``SILV_STATE`` plus a planted-only PCT gate ahead of CT, but no fertilization chain.
-     - ``PCT`` and ``CT`` treated products on the ``PCT -> CT`` path.
+     - ``PCT`` and ``CT`` treated products on the ``PCT -> CT`` path. Current checked-in builds still need a separate bug fix to restore species-wise managed yield/harvest accounts.
      - Intensive-silviculture teaching scaffold without fertilization.
    * - ``basecase_riparian``
      - ``config/patchworks.runtime.overlay.basecase_riparian.windows.yaml`` + ``analysis/overlay_basecase_riparian.pin``
@@ -116,6 +138,17 @@ That is not automatically a compile failure. If retained area removes a species
 from the managed side of a subvariant, the corresponding managed species
 account can disappear from that subvariant's compiled tracks and live Patchworks
 account view.
+
+Known Variant Caveat
+--------------------
+
+``pctct`` is a real launchable teaching variant, but the current checked-in
+compiled surface still has one known limitation: species-wise managed
+growing-stock / harvest-volume accounts are presently incomplete even though
+the ``PCT -> CT`` treatment-path products compile and launch.
+
+Treat that as a tracked bug in account materialization, not as intended
+variant behavior.
 
 Audit Checklist
 ---------------
