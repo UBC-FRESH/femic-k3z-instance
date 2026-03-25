@@ -178,7 +178,7 @@ Old-Growth Review Workflow
 After a normal baseline rebuild on ``main``, confirm the old-growth surfaces are
 present in compiled accounts:
 
-- ``feature.Area.og1.<au_id>``
+- ``feature.Area.og1.<au_label>``
 - ``feature.Area.og2.<au_id>``
 - ``feature.Area.og1.total``
 - ``feature.Area.og2.total``

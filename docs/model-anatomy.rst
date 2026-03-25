@@ -47,12 +47,12 @@ Core Feature and Product Surfaces
 Seral account surfaces:
 
 - Global compatibility surface: ``feature.Seral.<stage>``
-- AU-specific inventory-state surface: ``feature.Seral.<au_id>.<stage>``
-- Treatment consequence surface: ``product.Seral.area.<stage>.<au_id>.CC``
+- AU-specific inventory-state surface: ``feature.Seral.<au_label>.<stage>``
+- Treatment consequence surface: ``product.Seral.area.<stage>.<au_label>.CC``
 
 Old-growth surfaces:
 
-- ``feature.Area.og1.<au_id>``
+- ``feature.Area.og1.<au_label>``
 - ``feature.Area.og2.<au_id>``
 - ``feature.Area.og1.total``
 - ``feature.Area.og2.total``
