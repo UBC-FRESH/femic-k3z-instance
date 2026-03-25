@@ -28,7 +28,7 @@ Base Case Output and Interpretation
 - Validate unexpected zeros/nulls by tracing:
   curve definitions -> attributes/products -> accounts -> targets.
 - Interpret seral inventory state primarily from
-  ``feature.Seral.<au_label>.<stage>`` accounts; keep
+  ``feature.Seral.<au_token>.<stage>`` accounts; keep
   ``feature.Seral.<stage>`` as the instance-wide compatibility/summary surface.
 
 Species Code Note (PL vs PLC)

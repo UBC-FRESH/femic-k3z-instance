@@ -12,8 +12,8 @@ Attribute Labels
 
 Per-AU labels:
 
-- ``feature.Area.og1.<au_label>``
-- ``feature.Area.og2.<au_id>``
+- ``feature.Area.og1.<au_token>``
+- ``feature.Area.og2.<au_token>``
 
 Instance-wide summary labels:
 

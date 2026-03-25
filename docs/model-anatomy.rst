@@ -47,13 +47,13 @@ Core Feature and Product Surfaces
 Seral account surfaces:
 
 - Global compatibility surface: ``feature.Seral.<stage>``
-- AU-specific inventory-state surface: ``feature.Seral.<au_label>.<stage>``
-- Treatment consequence surface: ``product.Seral.area.<stage>.<au_label>.CC``
+- AU-specific inventory-state surface: ``feature.Seral.<au_token>.<stage>``
+- Treatment consequence surface: ``product.Seral.area.<stage>.<au_token>.CC``
 
 Old-growth surfaces:
 
-- ``feature.Area.og1.<au_label>``
-- ``feature.Area.og2.<au_id>``
+- ``feature.Area.og1.<au_token>``
+- ``feature.Area.og2.<au_token>``
 - ``feature.Area.og1.total``
 - ``feature.Area.og2.total``
 
@@ -101,8 +101,8 @@ Additional state/config artifacts for that variant:
 - fragment/XML state field: ``SILV_STATE``
 - silviculture config: ``config/silviculture.k3z.ctfert.yaml``
 - provisional QMD outputs:
-  - ``feature.QMD.managed.<au_id>``
-  - ``feature.QMD.unmanaged.<au_id>``
+  - ``feature.QMD.managed.<au_token>``
+  - ``feature.QMD.unmanaged.<au_token>``
 - treatment-path states:
   - ``baseline``
   - ``cc_pl``
