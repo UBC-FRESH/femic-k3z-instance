@@ -113,36 +113,33 @@ Variant-specific expectations:
 Deep reference: :doc:`silviculture-logic`
 
 
-Optional PCT->CT Variant QA
----------------------------
+Optional PCT->CT Subvariant QA
+------------------------------
 
-These checks apply only to the PCT->CT variant (``config/patchworks.variant.pctct.yaml``, ``analysis/pctct.pin``).
+These checks apply only to the three PCT->CT subvariants
+(``pctct_light``, ``pctct_moderate``, ``pctct_heavy``).
 
 Variant command pattern:
 
 .. code-block:: bash
 
-   femic patchworks matrix-build --config config/patchworks.runtime.pctct.windows.yaml --run-id k3z_pctct
+   femic patchworks matrix-build --config config/patchworks.runtime.pctct_light.windows.yaml --run-id k3z_pctct_light
+   femic patchworks matrix-build --config config/patchworks.runtime.pctct_moderate.windows.yaml --run-id k3z_pctct_moderate
+   femic patchworks matrix-build --config config/patchworks.runtime.pctct_heavy.windows.yaml --run-id k3z_pctct_heavy
 
 Variant-specific expectations:
 
-- ``tracks_pctct/treatments.csv`` includes ``PCT_LIGHT``, ``PCT_MODERATE``,
-  ``PCT_HEAVY``, and ``CT``.
-- ``tracks_pctct/accounts.csv`` includes
-  ``product.Treated.managed.PCT_LIGHT``,
-  ``product.Treated.managed.PCT_MODERATE``,
-  ``product.Treated.managed.PCT_HEAVY``, and
-  ``product.Treated.managed.CT``.
-- ``tracks_pctct/products.csv`` includes the matching treated-product surface.
-- the issue-14 `pctct` footprint is centered on medium/high SI ``HW+FDC`` and
+- each ``tracks_pctct_*`` ``treatments.csv`` includes ``PCT`` and ``CT``.
+- each ``tracks_pctct_*`` ``accounts.csv`` includes
+  ``product.Treated.managed.PCT`` and ``product.Treated.managed.CT``.
+- each ``tracks_pctct_*`` ``products.csv`` includes the matching treated-product surface.
+- the issue-14 ``pctct_*`` footprint is centered on medium/high SI ``HW+FDC`` and
   ``FDC+HW`` AUs ``985502000``, ``985503000``, ``985502001``, and
   ``985503001``.
-- ``tracks_pctct`` does not materialize ``F1``, ``F2``, or ``F3``.
-- ``SILV_STATE``-specific tracknames/strata materialize for:
-  - ``cc_pl_pct_light`` / ``cc_pl_pct_light_ct``
-  - ``cc_pl_pct_moderate`` / ``cc_pl_pct_moderate_ct``
-  - ``cc_pl_pct_heavy`` / ``cc_pl_pct_heavy_ct``
-- The accepted PCT->CT fragments surface preserves the baseline 218-fragment
+- each ``tracks_pctct_*`` surface does not materialize ``F1``, ``F2``, or ``F3``.
+- each ``tracks_pctct_*`` surface materializes ``cc_pl_pct`` and
+  ``cc_pl_pct_ct`` as the treatment-history states.
+- the accepted PCT->CT fragments surfaces preserve the baseline 218-fragment
   geometry footprint exactly.
 - PCT->CT fragment differences are limited to treatment-path consequences in
   the exported ForestModel/tracks surface; the checked-in fragments surface
@@ -151,11 +148,10 @@ Variant-specific expectations:
 - Refresh the PCT->CT ForestModel from canonical bundle/checkpoint inputs, but
   do not replace the checked-in PCT->CT fragments surface blindly with raw
   export fragments unless the baseline-footprint invariants still hold.
-- ``tracks_pctct`` retains species-wise managed yield / harvested-volume
+- each ``tracks_pctct_*`` surface retains species-wise managed yield / harvested-volume
   accounts in addition to the ``Total`` surfaces.
 - Live Patchworks smoke should show that pulling on a minimum ``CT``
-  treated-area target induces upstream ``PCT_LIGHT`` / ``PCT_MODERATE`` /
-  ``PCT_HEAVY`` and ``CC`` in earlier periods.
+  treated-area target induces upstream ``PCT`` and ``CC`` in earlier periods.
 
 Deep reference: :doc:`silviculture-logic`
 

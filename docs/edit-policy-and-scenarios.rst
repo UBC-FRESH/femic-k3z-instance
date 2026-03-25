@@ -54,7 +54,9 @@ Recommended workflow:
 
 1. Start from a clean, accepted ``main`` baseline.
 2. If your group needs CT/fert, use the CT/fert variant spec and launch ``analysis/ctfert.pin``.
-3. If your group needs the PCT->CT teaching scaffold, use the ``pctct`` variant spec and launch ``analysis/pctct.pin``.
+3. If your group needs the PCT->CT teaching scaffold, choose one of
+   ``pctct_light``, ``pctct_moderate``, or ``pctct_heavy`` and launch the
+   matching ``analysis/pctct_*.pin`` surface.
 4. Rebuild before interpreting any optional-variant surfaces.
 5. Keep variant choice explicit in reports, screenshots, and classroom notes.
 6. Use the overlay subvariants only when the question is about retained-area
@@ -80,8 +82,8 @@ How to Validate Reruns
 3. Confirm scenario deltas are explainable by intentional config edits.
 4. On the optional variant, confirm compiled tracks and live Patchworks behavior
    agree about the ``CT`` -> ``F1`` -> ``F2`` -> ``F3`` chain.
-5. On the ``pctct`` variant, confirm compiled tracks and live Patchworks
-   behavior agree about the ``PCT`` -> ``CT`` -> ``CC`` chain.
+5. On the selected ``pctct_*`` subvariant, confirm compiled tracks and live
+   Patchworks behavior agree about the ``PCT`` -> ``CT`` -> ``CC`` chain.
 6. On overlay subvariants, confirm the only intended behavioral change is the
    managed-vs-unmanaged split driven by fragment ``RETENTION``.
 

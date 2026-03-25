@@ -20,10 +20,18 @@ Current variants:
   - variant spec: ``config/patchworks.variant.ctfert.yaml``
   - runtime config: ``config/patchworks.runtime.ctfert.windows.yaml``
   - Patchworks PIN: ``models/k3z_patchworks_model/analysis/ctfert.pin``
-- optional PCT->CT variant
-  - variant spec: ``config/patchworks.variant.pctct.yaml``
-  - runtime config: ``config/patchworks.runtime.pctct.windows.yaml``
-  - Patchworks PIN: ``models/k3z_patchworks_model/analysis/pctct.pin``
+- optional PCT->CT light subvariant:
+  ``config/patchworks.variant.pctct_light.yaml`` +
+  ``config/patchworks.runtime.pctct_light.windows.yaml`` +
+  ``models/k3z_patchworks_model/analysis/pctct_light.pin``
+- optional PCT->CT moderate subvariant:
+  ``config/patchworks.variant.pctct_moderate.yaml`` +
+  ``config/patchworks.runtime.pctct_moderate.windows.yaml`` +
+  ``models/k3z_patchworks_model/analysis/pctct_moderate.pin``
+- optional PCT->CT heavy subvariant:
+  ``config/patchworks.variant.pctct_heavy.yaml`` +
+  ``config/patchworks.runtime.pctct_heavy.windows.yaml`` +
+  ``models/k3z_patchworks_model/analysis/pctct_heavy.pin``
 
 Baseline-derived overlay subvariants:
 
@@ -40,7 +48,9 @@ The intended launch pairings are:
 
 - baseline: ``config/patchworks.runtime.windows.yaml`` + ``analysis/base.pin``
 - CT/fert variant: ``config/patchworks.runtime.ctfert.windows.yaml`` + ``analysis/ctfert.pin``
-- PCT->CT variant: ``config/patchworks.runtime.pctct.windows.yaml`` + ``analysis/pctct.pin``
+- PCT->CT light subvariant: ``config/patchworks.runtime.pctct_light.windows.yaml`` + ``analysis/pctct_light.pin``
+- PCT->CT moderate subvariant: ``config/patchworks.runtime.pctct_moderate.windows.yaml`` + ``analysis/pctct_moderate.pin``
+- PCT->CT heavy subvariant: ``config/patchworks.runtime.pctct_heavy.windows.yaml`` + ``analysis/pctct_heavy.pin``
 
 For the full launch matrix, use :doc:`variants-and-subvariants`.
 
@@ -57,7 +67,7 @@ Quick Surface Picker
    * - CT plus fertilization teaching exercise
      - ``ctfert``
    * - PCT-gated CT teaching exercise
-     - ``pctct``
+     - ``pctct_light``, ``pctct_moderate``, or ``pctct_heavy``
    * - Retained-area sensitivity exercise driven by the student workbook
      - one of the four baseline overlay subvariants
 
@@ -106,11 +116,13 @@ Quickstart
 
       femic patchworks matrix-build --config config/patchworks.runtime.ctfert.windows.yaml --run-id k3z_ctfert
 
-7. Run the optional PCT->CT Patchworks matrix build:
+7. Run one of the optional PCT->CT subvariant matrix builds:
 
    .. code-block:: bash
 
-      femic patchworks matrix-build --config config/patchworks.runtime.pctct.windows.yaml --run-id k3z_pctct
+      femic patchworks matrix-build --config config/patchworks.runtime.pctct_light.windows.yaml --run-id k3z_pctct_light
+      femic patchworks matrix-build --config config/patchworks.runtime.pctct_moderate.windows.yaml --run-id k3z_pctct_moderate
+      femic patchworks matrix-build --config config/patchworks.runtime.pctct_heavy.windows.yaml --run-id k3z_pctct_heavy
 
 Variant-Specific Operator Inputs
 --------------------------------
@@ -135,24 +147,31 @@ The CT/fert variant YAML controls:
 - ``F1`` / ``F2`` / ``F3`` timing rules.
 - deep reference: :doc:`silviculture-logic`
 
-Optional PCT->CT variant:
+Optional PCT->CT subvariants:
 
-- ``config/patchworks.variant.pctct.yaml``
-- ``config/silviculture.k3z.pctct.yaml``
+- ``config/patchworks.variant.pctct_light.yaml`` +
+  ``config/silviculture.k3z.pctct_light.yaml``
+- ``config/patchworks.variant.pctct_moderate.yaml`` +
+  ``config/silviculture.k3z.pctct_moderate.yaml``
+- ``config/patchworks.variant.pctct_heavy.yaml`` +
+  ``config/silviculture.k3z.pctct_heavy.yaml``
 
-The PCT->CT variant YAML controls:
+The three PCT->CT subvariant YAMLs share the same:
 
-- PCT eligibility AUs,
-- current issue-14 target cohort: medium/high SI ``HW+FDC`` and ``FDC+HW``
+- issue-14 eligible AU cohort: medium/high SI ``HW+FDC`` and ``FDC+HW``
   AUs ``985502000``, ``985503000``, ``985502001``, and ``985503001``,
-- three coexisting age-10 PCT treatments in the same variant:
-  ``PCT_LIGHT`` (remove ``1000`` HW stems/ha), ``PCT_MODERATE`` (remove
-  ``2000``), and ``PCT_HEAVY`` (remove ``3000``),
-- planted regen mix for those eligible AUs: ``900 CW + 3100 HW``,
-- post-PCT managed mixes of ``900 CW + 2100 HW``, ``900 CW + 1100 HW``, and
-  ``900 CW + 100 HW`` respectively,
-- CT eligibility only after the PCT gate,
-- CT age and removal assumptions without any fertilization chain.
+- planted regen mix: ``900 CW + 3100 HW``,
+- PCT timing: age ``10``,
+- CT timing: age ``40``,
+- treatment-state chain: ``cc_pl -> cc_pl_pct -> cc_pl_pct_ct``,
+- no-fertilization policy.
+
+The subvariant-specific PCT flavors are:
+
+- ``pctct_light``: remove ``1000`` HW stems/ha, leaving ``900 CW + 2100 HW``
+- ``pctct_moderate``: remove ``2000`` HW stems/ha, leaving
+  ``900 CW + 1100 HW``
+- ``pctct_heavy``: remove ``3000`` HW stems/ha, leaving ``900 CW + 100 HW``
 - deep reference: :doc:`silviculture-logic`
 
 Baseline overlay subvariants:
@@ -174,8 +193,12 @@ Authoritative Paths
   ``models/k3z_patchworks_model/tracks/``
 - CT/fert tracks:
   ``models/k3z_patchworks_model/tracks_ctfert/``
-- PCT->CT tracks:
-  ``models/k3z_patchworks_model/tracks_pctct/``
+- PCT->CT light tracks:
+  ``models/k3z_patchworks_model/tracks_pctct_light/``
+- PCT->CT moderate tracks:
+  ``models/k3z_patchworks_model/tracks_pctct_moderate/``
+- PCT->CT heavy tracks:
+  ``models/k3z_patchworks_model/tracks_pctct_heavy/``
 - Runtime logs/manifests:
   ``vdyp_io/logs/``
 

@@ -25,8 +25,14 @@ Growth and Yield Assumptions
   VDYP-derived SI, not the older scaled-from-VDYP fallback.
 - ``CWHvm_CW+YC`` and ``CWHvm_CW+PLC`` are intentionally excluded from the
   BatchTIPSY treated path and retained out of THLB with ``RETENTION = 1.0``.
-- Issue-14 ``pctct`` target AUs ``985502000``, ``985503000``, ``985502001``,
-  and ``985503001`` use ``900 CW + 3100 HW``.
+- Issue-14 ``pctct_light``, ``pctct_moderate``, and ``pctct_heavy`` target
+  AUs ``985502000``, ``985503000``, ``985502001``, and ``985503001`` all use
+  ``900 CW + 3100 HW`` as the planted regen mix.
+- The three PCT->CT subvariants differ only by the age-10 ``HW`` removal
+  intensity before CT:
+  - ``pctct_light`` removes ``1000`` HW stems/ha.
+  - ``pctct_moderate`` removes ``2000`` HW stems/ha.
+  - ``pctct_heavy`` removes ``3000`` HW stems/ha.
 - Remaining treated AUs outside that `pctct` cohort use the simplified
   teaching planting logic:
   FD-pair AUs use ``900 FD + 3100 HW``; CW-pair AUs use ``900 CW + 3100 HW``;

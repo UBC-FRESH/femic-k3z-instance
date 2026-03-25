@@ -52,34 +52,36 @@ Actions:
    ``expected_zero``.
 5. If needed, compare report baseline diff output before changing allowlist.
 
-PCT->CT Variant Shows Total Managed Yield But Species Accounts Are Missing
---------------------------------------------------------------------------
+PCT->CT Subvariant Shows Total Managed Yield But Species Accounts Are Missing
+-----------------------------------------------------------------------------
 
-This is a regression playbook, not the expected current K3Z ``pctct`` state.
-The checked-in ``pctct`` surface should retain species-wise managed yield /
+This is a regression playbook, not the expected current K3Z ``pctct_*``
+state. Each checked-in ``pctct_light`` / ``pctct_moderate`` /
+``pctct_heavy`` surface should retain species-wise managed yield /
 harvest-volume accounts alongside the ``PCT -> CT`` treatment path.
 
 Symptoms:
 
-- ``pctct`` launches and treatment products look correct, but managed
+- a ``pctct_*`` subvariant launches and treatment products look correct, but managed
   species-wise growing-stock / harvest-volume accounts are absent while
   ``product.Yield.managed.Total`` still exists.
 
 Actions:
 
-1. Confirm you are actually on the ``pctct`` surface:
+1. Confirm you are actually on the intended ``pctct_*`` surface:
 
    .. code-block:: bash
 
-      femic patchworks matrix-build --config config/patchworks.runtime.pctct.windows.yaml --run-id k3z_pctct_check
+      femic patchworks matrix-build --config config/patchworks.runtime.pctct_light.windows.yaml --run-id k3z_pctct_light_check
 
-2. Inspect ``models/k3z_patchworks_model/tracks_pctct/accounts.csv`` and
-   ``products.csv`` to confirm whether only total managed yield surfaces were
-   compiled.
-3. Inspect ``models/k3z_patchworks_model/yield/forestmodel_pctct.xml`` to see
-   whether species-wise managed yield surfaces were exported upstream.
+2. Inspect the matching ``models/k3z_patchworks_model/tracks_pctct_*/accounts.csv``
+   and ``products.csv`` files to confirm whether only total managed yield
+   surfaces were compiled.
+3. Inspect the matching ``models/k3z_patchworks_model/yield/forestmodel_pctct_*.xml``
+   file to see whether species-wise managed yield surfaces were exported
+   upstream.
 4. Treat this as a regression if the treatment path is otherwise correct. Do
-   not reinterpret the result as intentional ``pctct`` design.
+   not reinterpret the result as intentional ``pctct_*`` design.
 5. Compare against ``base`` or ``ctfert`` to confirm the missing surface is a
    variant-specific regression, not a repo-wide account failure.
 

@@ -24,7 +24,9 @@ Safe to edit directly:
 - ``config/seral.k3z.yaml``
 - ``config/tipsy/tsak3z.yaml``
 - ``config/silviculture.k3z.ctfert.yaml`` for the optional CT/fert variant
-- ``config/silviculture.k3z.pctct.yaml`` for the optional PCT->CT variant
+- ``config/silviculture.k3z.pctct_light.yaml`` for the optional light PCT->CT subvariant
+- ``config/silviculture.k3z.pctct_moderate.yaml`` for the optional moderate PCT->CT subvariant
+- ``config/silviculture.k3z.pctct_heavy.yaml`` for the optional heavy PCT->CT subvariant
 - fragment-level ``RETENTION`` values when/if you intentionally edit retained-area policy in the validated fragments dataset
 
 Regenerate instead of hand-edit:
@@ -123,39 +125,42 @@ In this variant, ``ORIGIN`` still means natural vs planted. Treatment history is
 carried by ``SILV_STATE`` instead of overloading ``ORIGIN``.
 
 
-Optional PCT->CT Variant Surface
---------------------------------
+Optional PCT->CT Subvariant Family Surface
+------------------------------------------
 
-The optional ``pctct`` variant adds a third coexisting upstream-distinct
-surface that keeps the baseline and CT/fert variants intact while inserting a
-pre-commercial-thinning gate ahead of CT.
+The optional ``pctct_light``, ``pctct_moderate``, and ``pctct_heavy``
+subvariants add three coexisting upstream-distinct surfaces that keep the
+baseline and CT/fert variants intact while inserting a pre-commercial-thinning
+gate ahead of CT.
 
 Additional state/config artifacts for that variant:
 
 - fragment/XML state field: ``SILV_STATE``
-- silviculture config: ``config/silviculture.k3z.pctct.yaml``
+- silviculture configs:
+  - ``config/silviculture.k3z.pctct_light.yaml``
+  - ``config/silviculture.k3z.pctct_moderate.yaml``
+  - ``config/silviculture.k3z.pctct_heavy.yaml``
 - treatment-path states:
   - ``baseline``
   - ``cc_pl``
-  - ``cc_pl_pct_light`` / ``cc_pl_pct_light_ct``
-  - ``cc_pl_pct_moderate`` / ``cc_pl_pct_moderate_ct``
-  - ``cc_pl_pct_heavy`` / ``cc_pl_pct_heavy_ct``
+  - ``cc_pl_pct``
+  - ``cc_pl_pct_ct``
 
 Optional treatment surfaces for that variant:
 
 - ``PCT`` / ``CT`` eligibility retargeted to medium/high SI ``HW+FDC`` and
   ``FDC+HW`` AUs ``985502000``, ``985503000``, ``985502001``, and
   ``985503001``
-- three age-10 PCT choices on the planted path:
-  ``PCT_LIGHT``, ``PCT_MODERATE``, and ``PCT_HEAVY``
+- three subvariant-specific age-10 PCT choices on the planted path:
+  - ``pctct_light`` -> remove ``1000`` HW stems/ha
+  - ``pctct_moderate`` -> remove ``2000`` HW stems/ha
+  - ``pctct_heavy`` -> remove ``3000`` HW stems/ha
 - planted regen mix for those eligible AUs prepared as ``900 CW + 3100 HW``
 - post-PCT managed mixtures of ``900 CW + 2100 HW``, ``900 CW + 1100 HW``, and
-  ``900 CW + 100 HW``
+  ``900 CW + 100 HW`` respectively
 - ``CT`` available only after ``PCT``
 - matching compiled treatment products/accounts such as:
-  - ``product.Treated.managed.PCT_LIGHT``
-  - ``product.Treated.managed.PCT_MODERATE``
-  - ``product.Treated.managed.PCT_HEAVY``
+  - ``product.Treated.managed.PCT``
   - ``product.Treated.managed.CT``
 
 This variant is intended as a teaching scaffold for ``PCT`` -> ``CT`` path
