@@ -101,6 +101,17 @@ Those live ratio accounts divide the matching
 ``product.Treated.managed.<au_token>.CC`` account with scale ``1``, so the
 live values resolve directly to mean harvested-stem diameter in ``cm``.
 
+These baseline and overlay launch surfaces also apply a downstream recovered-
+volume utilization assumption during ``protoaccounts.csv -> accounts.csv``
+promotion:
+
+- ``CC`` harvested volume uses utilization ``0.85``
+- ``CT`` harvested volume uses utilization ``0.75`` on CT-enabled variants
+
+That policy lives in the runtime config layer, not in the ForestModel XML. The
+standing yield curves remain unchanged; only the promoted harvested-volume
+accounts are scaled to represent recovered merchantable volume.
+
 Retention Surface
 -----------------
 
@@ -173,6 +184,16 @@ corresponding ``product.Treated.managed.<au_token>.<treatment>`` account with
 scale ``1``, so the live values resolve directly to mean harvested-stem
 diameter in ``cm``.
 
+The shipped CT/fert launch surfaces also apply the downstream recovered-volume
+utilization policy during ``protoaccounts.csv -> accounts.csv`` promotion:
+
+- ``CC`` harvested volume uses utilization ``0.85``
+- ``CT`` harvested volume uses utilization ``0.75``
+
+That policy does not alter standing yield curves or the ForestModel XML. It
+only scales the promoted harvested-volume accounts so teaching runs reflect
+recovered merchantable volume rather than perfect recovery.
+
 The SI-profiled CT/fert subvariants extend that same state machine across the
 six ``L/M/H`` SI-class ``CWHvm_FDC+HW`` / ``CWHvm_CW+HW`` AUs, but change the
 fert response by SI class:
@@ -239,6 +260,14 @@ Those runtime ratio accounts divide the matching
 corresponding ``product.Treated.managed.<au_token>.<treatment>`` account with
 scale ``1``, so the live values resolve directly to mean harvested-stem
 diameter in ``cm``.
+
+The shipped ``pct_*`` launch surfaces inherit the same downstream recovered-
+volume utilization policy during ``protoaccounts.csv -> accounts.csv``
+promotion:
+
+- ``CC`` harvested volume uses utilization ``0.85``
+- ``CT`` would use utilization ``0.75`` if present, but the shipped
+  ``pct_*`` family does not expose ``CT``
 
 This variant is intended as a teaching scaffold for PCT intensity comparison
 without the added complexity of CT or fertilization.

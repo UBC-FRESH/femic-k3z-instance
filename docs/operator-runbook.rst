@@ -57,6 +57,18 @@ Review:
 
 - ``vdyp_io/logs/patchworks_matrixbuilder_manifest-<run_id>.json``
 
+Runtime account assumptions
+---------------------------
+
+The shipped K3Z runtime configs now also carry a downstream recovered-volume
+assumption in the ``protoaccounts.csv -> accounts.csv`` promotion layer:
+
+- ``CC`` harvested volume uses utilization ``0.85``
+- ``CT`` harvested volume uses utilization ``0.75`` on CT-enabled variants
+
+This is a runtime-account policy only. It does not change standing yield
+curves, ForestModel XML, or fragment-level ``RETENTION``.
+
 Surface Selection Cheatsheet
 ----------------------------
 
@@ -116,6 +128,9 @@ Variant review points:
   - ``product.QMD.managed.<au_token>.CT``
 - Read those live ``product.QMD.*`` ratio accounts directly as mean harvested
   diameter in ``cm``.
+- Read ``product.HarvestedVolume.*`` accounts as recovered merchantable volume,
+  not perfect-recovery standing merchantable volume; ``CC`` uses downstream
+  utilization ``0.85`` and ``CT`` uses downstream utilization ``0.75``.
 - The two SI-profiled subvariants should use the curated retention overlay in
   ``tmp/CTFert Fragments/fragments_updated3_Usedinbasecase.shp`` rather than
   the old uniform ``RETENTION = 0.05`` placeholder. In other words, the
@@ -170,6 +185,10 @@ Variant review points:
   - ``product.QMD.managed.<au_token>.CC``
 - Read those live ``product.QMD.*`` ratio accounts directly as mean harvested
   diameter in ``cm``.
+- Read ``product.HarvestedVolume.*`` accounts as recovered merchantable volume;
+  ``CC`` uses downstream utilization ``0.85``. The shipped ``pct_*`` surfaces
+  do not expose ``CT``, but the runtime layer reserves ``CT = 0.75`` for
+  CT-enabled variants.
 - Each ``output/patchworks_k3z_pct_*_validated/fragments/`` surface should
   preserve the accepted baseline 218-fragment geometry footprint exactly.
 - Patchworks smoke expectation: pulling on the ``PCT`` treated-area target
