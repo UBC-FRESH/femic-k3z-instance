@@ -5,7 +5,7 @@ patchworks:
   runtime_config: config/patchworks.runtime.intensive_moderate.windows.yaml
   analysis_pin: models/k3z_patchworks_model/analysis/intensive_moderate.pin
   tracks_dir: models/k3z_patchworks_model/tracks_intensive_moderate
-  forestmodel_xml: models/k3z_patchworks_model/yield/forestmodel_intensive_moderate.xml
+  forestmodel_xml: output/patchworks_k3z_intensive_moderate_validated/forestmodel.xml
   fragments_shapefile: output/patchworks_k3z_intensive_moderate_validated/fragments/fragments.shp
   silviculture_config: config/silviculture.k3z.intensive_moderate.yaml
 build:
@@ -20,7 +20,7 @@ build:
     tmp/CTFert Fragments/fragments_updated3_Usedinbasecase.shp; after export,
     replace the raw fragments surface with the curated overlay before Matrix
     Builder and copy the fresh forestmodel.xml to
-    models/k3z_patchworks_model/yield/forestmodel_intensive_moderate.xml.
+    output/patchworks_k3z_intensive_moderate_validated/forestmodel.xml.
   matrix_build_command: >-
     femic patchworks matrix-build --instance-root external/femic-k3z-instance
     --config config/patchworks.runtime.intensive_moderate.windows.yaml --run-id k3z_intensive_moderate

@@ -205,7 +205,8 @@ Variant command pattern:
 
 Variant-specific expectations:
 
-- overlay builds still use baseline ``yield/forestmodel.xml``;
+- overlay builds still use baseline
+  ``output/patchworks_k3z_validated/forestmodel.xml``;
 - only fragment ``RETENTION`` and resulting managed/unmanaged area balance
   should differ from baseline;
 - the student join contract still resolves through ``blocks.shp`` without nulls
