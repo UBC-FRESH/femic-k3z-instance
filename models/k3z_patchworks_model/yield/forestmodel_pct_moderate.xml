@@ -4,6 +4,39 @@
   <curve id="unity">
     <point x="0" y="1.0" />
   </curve>
+  <curve id="au_CWHvm_CW_HW_H_managed_height">
+    <point x="4" y="2.8" />
+    <point x="10" y="7.0" />
+    <point x="20" y="14.0" />
+    <point x="30" y="21.0" />
+    <point x="40" y="28.0" />
+    <point x="50" y="35.0" />
+    <point x="60" y="42.0" />
+    <point x="70" y="49.0" />
+    <point x="80" y="56.0" />
+    <point x="90" y="63.0" />
+    <point x="100" y="70.0" />
+    <point x="110" y="77.0" />
+    <point x="120" y="84.0" />
+    <point x="130" y="91.0" />
+    <point x="140" y="98.0" />
+    <point x="150" y="105.0" />
+    <point x="160" y="112.0" />
+    <point x="170" y="119.0" />
+    <point x="180" y="126.0" />
+    <point x="190" y="133.0" />
+    <point x="200" y="140.0" />
+    <point x="210" y="147.0" />
+    <point x="220" y="154.0" />
+    <point x="230" y="161.0" />
+    <point x="240" y="168.0" />
+    <point x="250" y="175.0" />
+    <point x="260" y="182.0" />
+    <point x="270" y="189.0" />
+    <point x="280" y="196.0" />
+    <point x="290" y="203.0" />
+    <point x="299" y="209.3" />
+  </curve>
   <curve id="au_CWHvm_CW_HW_H_managed_natural_yield_CW">
     <point x="4" y="0.0" />
     <point x="10" y="0.1" />
@@ -138,39 +171,6 @@
   </curve>
   <curve id="au_CWHvm_CW_HW_H_managed_qmd">
     <point x="4" y="0.0" />
-    <point x="10" y="1.9" />
-    <point x="20" y="6.1" />
-    <point x="30" y="10.7" />
-    <point x="40" y="14.8" />
-    <point x="50" y="18.1" />
-    <point x="60" y="20.7" />
-    <point x="70" y="22.4" />
-    <point x="80" y="23.5" />
-    <point x="90" y="24.1" />
-    <point x="100" y="24.4" />
-    <point x="110" y="24.4" />
-    <point x="120" y="24.2" />
-    <point x="130" y="23.9" />
-    <point x="140" y="23.4" />
-    <point x="150" y="22.8" />
-    <point x="160" y="22.1" />
-    <point x="170" y="21.4" />
-    <point x="180" y="20.7" />
-    <point x="190" y="19.9" />
-    <point x="200" y="19.1" />
-    <point x="210" y="18.5" />
-    <point x="220" y="18.0" />
-    <point x="230" y="17.5" />
-    <point x="240" y="17.0" />
-    <point x="250" y="16.5" />
-    <point x="260" y="16.0" />
-    <point x="270" y="15.6" />
-    <point x="280" y="15.2" />
-    <point x="290" y="14.8" />
-    <point x="299" y="14.4" />
-  </curve>
-  <curve id="au_CWHvm_CW_HW_H_managed_stems_per_ha">
-    <point x="4" y="650.0" />
   </curve>
   <curve id="au_CWHvm_CW_HW_H_og1">
     <point x="110" y="0.0" />
@@ -355,6 +355,39 @@
     <point x="25" y="1.0" />
     <point x="26" y="0.0" />
   </curve>
+  <curve id="au_CWHvm_CW_HW_H_unmanaged_height">
+    <point x="4" y="2.8" />
+    <point x="10" y="7.0" />
+    <point x="20" y="14.0" />
+    <point x="30" y="21.0" />
+    <point x="40" y="28.0" />
+    <point x="50" y="35.0" />
+    <point x="60" y="42.0" />
+    <point x="70" y="49.0" />
+    <point x="80" y="56.0" />
+    <point x="90" y="63.0" />
+    <point x="100" y="70.0" />
+    <point x="110" y="77.0" />
+    <point x="120" y="84.0" />
+    <point x="130" y="91.0" />
+    <point x="140" y="98.0" />
+    <point x="150" y="105.0" />
+    <point x="160" y="112.0" />
+    <point x="170" y="119.0" />
+    <point x="180" y="126.0" />
+    <point x="190" y="133.0" />
+    <point x="200" y="140.0" />
+    <point x="210" y="147.0" />
+    <point x="220" y="154.0" />
+    <point x="230" y="161.0" />
+    <point x="240" y="168.0" />
+    <point x="250" y="175.0" />
+    <point x="260" y="182.0" />
+    <point x="270" y="189.0" />
+    <point x="280" y="196.0" />
+    <point x="290" y="203.0" />
+    <point x="299" y="209.3" />
+  </curve>
   <curve id="au_CWHvm_CW_HW_H_unmanaged_natural_yield_CW">
     <point x="4" y="0.0" />
     <point x="10" y="0.1" />
@@ -489,39 +522,39 @@
   </curve>
   <curve id="au_CWHvm_CW_HW_H_unmanaged_qmd">
     <point x="4" y="0.0" />
-    <point x="10" y="1.9" />
-    <point x="20" y="6.1" />
-    <point x="30" y="10.7" />
-    <point x="40" y="14.8" />
-    <point x="50" y="18.1" />
-    <point x="60" y="20.7" />
-    <point x="70" y="22.4" />
-    <point x="80" y="23.5" />
-    <point x="90" y="24.1" />
-    <point x="100" y="24.4" />
-    <point x="110" y="24.4" />
-    <point x="120" y="24.2" />
-    <point x="130" y="23.9" />
-    <point x="140" y="23.4" />
-    <point x="150" y="22.8" />
-    <point x="160" y="22.1" />
-    <point x="170" y="21.4" />
-    <point x="180" y="20.7" />
-    <point x="190" y="19.9" />
-    <point x="200" y="19.1" />
-    <point x="210" y="18.5" />
-    <point x="220" y="18.0" />
-    <point x="230" y="17.5" />
-    <point x="240" y="17.0" />
-    <point x="250" y="16.5" />
-    <point x="260" y="16.0" />
-    <point x="270" y="15.6" />
-    <point x="280" y="15.2" />
-    <point x="290" y="14.8" />
-    <point x="299" y="14.4" />
   </curve>
-  <curve id="au_CWHvm_CW_HW_H_unmanaged_stems_per_ha">
-    <point x="4" y="650.0" />
+  <curve id="au_CWHvm_CW_HW_L_managed_height">
+    <point x="4" y="1.2" />
+    <point x="10" y="3.0" />
+    <point x="20" y="6.0" />
+    <point x="30" y="9.0" />
+    <point x="40" y="12.0" />
+    <point x="50" y="15.0" />
+    <point x="60" y="18.0" />
+    <point x="70" y="21.0" />
+    <point x="80" y="24.0" />
+    <point x="90" y="27.0" />
+    <point x="100" y="30.0" />
+    <point x="110" y="33.0" />
+    <point x="120" y="36.0" />
+    <point x="130" y="39.0" />
+    <point x="140" y="42.0" />
+    <point x="150" y="45.0" />
+    <point x="160" y="48.0" />
+    <point x="170" y="51.0" />
+    <point x="180" y="54.0" />
+    <point x="190" y="57.0" />
+    <point x="200" y="60.0" />
+    <point x="210" y="63.0" />
+    <point x="220" y="66.0" />
+    <point x="230" y="69.0" />
+    <point x="240" y="72.0" />
+    <point x="250" y="75.0" />
+    <point x="260" y="78.0" />
+    <point x="270" y="81.0" />
+    <point x="280" y="84.0" />
+    <point x="290" y="87.0" />
+    <point x="299" y="89.7" />
   </curve>
   <curve id="au_CWHvm_CW_HW_L_managed_natural_yield_CW">
     <point x="4" y="0.0" />
@@ -657,39 +690,6 @@
   </curve>
   <curve id="au_CWHvm_CW_HW_L_managed_qmd">
     <point x="4" y="0.0" />
-    <point x="10" y="3.8" />
-    <point x="20" y="12.7" />
-    <point x="30" y="22.0" />
-    <point x="40" y="30.4" />
-    <point x="50" y="37.3" />
-    <point x="60" y="42.6" />
-    <point x="70" y="46.1" />
-    <point x="80" y="48.4" />
-    <point x="90" y="49.7" />
-    <point x="100" y="50.3" />
-    <point x="110" y="50.4" />
-    <point x="120" y="49.9" />
-    <point x="130" y="49.2" />
-    <point x="140" y="48.2" />
-    <point x="150" y="47.0" />
-    <point x="160" y="45.6" />
-    <point x="170" y="44.1" />
-    <point x="180" y="42.5" />
-    <point x="190" y="40.9" />
-    <point x="200" y="39.4" />
-    <point x="210" y="38.1" />
-    <point x="220" y="37.1" />
-    <point x="230" y="36.0" />
-    <point x="240" y="35.0" />
-    <point x="250" y="34.0" />
-    <point x="260" y="33.0" />
-    <point x="270" y="32.1" />
-    <point x="280" y="31.3" />
-    <point x="290" y="30.5" />
-    <point x="299" y="29.7" />
-  </curve>
-  <curve id="au_CWHvm_CW_HW_L_managed_stems_per_ha">
-    <point x="4" y="300.0" />
   </curve>
   <curve id="au_CWHvm_CW_HW_L_og1">
     <point x="110" y="0.0" />
@@ -874,6 +874,39 @@
     <point x="25" y="1.0" />
     <point x="26" y="0.0" />
   </curve>
+  <curve id="au_CWHvm_CW_HW_L_unmanaged_height">
+    <point x="4" y="1.2" />
+    <point x="10" y="3.0" />
+    <point x="20" y="6.0" />
+    <point x="30" y="9.0" />
+    <point x="40" y="12.0" />
+    <point x="50" y="15.0" />
+    <point x="60" y="18.0" />
+    <point x="70" y="21.0" />
+    <point x="80" y="24.0" />
+    <point x="90" y="27.0" />
+    <point x="100" y="30.0" />
+    <point x="110" y="33.0" />
+    <point x="120" y="36.0" />
+    <point x="130" y="39.0" />
+    <point x="140" y="42.0" />
+    <point x="150" y="45.0" />
+    <point x="160" y="48.0" />
+    <point x="170" y="51.0" />
+    <point x="180" y="54.0" />
+    <point x="190" y="57.0" />
+    <point x="200" y="60.0" />
+    <point x="210" y="63.0" />
+    <point x="220" y="66.0" />
+    <point x="230" y="69.0" />
+    <point x="240" y="72.0" />
+    <point x="250" y="75.0" />
+    <point x="260" y="78.0" />
+    <point x="270" y="81.0" />
+    <point x="280" y="84.0" />
+    <point x="290" y="87.0" />
+    <point x="299" y="89.7" />
+  </curve>
   <curve id="au_CWHvm_CW_HW_L_unmanaged_natural_yield_CW">
     <point x="4" y="0.0" />
     <point x="10" y="0.1" />
@@ -1008,39 +1041,44 @@
   </curve>
   <curve id="au_CWHvm_CW_HW_L_unmanaged_qmd">
     <point x="4" y="0.0" />
-    <point x="10" y="3.8" />
-    <point x="20" y="12.7" />
-    <point x="30" y="22.0" />
-    <point x="40" y="30.4" />
-    <point x="50" y="37.3" />
-    <point x="60" y="42.6" />
-    <point x="70" y="46.1" />
-    <point x="80" y="48.4" />
-    <point x="90" y="49.7" />
-    <point x="100" y="50.3" />
-    <point x="110" y="50.4" />
-    <point x="120" y="49.9" />
-    <point x="130" y="49.2" />
-    <point x="140" y="48.2" />
-    <point x="150" y="47.0" />
-    <point x="160" y="45.6" />
-    <point x="170" y="44.1" />
-    <point x="180" y="42.5" />
-    <point x="190" y="40.9" />
-    <point x="200" y="39.4" />
-    <point x="210" y="38.1" />
-    <point x="220" y="37.1" />
-    <point x="230" y="36.0" />
-    <point x="240" y="35.0" />
-    <point x="250" y="34.0" />
-    <point x="260" y="33.0" />
-    <point x="270" y="32.1" />
-    <point x="280" y="31.3" />
-    <point x="290" y="30.5" />
-    <point x="299" y="29.7" />
   </curve>
-  <curve id="au_CWHvm_CW_HW_L_unmanaged_stems_per_ha">
-    <point x="4" y="300.0" />
+  <curve id="au_CWHvm_CW_HW_M_managed_height">
+    <point x="0" y="0.0" />
+    <point x="10" y="5.0" />
+    <point x="20" y="10.0" />
+    <point x="30" y="15.0" />
+    <point x="40" y="20.0" />
+    <point x="50" y="25.0" />
+    <point x="60" y="30.0" />
+    <point x="70" y="35.0" />
+    <point x="80" y="40.0" />
+    <point x="90" y="45.0" />
+    <point x="100" y="50.0" />
+    <point x="110" y="55.0" />
+    <point x="120" y="60.0" />
+    <point x="130" y="65.0" />
+    <point x="140" y="70.0" />
+    <point x="150" y="75.0" />
+    <point x="160" y="80.0" />
+    <point x="170" y="85.0" />
+    <point x="180" y="90.0" />
+    <point x="190" y="95.0" />
+    <point x="200" y="100.0" />
+    <point x="210" y="105.0" />
+    <point x="220" y="110.0" />
+    <point x="230" y="115.0" />
+    <point x="240" y="120.0" />
+    <point x="250" y="125.0" />
+    <point x="260" y="130.0" />
+    <point x="270" y="135.0" />
+    <point x="280" y="140.0" />
+    <point x="290" y="145.0" />
+    <point x="300" y="150.0" />
+    <point x="310" y="155.0" />
+    <point x="320" y="160.0" />
+    <point x="330" y="165.0" />
+    <point x="340" y="170.0" />
+    <point x="350" y="175.0" />
   </curve>
   <curve id="au_CWHvm_CW_HW_M_managed_natural_yield_CW">
     <point x="20" y="0.0" />
@@ -1193,66 +1231,7 @@
     <point x="290" y="460.4" />
   </curve>
   <curve id="au_CWHvm_CW_HW_M_managed_qmd">
-    <point x="20" y="0.0" />
-    <point x="30" y="2.6" />
-    <point x="40" y="10.8" />
-    <point x="50" y="16.4" />
-    <point x="60" y="19.9" />
-    <point x="70" y="22.4" />
-    <point x="80" y="24.3" />
-    <point x="90" y="25.6" />
-    <point x="100" y="26.9" />
-    <point x="110" y="28.0" />
-    <point x="120" y="29.0" />
-    <point x="130" y="29.8" />
-    <point x="140" y="30.3" />
-    <point x="150" y="31.0" />
-    <point x="160" y="31.6" />
-    <point x="170" y="32.3" />
-    <point x="180" y="32.8" />
-    <point x="190" y="33.3" />
-    <point x="200" y="33.7" />
-    <point x="210" y="34.2" />
-    <point x="220" y="34.7" />
-    <point x="230" y="35.1" />
-    <point x="240" y="35.4" />
-    <point x="250" y="35.8" />
-    <point x="260" y="36.1" />
-    <point x="270" y="36.4" />
-    <point x="280" y="36.7" />
-    <point x="290" y="37.0" />
-  </curve>
-  <curve id="au_CWHvm_CW_HW_M_managed_stems_per_ha">
-    <point x="0" y="200.0" />
-    <point x="10" y="627.0" />
-    <point x="20" y="611.0" />
-    <point x="30" y="597.0" />
-    <point x="40" y="589.0" />
-    <point x="50" y="584.0" />
-    <point x="60" y="580.0" />
-    <point x="70" y="577.0" />
-    <point x="80" y="574.0" />
-    <point x="90" y="570.0" />
-    <point x="100" y="564.0" />
-    <point x="110" y="558.0" />
-    <point x="120" y="551.0" />
-    <point x="130" y="545.0" />
-    <point x="140" y="539.0" />
-    <point x="150" y="531.0" />
-    <point x="160" y="524.0" />
-    <point x="170" y="516.0" />
-    <point x="180" y="509.0" />
-    <point x="190" y="502.0" />
-    <point x="200" y="495.0" />
-    <point x="210" y="487.0" />
-    <point x="220" y="479.0" />
-    <point x="230" y="472.0" />
-    <point x="240" y="466.0" />
-    <point x="250" y="460.0" />
-    <point x="260" y="454.0" />
-    <point x="270" y="448.0" />
-    <point x="280" y="443.0" />
-    <point x="290" y="438.0" />
+    <point x="0" y="0.0" />
   </curve>
   <curve id="au_CWHvm_CW_HW_M_og1">
     <point x="110" y="0.0" />
@@ -1477,6 +1456,39 @@
     <point x="25" y="1.0" />
     <point x="26" y="0.0" />
   </curve>
+  <curve id="au_CWHvm_CW_HW_M_unmanaged_height">
+    <point x="1" y="0.5" />
+    <point x="10" y="5.0" />
+    <point x="20" y="10.0" />
+    <point x="30" y="15.0" />
+    <point x="40" y="20.0" />
+    <point x="50" y="25.0" />
+    <point x="60" y="30.0" />
+    <point x="70" y="35.0" />
+    <point x="80" y="40.0" />
+    <point x="90" y="45.0" />
+    <point x="100" y="50.0" />
+    <point x="110" y="55.0" />
+    <point x="120" y="60.0" />
+    <point x="130" y="65.0" />
+    <point x="140" y="70.0" />
+    <point x="150" y="75.0" />
+    <point x="160" y="80.0" />
+    <point x="170" y="85.0" />
+    <point x="180" y="90.0" />
+    <point x="190" y="95.0" />
+    <point x="200" y="100.0" />
+    <point x="210" y="105.0" />
+    <point x="220" y="110.0" />
+    <point x="230" y="115.0" />
+    <point x="240" y="120.0" />
+    <point x="250" y="125.0" />
+    <point x="260" y="130.0" />
+    <point x="270" y="135.0" />
+    <point x="280" y="140.0" />
+    <point x="290" y="145.0" />
+    <point x="299" y="149.5" />
+  </curve>
   <curve id="au_CWHvm_CW_HW_M_unmanaged_natural_yield_CW">
     <point x="1" y="0.0" />
     <point x="10" y="0.1" />
@@ -1643,39 +1655,39 @@
   </curve>
   <curve id="au_CWHvm_CW_HW_M_unmanaged_qmd">
     <point x="1" y="0.0" />
-    <point x="10" y="4.3" />
-    <point x="20" y="13.3" />
-    <point x="30" y="23.1" />
-    <point x="40" y="31.9" />
-    <point x="50" y="39.2" />
-    <point x="60" y="44.7" />
-    <point x="70" y="48.4" />
-    <point x="80" y="50.8" />
-    <point x="90" y="52.2" />
-    <point x="100" y="52.8" />
-    <point x="110" y="52.8" />
-    <point x="120" y="52.4" />
-    <point x="130" y="51.6" />
-    <point x="140" y="50.6" />
-    <point x="150" y="49.3" />
-    <point x="160" y="47.8" />
-    <point x="170" y="46.3" />
-    <point x="180" y="44.6" />
-    <point x="190" y="43.0" />
-    <point x="200" y="41.3" />
-    <point x="210" y="40.0" />
-    <point x="220" y="39.0" />
-    <point x="230" y="37.8" />
-    <point x="240" y="36.7" />
-    <point x="250" y="35.7" />
-    <point x="260" y="34.7" />
-    <point x="270" y="33.7" />
-    <point x="280" y="32.8" />
-    <point x="290" y="32.0" />
-    <point x="299" y="31.2" />
   </curve>
-  <curve id="au_CWHvm_CW_HW_M_unmanaged_stems_per_ha">
-    <point x="1" y="200.0" />
+  <curve id="au_CWHvm_CW_PLC_H_managed_height">
+    <point x="1" y="0.7" />
+    <point x="10" y="7.0" />
+    <point x="20" y="14.0" />
+    <point x="30" y="21.0" />
+    <point x="40" y="28.0" />
+    <point x="50" y="35.0" />
+    <point x="60" y="42.0" />
+    <point x="70" y="49.0" />
+    <point x="80" y="56.0" />
+    <point x="90" y="63.0" />
+    <point x="100" y="70.0" />
+    <point x="110" y="77.0" />
+    <point x="120" y="84.0" />
+    <point x="130" y="91.0" />
+    <point x="140" y="98.0" />
+    <point x="150" y="105.0" />
+    <point x="160" y="112.0" />
+    <point x="170" y="119.0" />
+    <point x="180" y="126.0" />
+    <point x="190" y="133.0" />
+    <point x="200" y="140.0" />
+    <point x="210" y="147.0" />
+    <point x="220" y="154.0" />
+    <point x="230" y="161.0" />
+    <point x="240" y="168.0" />
+    <point x="250" y="175.0" />
+    <point x="260" y="182.0" />
+    <point x="270" y="189.0" />
+    <point x="280" y="196.0" />
+    <point x="290" y="203.0" />
+    <point x="299" y="209.3" />
   </curve>
   <curve id="au_CWHvm_CW_PLC_H_managed_natural_yield_CW">
     <point x="1" y="0.0" />
@@ -2167,6 +2179,39 @@
     <point x="25" y="1.0" />
     <point x="26" y="0.0" />
   </curve>
+  <curve id="au_CWHvm_CW_PLC_H_unmanaged_height">
+    <point x="1" y="0.7" />
+    <point x="10" y="7.0" />
+    <point x="20" y="14.0" />
+    <point x="30" y="21.0" />
+    <point x="40" y="28.0" />
+    <point x="50" y="35.0" />
+    <point x="60" y="42.0" />
+    <point x="70" y="49.0" />
+    <point x="80" y="56.0" />
+    <point x="90" y="63.0" />
+    <point x="100" y="70.0" />
+    <point x="110" y="77.0" />
+    <point x="120" y="84.0" />
+    <point x="130" y="91.0" />
+    <point x="140" y="98.0" />
+    <point x="150" y="105.0" />
+    <point x="160" y="112.0" />
+    <point x="170" y="119.0" />
+    <point x="180" y="126.0" />
+    <point x="190" y="133.0" />
+    <point x="200" y="140.0" />
+    <point x="210" y="147.0" />
+    <point x="220" y="154.0" />
+    <point x="230" y="161.0" />
+    <point x="240" y="168.0" />
+    <point x="250" y="175.0" />
+    <point x="260" y="182.0" />
+    <point x="270" y="189.0" />
+    <point x="280" y="196.0" />
+    <point x="290" y="203.0" />
+    <point x="299" y="209.3" />
+  </curve>
   <curve id="au_CWHvm_CW_PLC_H_unmanaged_natural_yield_CW">
     <point x="1" y="0.0" />
     <point x="10" y="0.9" />
@@ -2434,6 +2479,39 @@
   <curve id="au_CWHvm_CW_PLC_H_unmanaged_qmd">
     <point x="1" y="0.0" />
   </curve>
+  <curve id="au_CWHvm_CW_PLC_L_managed_height">
+    <point x="1" y="0.3" />
+    <point x="10" y="3.0" />
+    <point x="20" y="6.0" />
+    <point x="30" y="9.0" />
+    <point x="40" y="12.0" />
+    <point x="50" y="15.0" />
+    <point x="60" y="18.0" />
+    <point x="70" y="21.0" />
+    <point x="80" y="24.0" />
+    <point x="90" y="27.0" />
+    <point x="100" y="30.0" />
+    <point x="110" y="33.0" />
+    <point x="120" y="36.0" />
+    <point x="130" y="39.0" />
+    <point x="140" y="42.0" />
+    <point x="150" y="45.0" />
+    <point x="160" y="48.0" />
+    <point x="170" y="51.0" />
+    <point x="180" y="54.0" />
+    <point x="190" y="57.0" />
+    <point x="200" y="60.0" />
+    <point x="210" y="63.0" />
+    <point x="220" y="66.0" />
+    <point x="230" y="69.0" />
+    <point x="240" y="72.0" />
+    <point x="250" y="75.0" />
+    <point x="260" y="78.0" />
+    <point x="270" y="81.0" />
+    <point x="280" y="84.0" />
+    <point x="290" y="87.0" />
+    <point x="299" y="89.7" />
+  </curve>
   <curve id="au_CWHvm_CW_PLC_L_managed_natural_yield_CW">
     <point x="1" y="0.0" />
     <point x="10" y="0.9" />
@@ -2700,39 +2778,6 @@
   </curve>
   <curve id="au_CWHvm_CW_PLC_L_managed_qmd">
     <point x="1" y="0.0" />
-    <point x="10" y="14.2" />
-    <point x="20" y="18.2" />
-    <point x="30" y="20.5" />
-    <point x="40" y="22.1" />
-    <point x="50" y="23.2" />
-    <point x="60" y="24.1" />
-    <point x="70" y="24.6" />
-    <point x="80" y="25.0" />
-    <point x="90" y="25.3" />
-    <point x="100" y="25.4" />
-    <point x="110" y="25.4" />
-    <point x="120" y="25.4" />
-    <point x="130" y="25.3" />
-    <point x="140" y="25.1" />
-    <point x="150" y="24.9" />
-    <point x="160" y="24.7" />
-    <point x="170" y="24.4" />
-    <point x="180" y="24.1" />
-    <point x="190" y="23.8" />
-    <point x="200" y="23.4" />
-    <point x="210" y="23.1" />
-    <point x="220" y="22.7" />
-    <point x="230" y="22.3" />
-    <point x="240" y="21.9" />
-    <point x="250" y="21.5" />
-    <point x="260" y="21.1" />
-    <point x="270" y="20.6" />
-    <point x="280" y="20.2" />
-    <point x="290" y="19.8" />
-    <point x="299" y="19.5" />
-  </curve>
-  <curve id="au_CWHvm_CW_PLC_L_managed_stems_per_ha">
-    <point x="1" y="300.0" />
   </curve>
   <curve id="au_CWHvm_CW_PLC_L_og1">
     <point x="110" y="0.0" />
@@ -2956,6 +3001,39 @@
     <point x="24" y="1.0" />
     <point x="25" y="1.0" />
     <point x="26" y="0.0" />
+  </curve>
+  <curve id="au_CWHvm_CW_PLC_L_unmanaged_height">
+    <point x="1" y="0.3" />
+    <point x="10" y="3.0" />
+    <point x="20" y="6.0" />
+    <point x="30" y="9.0" />
+    <point x="40" y="12.0" />
+    <point x="50" y="15.0" />
+    <point x="60" y="18.0" />
+    <point x="70" y="21.0" />
+    <point x="80" y="24.0" />
+    <point x="90" y="27.0" />
+    <point x="100" y="30.0" />
+    <point x="110" y="33.0" />
+    <point x="120" y="36.0" />
+    <point x="130" y="39.0" />
+    <point x="140" y="42.0" />
+    <point x="150" y="45.0" />
+    <point x="160" y="48.0" />
+    <point x="170" y="51.0" />
+    <point x="180" y="54.0" />
+    <point x="190" y="57.0" />
+    <point x="200" y="60.0" />
+    <point x="210" y="63.0" />
+    <point x="220" y="66.0" />
+    <point x="230" y="69.0" />
+    <point x="240" y="72.0" />
+    <point x="250" y="75.0" />
+    <point x="260" y="78.0" />
+    <point x="270" y="81.0" />
+    <point x="280" y="84.0" />
+    <point x="290" y="87.0" />
+    <point x="299" y="89.7" />
   </curve>
   <curve id="au_CWHvm_CW_PLC_L_unmanaged_natural_yield_CW">
     <point x="1" y="0.0" />
@@ -3223,44 +3301,46 @@
   </curve>
   <curve id="au_CWHvm_CW_PLC_L_unmanaged_qmd">
     <point x="1" y="0.0" />
-    <point x="10" y="14.2" />
-    <point x="20" y="18.2" />
-    <point x="30" y="20.5" />
-    <point x="40" y="22.1" />
-    <point x="50" y="23.2" />
-    <point x="60" y="24.1" />
-    <point x="70" y="24.6" />
-    <point x="80" y="25.0" />
-    <point x="90" y="25.3" />
-    <point x="100" y="25.4" />
-    <point x="110" y="25.4" />
-    <point x="120" y="25.4" />
-    <point x="130" y="25.3" />
-    <point x="140" y="25.1" />
-    <point x="150" y="24.9" />
-    <point x="160" y="24.7" />
-    <point x="170" y="24.4" />
-    <point x="180" y="24.1" />
-    <point x="190" y="23.8" />
-    <point x="200" y="23.4" />
-    <point x="210" y="23.1" />
-    <point x="220" y="22.7" />
-    <point x="230" y="22.3" />
-    <point x="240" y="21.9" />
-    <point x="250" y="21.5" />
-    <point x="260" y="21.1" />
-    <point x="270" y="20.6" />
-    <point x="280" y="20.2" />
-    <point x="290" y="19.8" />
-    <point x="299" y="19.5" />
   </curve>
-  <curve id="au_CWHvm_CW_PLC_L_unmanaged_stems_per_ha">
-    <point x="1" y="300.0" />
+  <curve id="au_CWHvm_CW_PLC_M_managed_height">
+    <point x="0" y="0.0" />
+    <point x="10" y="5.0" />
+    <point x="20" y="10.0" />
+    <point x="30" y="15.0" />
+    <point x="40" y="20.0" />
+    <point x="50" y="25.0" />
+    <point x="60" y="30.0" />
+    <point x="70" y="35.0" />
+    <point x="80" y="40.0" />
+    <point x="90" y="45.0" />
+    <point x="100" y="50.0" />
+    <point x="110" y="55.0" />
+    <point x="120" y="60.0" />
+    <point x="130" y="65.0" />
+    <point x="140" y="70.0" />
+    <point x="150" y="75.0" />
+    <point x="160" y="80.0" />
+    <point x="170" y="85.0" />
+    <point x="180" y="90.0" />
+    <point x="190" y="95.0" />
+    <point x="200" y="100.0" />
+    <point x="210" y="105.0" />
+    <point x="220" y="110.0" />
+    <point x="230" y="115.0" />
+    <point x="240" y="120.0" />
+    <point x="250" y="125.0" />
+    <point x="260" y="130.0" />
+    <point x="270" y="135.0" />
+    <point x="280" y="140.0" />
+    <point x="290" y="145.0" />
+    <point x="300" y="150.0" />
+    <point x="310" y="155.0" />
+    <point x="320" y="160.0" />
+    <point x="330" y="165.0" />
+    <point x="340" y="170.0" />
+    <point x="350" y="175.0" />
   </curve>
   <curve id="au_CWHvm_CW_PLC_M_managed_qmd">
-    <point x="0" y="0.0" />
-  </curve>
-  <curve id="au_CWHvm_CW_PLC_M_managed_stems_per_ha">
     <point x="0" y="0.0" />
   </curve>
   <curve id="au_CWHvm_CW_PLC_M_og1">
@@ -3312,6 +3392,39 @@
     <point x="24" y="1.0" />
     <point x="25" y="1.0" />
     <point x="26" y="0.0" />
+  </curve>
+  <curve id="au_CWHvm_CW_PLC_M_unmanaged_height">
+    <point x="1" y="0.5" />
+    <point x="10" y="5.0" />
+    <point x="20" y="10.0" />
+    <point x="30" y="15.0" />
+    <point x="40" y="20.0" />
+    <point x="50" y="25.0" />
+    <point x="60" y="30.0" />
+    <point x="70" y="35.0" />
+    <point x="80" y="40.0" />
+    <point x="90" y="45.0" />
+    <point x="100" y="50.0" />
+    <point x="110" y="55.0" />
+    <point x="120" y="60.0" />
+    <point x="130" y="65.0" />
+    <point x="140" y="70.0" />
+    <point x="150" y="75.0" />
+    <point x="160" y="80.0" />
+    <point x="170" y="85.0" />
+    <point x="180" y="90.0" />
+    <point x="190" y="95.0" />
+    <point x="200" y="100.0" />
+    <point x="210" y="105.0" />
+    <point x="220" y="110.0" />
+    <point x="230" y="115.0" />
+    <point x="240" y="120.0" />
+    <point x="250" y="125.0" />
+    <point x="260" y="130.0" />
+    <point x="270" y="135.0" />
+    <point x="280" y="140.0" />
+    <point x="290" y="145.0" />
+    <point x="299" y="149.5" />
   </curve>
   <curve id="au_CWHvm_CW_PLC_M_unmanaged_natural_yield_CW">
     <point x="1" y="0.0" />
@@ -3546,6 +3659,39 @@
   </curve>
   <curve id="au_CWHvm_CW_PLC_M_unmanaged_qmd">
     <point x="1" y="0.0" />
+  </curve>
+  <curve id="au_CWHvm_CW_YC_H_managed_height">
+    <point x="1" y="0.7" />
+    <point x="10" y="7.0" />
+    <point x="20" y="14.0" />
+    <point x="30" y="21.0" />
+    <point x="40" y="28.0" />
+    <point x="50" y="35.0" />
+    <point x="60" y="42.0" />
+    <point x="70" y="49.0" />
+    <point x="80" y="56.0" />
+    <point x="90" y="63.0" />
+    <point x="100" y="70.0" />
+    <point x="110" y="77.0" />
+    <point x="120" y="84.0" />
+    <point x="130" y="91.0" />
+    <point x="140" y="98.0" />
+    <point x="150" y="105.0" />
+    <point x="160" y="112.0" />
+    <point x="170" y="119.0" />
+    <point x="180" y="126.0" />
+    <point x="190" y="133.0" />
+    <point x="200" y="140.0" />
+    <point x="210" y="147.0" />
+    <point x="220" y="154.0" />
+    <point x="230" y="161.0" />
+    <point x="240" y="168.0" />
+    <point x="250" y="175.0" />
+    <point x="260" y="182.0" />
+    <point x="270" y="189.0" />
+    <point x="280" y="196.0" />
+    <point x="290" y="203.0" />
+    <point x="299" y="209.3" />
   </curve>
   <curve id="au_CWHvm_CW_YC_H_managed_natural_yield_CW">
     <point x="1" y="0.0" />
@@ -3971,6 +4117,39 @@
     <point x="25" y="1.0" />
     <point x="26" y="0.0" />
   </curve>
+  <curve id="au_CWHvm_CW_YC_H_unmanaged_height">
+    <point x="1" y="0.7" />
+    <point x="10" y="7.0" />
+    <point x="20" y="14.0" />
+    <point x="30" y="21.0" />
+    <point x="40" y="28.0" />
+    <point x="50" y="35.0" />
+    <point x="60" y="42.0" />
+    <point x="70" y="49.0" />
+    <point x="80" y="56.0" />
+    <point x="90" y="63.0" />
+    <point x="100" y="70.0" />
+    <point x="110" y="77.0" />
+    <point x="120" y="84.0" />
+    <point x="130" y="91.0" />
+    <point x="140" y="98.0" />
+    <point x="150" y="105.0" />
+    <point x="160" y="112.0" />
+    <point x="170" y="119.0" />
+    <point x="180" y="126.0" />
+    <point x="190" y="133.0" />
+    <point x="200" y="140.0" />
+    <point x="210" y="147.0" />
+    <point x="220" y="154.0" />
+    <point x="230" y="161.0" />
+    <point x="240" y="168.0" />
+    <point x="250" y="175.0" />
+    <point x="260" y="182.0" />
+    <point x="270" y="189.0" />
+    <point x="280" y="196.0" />
+    <point x="290" y="203.0" />
+    <point x="299" y="209.3" />
+  </curve>
   <curve id="au_CWHvm_CW_YC_H_unmanaged_natural_yield_CW">
     <point x="1" y="0.0" />
     <point x="10" y="1.2" />
@@ -4172,6 +4351,39 @@
   <curve id="au_CWHvm_CW_YC_H_unmanaged_qmd">
     <point x="1" y="0.0" />
   </curve>
+  <curve id="au_CWHvm_CW_YC_L_managed_height">
+    <point x="1" y="0.3" />
+    <point x="10" y="3.0" />
+    <point x="20" y="6.0" />
+    <point x="30" y="9.0" />
+    <point x="40" y="12.0" />
+    <point x="50" y="15.0" />
+    <point x="60" y="18.0" />
+    <point x="70" y="21.0" />
+    <point x="80" y="24.0" />
+    <point x="90" y="27.0" />
+    <point x="100" y="30.0" />
+    <point x="110" y="33.0" />
+    <point x="120" y="36.0" />
+    <point x="130" y="39.0" />
+    <point x="140" y="42.0" />
+    <point x="150" y="45.0" />
+    <point x="160" y="48.0" />
+    <point x="170" y="51.0" />
+    <point x="180" y="54.0" />
+    <point x="190" y="57.0" />
+    <point x="200" y="60.0" />
+    <point x="210" y="63.0" />
+    <point x="220" y="66.0" />
+    <point x="230" y="69.0" />
+    <point x="240" y="72.0" />
+    <point x="250" y="75.0" />
+    <point x="260" y="78.0" />
+    <point x="270" y="81.0" />
+    <point x="280" y="84.0" />
+    <point x="290" y="87.0" />
+    <point x="299" y="89.7" />
+  </curve>
   <curve id="au_CWHvm_CW_YC_L_managed_natural_yield_CW">
     <point x="1" y="0.0" />
     <point x="10" y="1.2" />
@@ -4372,39 +4584,6 @@
   </curve>
   <curve id="au_CWHvm_CW_YC_L_managed_qmd">
     <point x="1" y="0.0" />
-    <point x="10" y="14.8" />
-    <point x="20" y="18.0" />
-    <point x="30" y="20.0" />
-    <point x="40" y="21.5" />
-    <point x="50" y="22.5" />
-    <point x="60" y="23.2" />
-    <point x="70" y="23.8" />
-    <point x="80" y="24.2" />
-    <point x="90" y="24.5" />
-    <point x="100" y="24.6" />
-    <point x="110" y="24.7" />
-    <point x="120" y="24.8" />
-    <point x="130" y="24.8" />
-    <point x="140" y="24.7" />
-    <point x="150" y="24.6" />
-    <point x="160" y="24.4" />
-    <point x="170" y="24.2" />
-    <point x="180" y="24.0" />
-    <point x="190" y="23.8" />
-    <point x="200" y="23.6" />
-    <point x="210" y="23.3" />
-    <point x="220" y="23.0" />
-    <point x="230" y="22.7" />
-    <point x="240" y="22.4" />
-    <point x="250" y="22.1" />
-    <point x="260" y="21.8" />
-    <point x="270" y="21.5" />
-    <point x="280" y="21.1" />
-    <point x="290" y="20.8" />
-    <point x="299" y="20.5" />
-  </curve>
-  <curve id="au_CWHvm_CW_YC_L_managed_stems_per_ha">
-    <point x="1" y="249.0" />
   </curve>
   <curve id="au_CWHvm_CW_YC_L_og1">
     <point x="120" y="0.0" />
@@ -4629,6 +4808,39 @@
     <point x="25" y="1.0" />
     <point x="26" y="0.0" />
   </curve>
+  <curve id="au_CWHvm_CW_YC_L_unmanaged_height">
+    <point x="1" y="0.3" />
+    <point x="10" y="3.0" />
+    <point x="20" y="6.0" />
+    <point x="30" y="9.0" />
+    <point x="40" y="12.0" />
+    <point x="50" y="15.0" />
+    <point x="60" y="18.0" />
+    <point x="70" y="21.0" />
+    <point x="80" y="24.0" />
+    <point x="90" y="27.0" />
+    <point x="100" y="30.0" />
+    <point x="110" y="33.0" />
+    <point x="120" y="36.0" />
+    <point x="130" y="39.0" />
+    <point x="140" y="42.0" />
+    <point x="150" y="45.0" />
+    <point x="160" y="48.0" />
+    <point x="170" y="51.0" />
+    <point x="180" y="54.0" />
+    <point x="190" y="57.0" />
+    <point x="200" y="60.0" />
+    <point x="210" y="63.0" />
+    <point x="220" y="66.0" />
+    <point x="230" y="69.0" />
+    <point x="240" y="72.0" />
+    <point x="250" y="75.0" />
+    <point x="260" y="78.0" />
+    <point x="270" y="81.0" />
+    <point x="280" y="84.0" />
+    <point x="290" y="87.0" />
+    <point x="299" y="89.7" />
+  </curve>
   <curve id="au_CWHvm_CW_YC_L_unmanaged_natural_yield_CW">
     <point x="1" y="0.0" />
     <point x="10" y="1.2" />
@@ -4829,39 +5041,44 @@
   </curve>
   <curve id="au_CWHvm_CW_YC_L_unmanaged_qmd">
     <point x="1" y="0.0" />
-    <point x="10" y="14.8" />
-    <point x="20" y="18.0" />
-    <point x="30" y="20.0" />
-    <point x="40" y="21.5" />
-    <point x="50" y="22.5" />
-    <point x="60" y="23.2" />
-    <point x="70" y="23.8" />
-    <point x="80" y="24.2" />
-    <point x="90" y="24.5" />
-    <point x="100" y="24.6" />
-    <point x="110" y="24.7" />
-    <point x="120" y="24.8" />
-    <point x="130" y="24.8" />
-    <point x="140" y="24.7" />
-    <point x="150" y="24.6" />
-    <point x="160" y="24.4" />
-    <point x="170" y="24.2" />
-    <point x="180" y="24.0" />
-    <point x="190" y="23.8" />
-    <point x="200" y="23.6" />
-    <point x="210" y="23.3" />
-    <point x="220" y="23.0" />
-    <point x="230" y="22.7" />
-    <point x="240" y="22.4" />
-    <point x="250" y="22.1" />
-    <point x="260" y="21.8" />
-    <point x="270" y="21.5" />
-    <point x="280" y="21.1" />
-    <point x="290" y="20.8" />
-    <point x="299" y="20.5" />
   </curve>
-  <curve id="au_CWHvm_CW_YC_L_unmanaged_stems_per_ha">
-    <point x="1" y="249.0" />
+  <curve id="au_CWHvm_CW_YC_M_managed_height">
+    <point x="0" y="0.0" />
+    <point x="10" y="5.0" />
+    <point x="20" y="10.0" />
+    <point x="30" y="15.0" />
+    <point x="40" y="20.0" />
+    <point x="50" y="25.0" />
+    <point x="60" y="30.0" />
+    <point x="70" y="35.0" />
+    <point x="80" y="40.0" />
+    <point x="90" y="45.0" />
+    <point x="100" y="50.0" />
+    <point x="110" y="55.0" />
+    <point x="120" y="60.0" />
+    <point x="130" y="65.0" />
+    <point x="140" y="70.0" />
+    <point x="150" y="75.0" />
+    <point x="160" y="80.0" />
+    <point x="170" y="85.0" />
+    <point x="180" y="90.0" />
+    <point x="190" y="95.0" />
+    <point x="200" y="100.0" />
+    <point x="210" y="105.0" />
+    <point x="220" y="110.0" />
+    <point x="230" y="115.0" />
+    <point x="240" y="120.0" />
+    <point x="250" y="125.0" />
+    <point x="260" y="130.0" />
+    <point x="270" y="135.0" />
+    <point x="280" y="140.0" />
+    <point x="290" y="145.0" />
+    <point x="300" y="150.0" />
+    <point x="310" y="155.0" />
+    <point x="320" y="160.0" />
+    <point x="330" y="165.0" />
+    <point x="340" y="170.0" />
+    <point x="350" y="175.0" />
   </curve>
   <curve id="au_CWHvm_CW_YC_M_managed_natural_yield_CW">
     <point x="40" y="0.0" />
@@ -5030,64 +5247,7 @@
     <point x="290" y="75.5" />
   </curve>
   <curve id="au_CWHvm_CW_YC_M_managed_qmd">
-    <point x="40" y="0.0" />
-    <point x="50" y="1.3" />
-    <point x="60" y="7.8" />
-    <point x="70" y="13.1" />
-    <point x="80" y="17.0" />
-    <point x="90" y="19.7" />
-    <point x="100" y="21.8" />
-    <point x="110" y="23.8" />
-    <point x="120" y="25.4" />
-    <point x="130" y="26.5" />
-    <point x="140" y="27.4" />
-    <point x="150" y="28.3" />
-    <point x="160" y="29.2" />
-    <point x="170" y="30.1" />
-    <point x="180" y="30.9" />
-    <point x="190" y="31.5" />
-    <point x="200" y="32.2" />
-    <point x="210" y="32.7" />
-    <point x="220" y="33.1" />
-    <point x="230" y="33.5" />
-    <point x="240" y="33.8" />
-    <point x="250" y="34.2" />
-    <point x="260" y="34.6" />
-    <point x="270" y="35.1" />
-    <point x="280" y="35.5" />
-    <point x="290" y="35.9" />
-  </curve>
-  <curve id="au_CWHvm_CW_YC_M_managed_stems_per_ha">
-    <point x="0" y="349.0" />
-    <point x="10" y="529.0" />
-    <point x="20" y="518.0" />
-    <point x="30" y="505.0" />
-    <point x="40" y="494.0" />
-    <point x="50" y="485.0" />
-    <point x="60" y="478.0" />
-    <point x="70" y="472.0" />
-    <point x="80" y="468.0" />
-    <point x="90" y="465.0" />
-    <point x="100" y="463.0" />
-    <point x="110" y="460.0" />
-    <point x="120" y="458.0" />
-    <point x="130" y="455.0" />
-    <point x="140" y="453.0" />
-    <point x="150" y="450.0" />
-    <point x="160" y="447.0" />
-    <point x="170" y="444.0" />
-    <point x="180" y="440.0" />
-    <point x="190" y="437.0" />
-    <point x="200" y="433.0" />
-    <point x="210" y="430.0" />
-    <point x="220" y="426.0" />
-    <point x="230" y="422.0" />
-    <point x="240" y="418.0" />
-    <point x="250" y="415.0" />
-    <point x="260" y="410.0" />
-    <point x="270" y="406.0" />
-    <point x="280" y="402.0" />
-    <point x="290" y="398.0" />
+    <point x="0" y="0.0" />
   </curve>
   <curve id="au_CWHvm_CW_YC_M_og1">
     <point x="120" y="0.0" />
@@ -5323,6 +5483,39 @@
     <point x="25" y="1.0" />
     <point x="26" y="0.0" />
   </curve>
+  <curve id="au_CWHvm_CW_YC_M_unmanaged_height">
+    <point x="1" y="0.5" />
+    <point x="10" y="5.0" />
+    <point x="20" y="10.0" />
+    <point x="30" y="15.0" />
+    <point x="40" y="20.0" />
+    <point x="50" y="25.0" />
+    <point x="60" y="30.0" />
+    <point x="70" y="35.0" />
+    <point x="80" y="40.0" />
+    <point x="90" y="45.0" />
+    <point x="100" y="50.0" />
+    <point x="110" y="55.0" />
+    <point x="120" y="60.0" />
+    <point x="130" y="65.0" />
+    <point x="140" y="70.0" />
+    <point x="150" y="75.0" />
+    <point x="160" y="80.0" />
+    <point x="170" y="85.0" />
+    <point x="180" y="90.0" />
+    <point x="190" y="95.0" />
+    <point x="200" y="100.0" />
+    <point x="210" y="105.0" />
+    <point x="220" y="110.0" />
+    <point x="230" y="115.0" />
+    <point x="240" y="120.0" />
+    <point x="250" y="125.0" />
+    <point x="260" y="130.0" />
+    <point x="270" y="135.0" />
+    <point x="280" y="140.0" />
+    <point x="290" y="145.0" />
+    <point x="299" y="149.5" />
+  </curve>
   <curve id="au_CWHvm_CW_YC_M_unmanaged_natural_yield_CW">
     <point x="1" y="0.0" />
     <point x="10" y="1.2" />
@@ -5523,39 +5716,39 @@
   </curve>
   <curve id="au_CWHvm_CW_YC_M_unmanaged_qmd">
     <point x="1" y="0.0" />
-    <point x="10" y="11.8" />
-    <point x="20" y="14.4" />
-    <point x="30" y="16.1" />
-    <point x="40" y="17.2" />
-    <point x="50" y="18.0" />
-    <point x="60" y="18.6" />
-    <point x="70" y="19.1" />
-    <point x="80" y="19.4" />
-    <point x="90" y="19.6" />
-    <point x="100" y="19.7" />
-    <point x="110" y="19.8" />
-    <point x="120" y="19.9" />
-    <point x="130" y="19.8" />
-    <point x="140" y="19.8" />
-    <point x="150" y="19.7" />
-    <point x="160" y="19.6" />
-    <point x="170" y="19.4" />
-    <point x="180" y="19.3" />
-    <point x="190" y="19.1" />
-    <point x="200" y="18.9" />
-    <point x="210" y="18.7" />
-    <point x="220" y="18.4" />
-    <point x="230" y="18.2" />
-    <point x="240" y="18.0" />
-    <point x="250" y="17.7" />
-    <point x="260" y="17.5" />
-    <point x="270" y="17.2" />
-    <point x="280" y="16.9" />
-    <point x="290" y="16.7" />
-    <point x="299" y="16.4" />
   </curve>
-  <curve id="au_CWHvm_CW_YC_M_unmanaged_stems_per_ha">
-    <point x="1" y="349.0" />
+  <curve id="au_CWHvm_DR_HW_H_managed_height">
+    <point x="1" y="0.7" />
+    <point x="10" y="7.0" />
+    <point x="20" y="14.0" />
+    <point x="30" y="21.0" />
+    <point x="40" y="28.0" />
+    <point x="50" y="35.0" />
+    <point x="60" y="42.0" />
+    <point x="70" y="49.0" />
+    <point x="80" y="56.0" />
+    <point x="90" y="63.0" />
+    <point x="100" y="70.0" />
+    <point x="110" y="77.0" />
+    <point x="120" y="84.0" />
+    <point x="130" y="91.0" />
+    <point x="140" y="98.0" />
+    <point x="150" y="105.0" />
+    <point x="160" y="112.0" />
+    <point x="170" y="119.0" />
+    <point x="180" y="126.0" />
+    <point x="190" y="133.0" />
+    <point x="200" y="140.0" />
+    <point x="210" y="147.0" />
+    <point x="220" y="154.0" />
+    <point x="230" y="161.0" />
+    <point x="240" y="168.0" />
+    <point x="250" y="175.0" />
+    <point x="260" y="182.0" />
+    <point x="270" y="189.0" />
+    <point x="280" y="196.0" />
+    <point x="290" y="203.0" />
+    <point x="299" y="209.3" />
   </curve>
   <curve id="au_CWHvm_DR_HW_H_managed_natural_yield_DR">
     <point x="1" y="0.0" />
@@ -5691,39 +5884,6 @@
   </curve>
   <curve id="au_CWHvm_DR_HW_H_managed_qmd">
     <point x="1" y="0.0" />
-    <point x="10" y="17.3" />
-    <point x="20" y="24.1" />
-    <point x="30" y="27.9" />
-    <point x="40" y="30.0" />
-    <point x="50" y="31.1" />
-    <point x="60" y="31.4" />
-    <point x="70" y="31.3" />
-    <point x="80" y="30.9" />
-    <point x="90" y="30.2" />
-    <point x="100" y="29.3" />
-    <point x="110" y="28.2" />
-    <point x="120" y="27.1" />
-    <point x="130" y="25.9" />
-    <point x="140" y="24.7" />
-    <point x="150" y="23.5" />
-    <point x="160" y="22.3" />
-    <point x="170" y="21.1" />
-    <point x="180" y="19.9" />
-    <point x="190" y="18.8" />
-    <point x="200" y="17.9" />
-    <point x="210" y="17.3" />
-    <point x="220" y="17.1" />
-    <point x="230" y="16.6" />
-    <point x="240" y="16.1" />
-    <point x="250" y="15.7" />
-    <point x="260" y="15.2" />
-    <point x="270" y="14.8" />
-    <point x="280" y="14.5" />
-    <point x="290" y="14.1" />
-    <point x="299" y="13.8" />
-  </curve>
-  <curve id="au_CWHvm_DR_HW_H_managed_stems_per_ha">
-    <point x="1" y="350.0" />
   </curve>
   <curve id="au_CWHvm_DR_HW_H_og1">
     <point x="60" y="0.0" />
@@ -5868,6 +6028,39 @@
     <point x="25" y="1.0" />
     <point x="26" y="0.0" />
   </curve>
+  <curve id="au_CWHvm_DR_HW_H_unmanaged_height">
+    <point x="1" y="0.7" />
+    <point x="10" y="7.0" />
+    <point x="20" y="14.0" />
+    <point x="30" y="21.0" />
+    <point x="40" y="28.0" />
+    <point x="50" y="35.0" />
+    <point x="60" y="42.0" />
+    <point x="70" y="49.0" />
+    <point x="80" y="56.0" />
+    <point x="90" y="63.0" />
+    <point x="100" y="70.0" />
+    <point x="110" y="77.0" />
+    <point x="120" y="84.0" />
+    <point x="130" y="91.0" />
+    <point x="140" y="98.0" />
+    <point x="150" y="105.0" />
+    <point x="160" y="112.0" />
+    <point x="170" y="119.0" />
+    <point x="180" y="126.0" />
+    <point x="190" y="133.0" />
+    <point x="200" y="140.0" />
+    <point x="210" y="147.0" />
+    <point x="220" y="154.0" />
+    <point x="230" y="161.0" />
+    <point x="240" y="168.0" />
+    <point x="250" y="175.0" />
+    <point x="260" y="182.0" />
+    <point x="270" y="189.0" />
+    <point x="280" y="196.0" />
+    <point x="290" y="203.0" />
+    <point x="299" y="209.3" />
+  </curve>
   <curve id="au_CWHvm_DR_HW_H_unmanaged_natural_yield_DR">
     <point x="1" y="0.0" />
     <point x="10" y="13.9" />
@@ -6002,39 +6195,39 @@
   </curve>
   <curve id="au_CWHvm_DR_HW_H_unmanaged_qmd">
     <point x="1" y="0.0" />
-    <point x="10" y="17.3" />
-    <point x="20" y="24.1" />
-    <point x="30" y="27.9" />
-    <point x="40" y="30.0" />
-    <point x="50" y="31.1" />
-    <point x="60" y="31.4" />
-    <point x="70" y="31.3" />
-    <point x="80" y="30.9" />
-    <point x="90" y="30.2" />
-    <point x="100" y="29.3" />
-    <point x="110" y="28.2" />
-    <point x="120" y="27.1" />
-    <point x="130" y="25.9" />
-    <point x="140" y="24.7" />
-    <point x="150" y="23.5" />
-    <point x="160" y="22.3" />
-    <point x="170" y="21.1" />
-    <point x="180" y="19.9" />
-    <point x="190" y="18.8" />
-    <point x="200" y="17.9" />
-    <point x="210" y="17.3" />
-    <point x="220" y="17.1" />
-    <point x="230" y="16.6" />
-    <point x="240" y="16.1" />
-    <point x="250" y="15.7" />
-    <point x="260" y="15.2" />
-    <point x="270" y="14.8" />
-    <point x="280" y="14.5" />
-    <point x="290" y="14.1" />
-    <point x="299" y="13.8" />
   </curve>
-  <curve id="au_CWHvm_DR_HW_H_unmanaged_stems_per_ha">
-    <point x="1" y="350.0" />
+  <curve id="au_CWHvm_DR_HW_L_managed_height">
+    <point x="1" y="0.3" />
+    <point x="10" y="3.0" />
+    <point x="20" y="6.0" />
+    <point x="30" y="9.0" />
+    <point x="40" y="12.0" />
+    <point x="50" y="15.0" />
+    <point x="60" y="18.0" />
+    <point x="70" y="21.0" />
+    <point x="80" y="24.0" />
+    <point x="90" y="27.0" />
+    <point x="100" y="30.0" />
+    <point x="110" y="33.0" />
+    <point x="120" y="36.0" />
+    <point x="130" y="39.0" />
+    <point x="140" y="42.0" />
+    <point x="150" y="45.0" />
+    <point x="160" y="48.0" />
+    <point x="170" y="51.0" />
+    <point x="180" y="54.0" />
+    <point x="190" y="57.0" />
+    <point x="200" y="60.0" />
+    <point x="210" y="63.0" />
+    <point x="220" y="66.0" />
+    <point x="230" y="69.0" />
+    <point x="240" y="72.0" />
+    <point x="250" y="75.0" />
+    <point x="260" y="78.0" />
+    <point x="270" y="81.0" />
+    <point x="280" y="84.0" />
+    <point x="290" y="87.0" />
+    <point x="299" y="89.7" />
   </curve>
   <curve id="au_CWHvm_DR_HW_L_managed_natural_yield_DR">
     <point x="1" y="0.0" />
@@ -6170,39 +6363,6 @@
   </curve>
   <curve id="au_CWHvm_DR_HW_L_managed_qmd">
     <point x="1" y="0.0" />
-    <point x="10" y="18.5" />
-    <point x="20" y="25.8" />
-    <point x="30" y="29.9" />
-    <point x="40" y="32.1" />
-    <point x="50" y="33.3" />
-    <point x="60" y="33.7" />
-    <point x="70" y="33.6" />
-    <point x="80" y="33.1" />
-    <point x="90" y="32.3" />
-    <point x="100" y="31.4" />
-    <point x="110" y="30.3" />
-    <point x="120" y="29.1" />
-    <point x="130" y="27.8" />
-    <point x="140" y="26.5" />
-    <point x="150" y="25.2" />
-    <point x="160" y="23.9" />
-    <point x="170" y="22.6" />
-    <point x="180" y="21.4" />
-    <point x="190" y="20.1" />
-    <point x="200" y="19.1" />
-    <point x="210" y="18.5" />
-    <point x="220" y="18.3" />
-    <point x="230" y="17.8" />
-    <point x="240" y="17.3" />
-    <point x="250" y="16.8" />
-    <point x="260" y="16.3" />
-    <point x="270" y="15.9" />
-    <point x="280" y="15.5" />
-    <point x="290" y="15.1" />
-    <point x="299" y="14.8" />
-  </curve>
-  <curve id="au_CWHvm_DR_HW_L_managed_stems_per_ha">
-    <point x="1" y="400.0" />
   </curve>
   <curve id="au_CWHvm_DR_HW_L_og1">
     <point x="60" y="0.0" />
@@ -6347,6 +6507,39 @@
     <point x="25" y="1.0" />
     <point x="26" y="0.0" />
   </curve>
+  <curve id="au_CWHvm_DR_HW_L_unmanaged_height">
+    <point x="1" y="0.3" />
+    <point x="10" y="3.0" />
+    <point x="20" y="6.0" />
+    <point x="30" y="9.0" />
+    <point x="40" y="12.0" />
+    <point x="50" y="15.0" />
+    <point x="60" y="18.0" />
+    <point x="70" y="21.0" />
+    <point x="80" y="24.0" />
+    <point x="90" y="27.0" />
+    <point x="100" y="30.0" />
+    <point x="110" y="33.0" />
+    <point x="120" y="36.0" />
+    <point x="130" y="39.0" />
+    <point x="140" y="42.0" />
+    <point x="150" y="45.0" />
+    <point x="160" y="48.0" />
+    <point x="170" y="51.0" />
+    <point x="180" y="54.0" />
+    <point x="190" y="57.0" />
+    <point x="200" y="60.0" />
+    <point x="210" y="63.0" />
+    <point x="220" y="66.0" />
+    <point x="230" y="69.0" />
+    <point x="240" y="72.0" />
+    <point x="250" y="75.0" />
+    <point x="260" y="78.0" />
+    <point x="270" y="81.0" />
+    <point x="280" y="84.0" />
+    <point x="290" y="87.0" />
+    <point x="299" y="89.7" />
+  </curve>
   <curve id="au_CWHvm_DR_HW_L_unmanaged_natural_yield_DR">
     <point x="1" y="0.0" />
     <point x="10" y="13.9" />
@@ -6481,39 +6674,44 @@
   </curve>
   <curve id="au_CWHvm_DR_HW_L_unmanaged_qmd">
     <point x="1" y="0.0" />
-    <point x="10" y="18.5" />
-    <point x="20" y="25.8" />
-    <point x="30" y="29.9" />
-    <point x="40" y="32.1" />
-    <point x="50" y="33.3" />
-    <point x="60" y="33.7" />
-    <point x="70" y="33.6" />
-    <point x="80" y="33.1" />
-    <point x="90" y="32.3" />
-    <point x="100" y="31.4" />
-    <point x="110" y="30.3" />
-    <point x="120" y="29.1" />
-    <point x="130" y="27.8" />
-    <point x="140" y="26.5" />
-    <point x="150" y="25.2" />
-    <point x="160" y="23.9" />
-    <point x="170" y="22.6" />
-    <point x="180" y="21.4" />
-    <point x="190" y="20.1" />
-    <point x="200" y="19.1" />
-    <point x="210" y="18.5" />
-    <point x="220" y="18.3" />
-    <point x="230" y="17.8" />
-    <point x="240" y="17.3" />
-    <point x="250" y="16.8" />
-    <point x="260" y="16.3" />
-    <point x="270" y="15.9" />
-    <point x="280" y="15.5" />
-    <point x="290" y="15.1" />
-    <point x="299" y="14.8" />
   </curve>
-  <curve id="au_CWHvm_DR_HW_L_unmanaged_stems_per_ha">
-    <point x="1" y="400.0" />
+  <curve id="au_CWHvm_DR_HW_M_managed_height">
+    <point x="0" y="0.0" />
+    <point x="10" y="5.0" />
+    <point x="20" y="10.0" />
+    <point x="30" y="15.0" />
+    <point x="40" y="20.0" />
+    <point x="50" y="25.0" />
+    <point x="60" y="30.0" />
+    <point x="70" y="35.0" />
+    <point x="80" y="40.0" />
+    <point x="90" y="45.0" />
+    <point x="100" y="50.0" />
+    <point x="110" y="55.0" />
+    <point x="120" y="60.0" />
+    <point x="130" y="65.0" />
+    <point x="140" y="70.0" />
+    <point x="150" y="75.0" />
+    <point x="160" y="80.0" />
+    <point x="170" y="85.0" />
+    <point x="180" y="90.0" />
+    <point x="190" y="95.0" />
+    <point x="200" y="100.0" />
+    <point x="210" y="105.0" />
+    <point x="220" y="110.0" />
+    <point x="230" y="115.0" />
+    <point x="240" y="120.0" />
+    <point x="250" y="125.0" />
+    <point x="260" y="130.0" />
+    <point x="270" y="135.0" />
+    <point x="280" y="140.0" />
+    <point x="290" y="145.0" />
+    <point x="300" y="150.0" />
+    <point x="310" y="155.0" />
+    <point x="320" y="160.0" />
+    <point x="330" y="165.0" />
+    <point x="340" y="170.0" />
+    <point x="350" y="175.0" />
   </curve>
   <curve id="au_CWHvm_DR_HW_M_managed_natural_yield_DR">
     <point x="10" y="0.0" />
@@ -6596,37 +6794,7 @@
     <point x="140" y="179.0" />
   </curve>
   <curve id="au_CWHvm_DR_HW_M_managed_qmd">
-    <point x="10" y="0.0" />
-    <point x="20" y="4.6" />
-    <point x="30" y="13.4" />
-    <point x="40" y="18.1" />
-    <point x="50" y="21.2" />
-    <point x="60" y="23.6" />
-    <point x="70" y="25.4" />
-    <point x="80" y="27.0" />
-    <point x="90" y="28.4" />
-    <point x="100" y="29.7" />
-    <point x="110" y="30.8" />
-    <point x="120" y="31.9" />
-    <point x="130" y="33.0" />
-    <point x="140" y="34.1" />
-  </curve>
-  <curve id="au_CWHvm_DR_HW_M_managed_stems_per_ha">
-    <point x="0" y="350.0" />
-    <point x="10" y="841.0" />
-    <point x="20" y="794.0" />
-    <point x="30" y="775.0" />
-    <point x="40" y="770.0" />
-    <point x="50" y="766.0" />
-    <point x="60" y="760.0" />
-    <point x="70" y="751.0" />
-    <point x="80" y="741.0" />
-    <point x="90" y="730.0" />
-    <point x="100" y="716.0" />
-    <point x="110" y="704.0" />
-    <point x="120" y="692.0" />
-    <point x="130" y="673.0" />
-    <point x="140" y="652.0" />
+    <point x="0" y="0.0" />
   </curve>
   <curve id="au_CWHvm_DR_HW_M_og1">
     <point x="60" y="0.0" />
@@ -6790,6 +6958,39 @@
     <point x="24" y="1.0" />
     <point x="25" y="1.0" />
     <point x="26" y="0.0" />
+  </curve>
+  <curve id="au_CWHvm_DR_HW_M_unmanaged_height">
+    <point x="1" y="0.5" />
+    <point x="10" y="5.0" />
+    <point x="20" y="10.0" />
+    <point x="30" y="15.0" />
+    <point x="40" y="20.0" />
+    <point x="50" y="25.0" />
+    <point x="60" y="30.0" />
+    <point x="70" y="35.0" />
+    <point x="80" y="40.0" />
+    <point x="90" y="45.0" />
+    <point x="100" y="50.0" />
+    <point x="110" y="55.0" />
+    <point x="120" y="60.0" />
+    <point x="130" y="65.0" />
+    <point x="140" y="70.0" />
+    <point x="150" y="75.0" />
+    <point x="160" y="80.0" />
+    <point x="170" y="85.0" />
+    <point x="180" y="90.0" />
+    <point x="190" y="95.0" />
+    <point x="200" y="100.0" />
+    <point x="210" y="105.0" />
+    <point x="220" y="110.0" />
+    <point x="230" y="115.0" />
+    <point x="240" y="120.0" />
+    <point x="250" y="125.0" />
+    <point x="260" y="130.0" />
+    <point x="270" y="135.0" />
+    <point x="280" y="140.0" />
+    <point x="290" y="145.0" />
+    <point x="299" y="149.5" />
   </curve>
   <curve id="au_CWHvm_DR_HW_M_unmanaged_natural_yield_DR">
     <point x="1" y="0.0" />
@@ -6958,57 +7159,12 @@
   </curve>
   <curve id="au_CWHvm_DR_HW_M_unmanaged_qmd">
     <point x="1" y="0.0" />
-    <point x="10" y="18.3" />
-    <point x="20" y="25.5" />
-    <point x="30" y="29.5" />
-    <point x="40" y="31.7" />
-    <point x="50" y="32.8" />
-    <point x="60" y="33.3" />
-    <point x="70" y="33.2" />
-    <point x="80" y="32.7" />
-    <point x="90" y="31.9" />
-    <point x="100" y="31.0" />
-    <point x="110" y="29.9" />
-    <point x="120" y="28.7" />
-    <point x="130" y="27.4" />
-    <point x="140" y="26.2" />
-    <point x="150" y="24.9" />
-    <point x="160" y="23.6" />
-    <point x="170" y="22.3" />
-    <point x="180" y="21.1" />
-    <point x="190" y="19.9" />
-    <point x="200" y="18.9" />
-    <point x="210" y="18.3" />
-    <point x="220" y="18.1" />
-    <point x="230" y="17.5" />
-    <point x="240" y="17.0" />
-    <point x="250" y="16.6" />
-    <point x="260" y="16.1" />
-    <point x="270" y="15.7" />
-    <point x="280" y="15.3" />
-    <point x="290" y="14.9" />
-    <point x="299" y="14.6" />
-  </curve>
-  <curve id="au_CWHvm_DR_HW_M_unmanaged_stems_per_ha">
-    <point x="1" y="350.0" />
   </curve>
   <curve id="au_CWHvm_FDC_HW_H_managed_cc_pl_pct_species_prop_CW">
     <point x="1" y="0.2" />
   </curve>
   <curve id="au_CWHvm_FDC_HW_H_managed_cc_pl_pct_species_prop_FDC">
     <point x="1" y="0.8" />
-  </curve>
-  <curve id="au_CWHvm_FDC_HW_H_managed_cc_pl_pct_stems_per_ha">
-    <point x="0" y="524.5" />
-    <point x="10" y="414.0" />
-    <point x="20" y="392.5" />
-    <point x="30" y="388.5" />
-    <point x="40" y="386.0" />
-    <point x="50" y="379.0" />
-    <point x="60" y="369.5" />
-    <point x="70" y="357.0" />
-    <point x="80" y="337.0" />
-    <point x="90" y="312.5" />
   </curve>
   <curve id="au_CWHvm_FDC_HW_H_managed_cc_pl_pct_yield_CW">
     <point x="10" y="0.0" />
@@ -7031,6 +7187,44 @@
     <point x="70" y="644.2" />
     <point x="80" y="761.9" />
     <point x="90" y="869.2" />
+  </curve>
+  <curve id="au_CWHvm_FDC_HW_H_managed_height">
+    <point x="0" y="0.0" />
+    <point x="10" y="7.0" />
+    <point x="20" y="14.0" />
+    <point x="30" y="21.0" />
+    <point x="40" y="28.0" />
+    <point x="50" y="35.0" />
+    <point x="60" y="42.0" />
+    <point x="70" y="49.0" />
+    <point x="80" y="56.0" />
+    <point x="90" y="63.0" />
+    <point x="100" y="70.0" />
+    <point x="110" y="77.0" />
+    <point x="120" y="84.0" />
+    <point x="130" y="91.0" />
+    <point x="140" y="98.0" />
+    <point x="150" y="105.0" />
+    <point x="160" y="112.0" />
+    <point x="170" y="119.0" />
+    <point x="180" y="126.0" />
+    <point x="190" y="133.0" />
+    <point x="200" y="140.0" />
+    <point x="210" y="147.0" />
+    <point x="220" y="154.0" />
+    <point x="230" y="161.0" />
+    <point x="240" y="168.0" />
+    <point x="250" y="175.0" />
+    <point x="260" y="182.0" />
+    <point x="270" y="189.0" />
+    <point x="280" y="196.0" />
+    <point x="290" y="203.0" />
+    <point x="300" y="210.0" />
+    <point x="310" y="217.0" />
+    <point x="320" y="224.0" />
+    <point x="330" y="231.0" />
+    <point x="340" y="238.0" />
+    <point x="350" y="245.0" />
   </curve>
   <curve id="au_CWHvm_FDC_HW_H_managed_natural_yield_FDC">
     <point x="10" y="0.0" />
@@ -7088,27 +7282,7 @@
     <point x="90" y="271.6" />
   </curve>
   <curve id="au_CWHvm_FDC_HW_H_managed_qmd">
-    <point x="10" y="0.0" />
-    <point x="20" y="12.1" />
-    <point x="30" y="19.7" />
-    <point x="40" y="24.1" />
-    <point x="50" y="27.2" />
-    <point x="60" y="29.9" />
-    <point x="70" y="32.2" />
-    <point x="80" y="34.7" />
-    <point x="90" y="37.3" />
-  </curve>
-  <curve id="au_CWHvm_FDC_HW_H_managed_stems_per_ha">
-    <point x="0" y="524.5" />
-    <point x="10" y="828.0" />
-    <point x="20" y="785.0" />
-    <point x="30" y="777.0" />
-    <point x="40" y="772.0" />
-    <point x="50" y="758.0" />
-    <point x="60" y="739.0" />
-    <point x="70" y="714.0" />
-    <point x="80" y="674.0" />
-    <point x="90" y="625.0" />
+    <point x="0" y="0.0" />
   </curve>
   <curve id="au_CWHvm_FDC_HW_H_og1">
     <point x="100" y="0.0" />
@@ -7223,6 +7397,39 @@
     <point x="24" y="1.0" />
     <point x="25" y="1.0" />
     <point x="26" y="0.0" />
+  </curve>
+  <curve id="au_CWHvm_FDC_HW_H_unmanaged_height">
+    <point x="1" y="0.7" />
+    <point x="10" y="7.0" />
+    <point x="20" y="14.0" />
+    <point x="30" y="21.0" />
+    <point x="40" y="28.0" />
+    <point x="50" y="35.0" />
+    <point x="60" y="42.0" />
+    <point x="70" y="49.0" />
+    <point x="80" y="56.0" />
+    <point x="90" y="63.0" />
+    <point x="100" y="70.0" />
+    <point x="110" y="77.0" />
+    <point x="120" y="84.0" />
+    <point x="130" y="91.0" />
+    <point x="140" y="98.0" />
+    <point x="150" y="105.0" />
+    <point x="160" y="112.0" />
+    <point x="170" y="119.0" />
+    <point x="180" y="126.0" />
+    <point x="190" y="133.0" />
+    <point x="200" y="140.0" />
+    <point x="210" y="147.0" />
+    <point x="220" y="154.0" />
+    <point x="230" y="161.0" />
+    <point x="240" y="168.0" />
+    <point x="250" y="175.0" />
+    <point x="260" y="182.0" />
+    <point x="270" y="189.0" />
+    <point x="280" y="196.0" />
+    <point x="290" y="203.0" />
+    <point x="299" y="209.3" />
   </curve>
   <curve id="au_CWHvm_FDC_HW_H_unmanaged_natural_yield_FDC">
     <point x="1" y="0.0" />
@@ -7391,39 +7598,44 @@
   </curve>
   <curve id="au_CWHvm_FDC_HW_H_unmanaged_qmd">
     <point x="1" y="0.0" />
-    <point x="10" y="13.4" />
-    <point x="20" y="19.8" />
-    <point x="30" y="24.0" />
-    <point x="40" y="27.0" />
-    <point x="50" y="29.0" />
-    <point x="60" y="30.5" />
-    <point x="70" y="31.5" />
-    <point x="80" y="32.0" />
-    <point x="90" y="32.3" />
-    <point x="100" y="32.3" />
-    <point x="110" y="32.1" />
-    <point x="120" y="31.8" />
-    <point x="130" y="31.3" />
-    <point x="140" y="30.7" />
-    <point x="150" y="30.0" />
-    <point x="160" y="29.3" />
-    <point x="170" y="28.5" />
-    <point x="180" y="27.6" />
-    <point x="190" y="26.8" />
-    <point x="200" y="26.0" />
-    <point x="210" y="25.3" />
-    <point x="220" y="24.8" />
-    <point x="230" y="24.2" />
-    <point x="240" y="23.7" />
-    <point x="250" y="23.2" />
-    <point x="260" y="22.7" />
-    <point x="270" y="22.3" />
-    <point x="280" y="21.8" />
-    <point x="290" y="21.4" />
-    <point x="299" y="21.1" />
   </curve>
-  <curve id="au_CWHvm_FDC_HW_H_unmanaged_stems_per_ha">
-    <point x="1" y="524.5" />
+  <curve id="au_CWHvm_FDC_HW_L_managed_height">
+    <point x="0" y="0.0" />
+    <point x="10" y="3.0" />
+    <point x="20" y="6.0" />
+    <point x="30" y="9.0" />
+    <point x="40" y="12.0" />
+    <point x="50" y="15.0" />
+    <point x="60" y="18.0" />
+    <point x="70" y="21.0" />
+    <point x="80" y="24.0" />
+    <point x="90" y="27.0" />
+    <point x="100" y="30.0" />
+    <point x="110" y="33.0" />
+    <point x="120" y="36.0" />
+    <point x="130" y="39.0" />
+    <point x="140" y="42.0" />
+    <point x="150" y="45.0" />
+    <point x="160" y="48.0" />
+    <point x="170" y="51.0" />
+    <point x="180" y="54.0" />
+    <point x="190" y="57.0" />
+    <point x="200" y="60.0" />
+    <point x="210" y="63.0" />
+    <point x="220" y="66.0" />
+    <point x="230" y="69.0" />
+    <point x="240" y="72.0" />
+    <point x="250" y="75.0" />
+    <point x="260" y="78.0" />
+    <point x="270" y="81.0" />
+    <point x="280" y="84.0" />
+    <point x="290" y="87.0" />
+    <point x="300" y="90.0" />
+    <point x="310" y="93.0" />
+    <point x="320" y="96.0" />
+    <point x="330" y="99.0" />
+    <point x="340" y="102.0" />
+    <point x="350" y="105.0" />
   </curve>
   <curve id="au_CWHvm_FDC_HW_L_managed_natural_yield_FDC">
     <point x="10" y="0.0" />
@@ -7516,41 +7728,7 @@
     <point x="160" y="191.6" />
   </curve>
   <curve id="au_CWHvm_FDC_HW_L_managed_qmd">
-    <point x="10" y="0.0" />
-    <point x="20" y="3.5" />
-    <point x="30" y="13.0" />
-    <point x="40" y="18.1" />
-    <point x="50" y="21.3" />
-    <point x="60" y="23.8" />
-    <point x="70" y="25.7" />
-    <point x="80" y="27.1" />
-    <point x="90" y="28.6" />
-    <point x="100" y="29.8" />
-    <point x="110" y="30.9" />
-    <point x="120" y="31.9" />
-    <point x="130" y="32.8" />
-    <point x="140" y="33.7" />
-    <point x="150" y="34.7" />
-    <point x="160" y="35.5" />
-  </curve>
-  <curve id="au_CWHvm_FDC_HW_L_managed_stems_per_ha">
-    <point x="0" y="250.0" />
-    <point x="10" y="677.0" />
-    <point x="20" y="642.0" />
-    <point x="30" y="626.0" />
-    <point x="40" y="622.0" />
-    <point x="50" y="619.0" />
-    <point x="60" y="614.0" />
-    <point x="70" y="608.0" />
-    <point x="80" y="600.0" />
-    <point x="90" y="591.0" />
-    <point x="100" y="581.0" />
-    <point x="110" y="570.0" />
-    <point x="120" y="559.0" />
-    <point x="130" y="550.0" />
-    <point x="140" y="538.0" />
-    <point x="150" y="524.0" />
-    <point x="160" y="510.0" />
+    <point x="0" y="0.0" />
   </curve>
   <curve id="au_CWHvm_FDC_HW_L_og1">
     <point x="140" y="0.0" />
@@ -7735,6 +7913,39 @@
     <point x="25" y="1.0" />
     <point x="26" y="0.0" />
   </curve>
+  <curve id="au_CWHvm_FDC_HW_L_unmanaged_height">
+    <point x="1" y="0.3" />
+    <point x="10" y="3.0" />
+    <point x="20" y="6.0" />
+    <point x="30" y="9.0" />
+    <point x="40" y="12.0" />
+    <point x="50" y="15.0" />
+    <point x="60" y="18.0" />
+    <point x="70" y="21.0" />
+    <point x="80" y="24.0" />
+    <point x="90" y="27.0" />
+    <point x="100" y="30.0" />
+    <point x="110" y="33.0" />
+    <point x="120" y="36.0" />
+    <point x="130" y="39.0" />
+    <point x="140" y="42.0" />
+    <point x="150" y="45.0" />
+    <point x="160" y="48.0" />
+    <point x="170" y="51.0" />
+    <point x="180" y="54.0" />
+    <point x="190" y="57.0" />
+    <point x="200" y="60.0" />
+    <point x="210" y="63.0" />
+    <point x="220" y="66.0" />
+    <point x="230" y="69.0" />
+    <point x="240" y="72.0" />
+    <point x="250" y="75.0" />
+    <point x="260" y="78.0" />
+    <point x="270" y="81.0" />
+    <point x="280" y="84.0" />
+    <point x="290" y="87.0" />
+    <point x="299" y="89.7" />
+  </curve>
   <curve id="au_CWHvm_FDC_HW_L_unmanaged_natural_yield_FDC">
     <point x="10" y="0.0" />
     <point x="20" y="0.5" />
@@ -7897,57 +8108,12 @@
   </curve>
   <curve id="au_CWHvm_FDC_HW_L_unmanaged_qmd">
     <point x="1" y="0.0" />
-    <point x="10" y="0.5" />
-    <point x="20" y="3.1" />
-    <point x="30" y="7.7" />
-    <point x="40" y="13.0" />
-    <point x="50" y="18.2" />
-    <point x="60" y="22.9" />
-    <point x="70" y="26.7" />
-    <point x="80" y="29.7" />
-    <point x="90" y="31.9" />
-    <point x="100" y="33.6" />
-    <point x="110" y="34.8" />
-    <point x="120" y="35.6" />
-    <point x="130" y="36.0" />
-    <point x="140" y="36.2" />
-    <point x="150" y="36.2" />
-    <point x="160" y="35.9" />
-    <point x="170" y="35.5" />
-    <point x="180" y="35.0" />
-    <point x="190" y="34.3" />
-    <point x="200" y="33.5" />
-    <point x="210" y="32.6" />
-    <point x="220" y="31.7" />
-    <point x="230" y="30.9" />
-    <point x="240" y="30.2" />
-    <point x="250" y="29.5" />
-    <point x="260" y="28.9" />
-    <point x="270" y="28.3" />
-    <point x="280" y="27.7" />
-    <point x="290" y="27.2" />
-    <point x="299" y="26.7" />
-  </curve>
-  <curve id="au_CWHvm_FDC_HW_L_unmanaged_stems_per_ha">
-    <point x="1" y="250.0" />
   </curve>
   <curve id="au_CWHvm_FDC_HW_M_managed_cc_pl_pct_species_prop_CW">
     <point x="1" y="0.2" />
   </curve>
   <curve id="au_CWHvm_FDC_HW_M_managed_cc_pl_pct_species_prop_FDC">
     <point x="1" y="0.8" />
-  </curve>
-  <curve id="au_CWHvm_FDC_HW_M_managed_cc_pl_pct_stems_per_ha">
-    <point x="0" y="474.5" />
-    <point x="10" y="415.5" />
-    <point x="20" y="393.5" />
-    <point x="30" y="388.5" />
-    <point x="40" y="386.0" />
-    <point x="50" y="380.5" />
-    <point x="60" y="372.0" />
-    <point x="70" y="360.5" />
-    <point x="80" y="349.0" />
-    <point x="90" y="330.0" />
   </curve>
   <curve id="au_CWHvm_FDC_HW_M_managed_cc_pl_pct_yield_CW">
     <point x="10" y="0.0" />
@@ -7970,6 +8136,44 @@
     <point x="70" y="575.6" />
     <point x="80" y="685.2" />
     <point x="90" y="786.8" />
+  </curve>
+  <curve id="au_CWHvm_FDC_HW_M_managed_height">
+    <point x="0" y="0.0" />
+    <point x="10" y="5.0" />
+    <point x="20" y="10.0" />
+    <point x="30" y="15.0" />
+    <point x="40" y="20.0" />
+    <point x="50" y="25.0" />
+    <point x="60" y="30.0" />
+    <point x="70" y="35.0" />
+    <point x="80" y="40.0" />
+    <point x="90" y="45.0" />
+    <point x="100" y="50.0" />
+    <point x="110" y="55.0" />
+    <point x="120" y="60.0" />
+    <point x="130" y="65.0" />
+    <point x="140" y="70.0" />
+    <point x="150" y="75.0" />
+    <point x="160" y="80.0" />
+    <point x="170" y="85.0" />
+    <point x="180" y="90.0" />
+    <point x="190" y="95.0" />
+    <point x="200" y="100.0" />
+    <point x="210" y="105.0" />
+    <point x="220" y="110.0" />
+    <point x="230" y="115.0" />
+    <point x="240" y="120.0" />
+    <point x="250" y="125.0" />
+    <point x="260" y="130.0" />
+    <point x="270" y="135.0" />
+    <point x="280" y="140.0" />
+    <point x="290" y="145.0" />
+    <point x="300" y="150.0" />
+    <point x="310" y="155.0" />
+    <point x="320" y="160.0" />
+    <point x="330" y="165.0" />
+    <point x="340" y="170.0" />
+    <point x="350" y="175.0" />
   </curve>
   <curve id="au_CWHvm_FDC_HW_M_managed_natural_yield_FDC">
     <point x="10" y="0.0" />
@@ -8027,27 +8231,7 @@
     <point x="90" y="245.9" />
   </curve>
   <curve id="au_CWHvm_FDC_HW_M_managed_qmd">
-    <point x="10" y="0.0" />
-    <point x="20" y="11.1" />
-    <point x="30" y="18.9" />
-    <point x="40" y="23.2" />
-    <point x="50" y="26.3" />
-    <point x="60" y="28.9" />
-    <point x="70" y="31.1" />
-    <point x="80" y="33.2" />
-    <point x="90" y="35.4" />
-  </curve>
-  <curve id="au_CWHvm_FDC_HW_M_managed_stems_per_ha">
-    <point x="0" y="474.5" />
-    <point x="10" y="831.0" />
-    <point x="20" y="787.0" />
-    <point x="30" y="777.0" />
-    <point x="40" y="772.0" />
-    <point x="50" y="761.0" />
-    <point x="60" y="744.0" />
-    <point x="70" y="721.0" />
-    <point x="80" y="698.0" />
-    <point x="90" y="660.0" />
+    <point x="0" y="0.0" />
   </curve>
   <curve id="au_CWHvm_FDC_HW_M_og1">
     <point x="100" y="0.0" />
@@ -8162,6 +8346,39 @@
     <point x="24" y="1.0" />
     <point x="25" y="1.0" />
     <point x="26" y="0.0" />
+  </curve>
+  <curve id="au_CWHvm_FDC_HW_M_unmanaged_height">
+    <point x="1" y="0.5" />
+    <point x="10" y="5.0" />
+    <point x="20" y="10.0" />
+    <point x="30" y="15.0" />
+    <point x="40" y="20.0" />
+    <point x="50" y="25.0" />
+    <point x="60" y="30.0" />
+    <point x="70" y="35.0" />
+    <point x="80" y="40.0" />
+    <point x="90" y="45.0" />
+    <point x="100" y="50.0" />
+    <point x="110" y="55.0" />
+    <point x="120" y="60.0" />
+    <point x="130" y="65.0" />
+    <point x="140" y="70.0" />
+    <point x="150" y="75.0" />
+    <point x="160" y="80.0" />
+    <point x="170" y="85.0" />
+    <point x="180" y="90.0" />
+    <point x="190" y="95.0" />
+    <point x="200" y="100.0" />
+    <point x="210" y="105.0" />
+    <point x="220" y="110.0" />
+    <point x="230" y="115.0" />
+    <point x="240" y="120.0" />
+    <point x="250" y="125.0" />
+    <point x="260" y="130.0" />
+    <point x="270" y="135.0" />
+    <point x="280" y="140.0" />
+    <point x="290" y="145.0" />
+    <point x="299" y="149.5" />
   </curve>
   <curve id="au_CWHvm_FDC_HW_M_unmanaged_natural_yield_FDC">
     <point x="1" y="0.0" />
@@ -8330,39 +8547,39 @@
   </curve>
   <curve id="au_CWHvm_FDC_HW_M_unmanaged_qmd">
     <point x="1" y="0.0" />
-    <point x="10" y="13.9" />
-    <point x="20" y="20.3" />
-    <point x="30" y="24.5" />
-    <point x="40" y="27.5" />
-    <point x="50" y="29.5" />
-    <point x="60" y="31.0" />
-    <point x="70" y="32.0" />
-    <point x="80" y="32.6" />
-    <point x="90" y="32.9" />
-    <point x="100" y="32.9" />
-    <point x="110" y="32.8" />
-    <point x="120" y="32.4" />
-    <point x="130" y="32.0" />
-    <point x="140" y="31.4" />
-    <point x="150" y="30.8" />
-    <point x="160" y="30.1" />
-    <point x="170" y="29.3" />
-    <point x="180" y="28.5" />
-    <point x="190" y="27.6" />
-    <point x="200" y="26.8" />
-    <point x="210" y="26.1" />
-    <point x="220" y="25.6" />
-    <point x="230" y="25.0" />
-    <point x="240" y="24.4" />
-    <point x="250" y="23.9" />
-    <point x="260" y="23.4" />
-    <point x="270" y="23.0" />
-    <point x="280" y="22.5" />
-    <point x="290" y="22.1" />
-    <point x="299" y="21.7" />
   </curve>
-  <curve id="au_CWHvm_FDC_HW_M_unmanaged_stems_per_ha">
-    <point x="1" y="474.5" />
+  <curve id="au_CWHvm_HW_BA_H_managed_height">
+    <point x="2" y="1.4" />
+    <point x="10" y="7.0" />
+    <point x="20" y="14.0" />
+    <point x="30" y="21.0" />
+    <point x="40" y="28.0" />
+    <point x="50" y="35.0" />
+    <point x="60" y="42.0" />
+    <point x="70" y="49.0" />
+    <point x="80" y="56.0" />
+    <point x="90" y="63.0" />
+    <point x="100" y="70.0" />
+    <point x="110" y="77.0" />
+    <point x="120" y="84.0" />
+    <point x="130" y="91.0" />
+    <point x="140" y="98.0" />
+    <point x="150" y="105.0" />
+    <point x="160" y="112.0" />
+    <point x="170" y="119.0" />
+    <point x="180" y="126.0" />
+    <point x="190" y="133.0" />
+    <point x="200" y="140.0" />
+    <point x="210" y="147.0" />
+    <point x="220" y="154.0" />
+    <point x="230" y="161.0" />
+    <point x="240" y="168.0" />
+    <point x="250" y="175.0" />
+    <point x="260" y="182.0" />
+    <point x="270" y="189.0" />
+    <point x="280" y="196.0" />
+    <point x="290" y="203.0" />
+    <point x="299" y="209.3" />
   </curve>
   <curve id="au_CWHvm_HW_BA_H_managed_natural_yield_BA">
     <point x="2" y="0.0" />
@@ -8498,39 +8715,6 @@
   </curve>
   <curve id="au_CWHvm_HW_BA_H_managed_qmd">
     <point x="2" y="0.0" />
-    <point x="10" y="4.7" />
-    <point x="20" y="11.6" />
-    <point x="30" y="18.0" />
-    <point x="40" y="23.4" />
-    <point x="50" y="27.5" />
-    <point x="60" y="30.5" />
-    <point x="70" y="32.6" />
-    <point x="80" y="33.9" />
-    <point x="90" y="34.7" />
-    <point x="100" y="35.1" />
-    <point x="110" y="35.2" />
-    <point x="120" y="35.0" />
-    <point x="130" y="34.5" />
-    <point x="140" y="33.9" />
-    <point x="150" y="33.1" />
-    <point x="160" y="32.3" />
-    <point x="170" y="31.4" />
-    <point x="180" y="30.4" />
-    <point x="190" y="29.3" />
-    <point x="200" y="28.3" />
-    <point x="210" y="27.2" />
-    <point x="220" y="26.1" />
-    <point x="230" y="25.0" />
-    <point x="240" y="24.1" />
-    <point x="250" y="23.6" />
-    <point x="260" y="23.3" />
-    <point x="270" y="22.8" />
-    <point x="280" y="22.4" />
-    <point x="290" y="21.9" />
-    <point x="299" y="21.5" />
-  </curve>
-  <curve id="au_CWHvm_HW_BA_H_managed_stems_per_ha">
-    <point x="2" y="449.0" />
   </curve>
   <curve id="au_CWHvm_HW_BA_H_og1">
     <point x="110" y="0.0" />
@@ -8725,6 +8909,39 @@
     <point x="25" y="1.0" />
     <point x="26" y="0.0" />
   </curve>
+  <curve id="au_CWHvm_HW_BA_H_unmanaged_height">
+    <point x="2" y="1.4" />
+    <point x="10" y="7.0" />
+    <point x="20" y="14.0" />
+    <point x="30" y="21.0" />
+    <point x="40" y="28.0" />
+    <point x="50" y="35.0" />
+    <point x="60" y="42.0" />
+    <point x="70" y="49.0" />
+    <point x="80" y="56.0" />
+    <point x="90" y="63.0" />
+    <point x="100" y="70.0" />
+    <point x="110" y="77.0" />
+    <point x="120" y="84.0" />
+    <point x="130" y="91.0" />
+    <point x="140" y="98.0" />
+    <point x="150" y="105.0" />
+    <point x="160" y="112.0" />
+    <point x="170" y="119.0" />
+    <point x="180" y="126.0" />
+    <point x="190" y="133.0" />
+    <point x="200" y="140.0" />
+    <point x="210" y="147.0" />
+    <point x="220" y="154.0" />
+    <point x="230" y="161.0" />
+    <point x="240" y="168.0" />
+    <point x="250" y="175.0" />
+    <point x="260" y="182.0" />
+    <point x="270" y="189.0" />
+    <point x="280" y="196.0" />
+    <point x="290" y="203.0" />
+    <point x="299" y="209.3" />
+  </curve>
   <curve id="au_CWHvm_HW_BA_H_unmanaged_natural_yield_BA">
     <point x="2" y="0.0" />
     <point x="10" y="0.2" />
@@ -8859,39 +9076,39 @@
   </curve>
   <curve id="au_CWHvm_HW_BA_H_unmanaged_qmd">
     <point x="2" y="0.0" />
-    <point x="10" y="4.7" />
-    <point x="20" y="11.6" />
-    <point x="30" y="18.0" />
-    <point x="40" y="23.4" />
-    <point x="50" y="27.5" />
-    <point x="60" y="30.5" />
-    <point x="70" y="32.6" />
-    <point x="80" y="33.9" />
-    <point x="90" y="34.7" />
-    <point x="100" y="35.1" />
-    <point x="110" y="35.2" />
-    <point x="120" y="35.0" />
-    <point x="130" y="34.5" />
-    <point x="140" y="33.9" />
-    <point x="150" y="33.1" />
-    <point x="160" y="32.3" />
-    <point x="170" y="31.4" />
-    <point x="180" y="30.4" />
-    <point x="190" y="29.3" />
-    <point x="200" y="28.3" />
-    <point x="210" y="27.2" />
-    <point x="220" y="26.1" />
-    <point x="230" y="25.0" />
-    <point x="240" y="24.1" />
-    <point x="250" y="23.6" />
-    <point x="260" y="23.3" />
-    <point x="270" y="22.8" />
-    <point x="280" y="22.4" />
-    <point x="290" y="21.9" />
-    <point x="299" y="21.5" />
   </curve>
-  <curve id="au_CWHvm_HW_BA_H_unmanaged_stems_per_ha">
-    <point x="2" y="449.0" />
+  <curve id="au_CWHvm_HW_BA_L_managed_height">
+    <point x="2" y="0.6" />
+    <point x="10" y="3.0" />
+    <point x="20" y="6.0" />
+    <point x="30" y="9.0" />
+    <point x="40" y="12.0" />
+    <point x="50" y="15.0" />
+    <point x="60" y="18.0" />
+    <point x="70" y="21.0" />
+    <point x="80" y="24.0" />
+    <point x="90" y="27.0" />
+    <point x="100" y="30.0" />
+    <point x="110" y="33.0" />
+    <point x="120" y="36.0" />
+    <point x="130" y="39.0" />
+    <point x="140" y="42.0" />
+    <point x="150" y="45.0" />
+    <point x="160" y="48.0" />
+    <point x="170" y="51.0" />
+    <point x="180" y="54.0" />
+    <point x="190" y="57.0" />
+    <point x="200" y="60.0" />
+    <point x="210" y="63.0" />
+    <point x="220" y="66.0" />
+    <point x="230" y="69.0" />
+    <point x="240" y="72.0" />
+    <point x="250" y="75.0" />
+    <point x="260" y="78.0" />
+    <point x="270" y="81.0" />
+    <point x="280" y="84.0" />
+    <point x="290" y="87.0" />
+    <point x="299" y="89.7" />
   </curve>
   <curve id="au_CWHvm_HW_BA_L_managed_natural_yield_BA">
     <point x="2" y="0.0" />
@@ -9027,39 +9244,6 @@
   </curve>
   <curve id="au_CWHvm_HW_BA_L_managed_qmd">
     <point x="2" y="0.0" />
-    <point x="10" y="8.7" />
-    <point x="20" y="21.6" />
-    <point x="30" y="33.5" />
-    <point x="40" y="43.4" />
-    <point x="50" y="51.1" />
-    <point x="60" y="56.6" />
-    <point x="70" y="60.4" />
-    <point x="80" y="62.9" />
-    <point x="90" y="64.4" />
-    <point x="100" y="65.2" />
-    <point x="110" y="65.2" />
-    <point x="120" y="64.8" />
-    <point x="130" y="64.0" />
-    <point x="140" y="62.9" />
-    <point x="150" y="61.5" />
-    <point x="160" y="59.9" />
-    <point x="170" y="58.1" />
-    <point x="180" y="56.3" />
-    <point x="190" y="54.4" />
-    <point x="200" y="52.4" />
-    <point x="210" y="50.4" />
-    <point x="220" y="48.4" />
-    <point x="230" y="46.4" />
-    <point x="240" y="44.8" />
-    <point x="250" y="43.7" />
-    <point x="260" y="43.3" />
-    <point x="270" y="42.3" />
-    <point x="280" y="41.5" />
-    <point x="290" y="40.6" />
-    <point x="299" y="39.9" />
-  </curve>
-  <curve id="au_CWHvm_HW_BA_L_managed_stems_per_ha">
-    <point x="2" y="199.0" />
   </curve>
   <curve id="au_CWHvm_HW_BA_L_og1">
     <point x="110" y="0.0" />
@@ -9254,6 +9438,39 @@
     <point x="25" y="1.0" />
     <point x="26" y="0.0" />
   </curve>
+  <curve id="au_CWHvm_HW_BA_L_unmanaged_height">
+    <point x="2" y="0.6" />
+    <point x="10" y="3.0" />
+    <point x="20" y="6.0" />
+    <point x="30" y="9.0" />
+    <point x="40" y="12.0" />
+    <point x="50" y="15.0" />
+    <point x="60" y="18.0" />
+    <point x="70" y="21.0" />
+    <point x="80" y="24.0" />
+    <point x="90" y="27.0" />
+    <point x="100" y="30.0" />
+    <point x="110" y="33.0" />
+    <point x="120" y="36.0" />
+    <point x="130" y="39.0" />
+    <point x="140" y="42.0" />
+    <point x="150" y="45.0" />
+    <point x="160" y="48.0" />
+    <point x="170" y="51.0" />
+    <point x="180" y="54.0" />
+    <point x="190" y="57.0" />
+    <point x="200" y="60.0" />
+    <point x="210" y="63.0" />
+    <point x="220" y="66.0" />
+    <point x="230" y="69.0" />
+    <point x="240" y="72.0" />
+    <point x="250" y="75.0" />
+    <point x="260" y="78.0" />
+    <point x="270" y="81.0" />
+    <point x="280" y="84.0" />
+    <point x="290" y="87.0" />
+    <point x="299" y="89.7" />
+  </curve>
   <curve id="au_CWHvm_HW_BA_L_unmanaged_natural_yield_BA">
     <point x="2" y="0.0" />
     <point x="10" y="0.2" />
@@ -9388,39 +9605,44 @@
   </curve>
   <curve id="au_CWHvm_HW_BA_L_unmanaged_qmd">
     <point x="2" y="0.0" />
-    <point x="10" y="8.7" />
-    <point x="20" y="21.6" />
-    <point x="30" y="33.5" />
-    <point x="40" y="43.4" />
-    <point x="50" y="51.1" />
-    <point x="60" y="56.6" />
-    <point x="70" y="60.4" />
-    <point x="80" y="62.9" />
-    <point x="90" y="64.4" />
-    <point x="100" y="65.2" />
-    <point x="110" y="65.2" />
-    <point x="120" y="64.8" />
-    <point x="130" y="64.0" />
-    <point x="140" y="62.9" />
-    <point x="150" y="61.5" />
-    <point x="160" y="59.9" />
-    <point x="170" y="58.1" />
-    <point x="180" y="56.3" />
-    <point x="190" y="54.4" />
-    <point x="200" y="52.4" />
-    <point x="210" y="50.4" />
-    <point x="220" y="48.4" />
-    <point x="230" y="46.4" />
-    <point x="240" y="44.8" />
-    <point x="250" y="43.7" />
-    <point x="260" y="43.3" />
-    <point x="270" y="42.3" />
-    <point x="280" y="41.5" />
-    <point x="290" y="40.6" />
-    <point x="299" y="39.9" />
   </curve>
-  <curve id="au_CWHvm_HW_BA_L_unmanaged_stems_per_ha">
-    <point x="2" y="199.0" />
+  <curve id="au_CWHvm_HW_BA_M_managed_height">
+    <point x="0" y="0.0" />
+    <point x="10" y="5.0" />
+    <point x="20" y="10.0" />
+    <point x="30" y="15.0" />
+    <point x="40" y="20.0" />
+    <point x="50" y="25.0" />
+    <point x="60" y="30.0" />
+    <point x="70" y="35.0" />
+    <point x="80" y="40.0" />
+    <point x="90" y="45.0" />
+    <point x="100" y="50.0" />
+    <point x="110" y="55.0" />
+    <point x="120" y="60.0" />
+    <point x="130" y="65.0" />
+    <point x="140" y="70.0" />
+    <point x="150" y="75.0" />
+    <point x="160" y="80.0" />
+    <point x="170" y="85.0" />
+    <point x="180" y="90.0" />
+    <point x="190" y="95.0" />
+    <point x="200" y="100.0" />
+    <point x="210" y="105.0" />
+    <point x="220" y="110.0" />
+    <point x="230" y="115.0" />
+    <point x="240" y="120.0" />
+    <point x="250" y="125.0" />
+    <point x="260" y="130.0" />
+    <point x="270" y="135.0" />
+    <point x="280" y="140.0" />
+    <point x="290" y="145.0" />
+    <point x="300" y="150.0" />
+    <point x="310" y="155.0" />
+    <point x="320" y="160.0" />
+    <point x="330" y="165.0" />
+    <point x="340" y="170.0" />
+    <point x="350" y="175.0" />
   </curve>
   <curve id="au_CWHvm_HW_BA_M_managed_natural_yield_BA">
     <point x="10" y="0.0" />
@@ -9503,37 +9725,7 @@
     <point x="140" y="599.1" />
   </curve>
   <curve id="au_CWHvm_HW_BA_M_managed_qmd">
-    <point x="10" y="0.0" />
-    <point x="20" y="2.7" />
-    <point x="30" y="15.2" />
-    <point x="40" y="21.1" />
-    <point x="50" y="24.7" />
-    <point x="60" y="27.3" />
-    <point x="70" y="29.3" />
-    <point x="80" y="30.9" />
-    <point x="90" y="32.4" />
-    <point x="100" y="34.0" />
-    <point x="110" y="35.4" />
-    <point x="120" y="36.7" />
-    <point x="130" y="37.9" />
-    <point x="140" y="39.1" />
-  </curve>
-  <curve id="au_CWHvm_HW_BA_M_managed_stems_per_ha">
-    <point x="0" y="275.0" />
-    <point x="10" y="666.0" />
-    <point x="20" y="643.0" />
-    <point x="30" y="632.0" />
-    <point x="40" y="627.0" />
-    <point x="50" y="624.0" />
-    <point x="60" y="615.0" />
-    <point x="70" y="603.0" />
-    <point x="80" y="590.0" />
-    <point x="90" y="573.0" />
-    <point x="100" y="554.0" />
-    <point x="110" y="534.0" />
-    <point x="120" y="518.0" />
-    <point x="130" y="503.0" />
-    <point x="140" y="487.0" />
+    <point x="0" y="0.0" />
   </curve>
   <curve id="au_CWHvm_HW_BA_M_og1">
     <point x="110" y="0.0" />
@@ -9697,6 +9889,39 @@
     <point x="24" y="1.0" />
     <point x="25" y="1.0" />
     <point x="26" y="0.0" />
+  </curve>
+  <curve id="au_CWHvm_HW_BA_M_unmanaged_height">
+    <point x="1" y="0.5" />
+    <point x="10" y="5.0" />
+    <point x="20" y="10.0" />
+    <point x="30" y="15.0" />
+    <point x="40" y="20.0" />
+    <point x="50" y="25.0" />
+    <point x="60" y="30.0" />
+    <point x="70" y="35.0" />
+    <point x="80" y="40.0" />
+    <point x="90" y="45.0" />
+    <point x="100" y="50.0" />
+    <point x="110" y="55.0" />
+    <point x="120" y="60.0" />
+    <point x="130" y="65.0" />
+    <point x="140" y="70.0" />
+    <point x="150" y="75.0" />
+    <point x="160" y="80.0" />
+    <point x="170" y="85.0" />
+    <point x="180" y="90.0" />
+    <point x="190" y="95.0" />
+    <point x="200" y="100.0" />
+    <point x="210" y="105.0" />
+    <point x="220" y="110.0" />
+    <point x="230" y="115.0" />
+    <point x="240" y="120.0" />
+    <point x="250" y="125.0" />
+    <point x="260" y="130.0" />
+    <point x="270" y="135.0" />
+    <point x="280" y="140.0" />
+    <point x="290" y="145.0" />
+    <point x="299" y="149.5" />
   </curve>
   <curve id="au_CWHvm_HW_BA_M_unmanaged_natural_yield_BA">
     <point x="1" y="0.0" />
@@ -9865,39 +10090,44 @@
   </curve>
   <curve id="au_CWHvm_HW_BA_M_unmanaged_qmd">
     <point x="1" y="0.0" />
-    <point x="10" y="6.5" />
-    <point x="20" y="16.1" />
-    <point x="30" y="25.0" />
-    <point x="40" y="32.5" />
-    <point x="50" y="38.2" />
-    <point x="60" y="42.3" />
-    <point x="70" y="45.2" />
-    <point x="80" y="47.1" />
-    <point x="90" y="48.2" />
-    <point x="100" y="48.8" />
-    <point x="110" y="48.8" />
-    <point x="120" y="48.5" />
-    <point x="130" y="47.9" />
-    <point x="140" y="47.0" />
-    <point x="150" y="46.0" />
-    <point x="160" y="44.8" />
-    <point x="170" y="43.5" />
-    <point x="180" y="42.1" />
-    <point x="190" y="40.7" />
-    <point x="200" y="39.2" />
-    <point x="210" y="37.7" />
-    <point x="220" y="36.2" />
-    <point x="230" y="34.8" />
-    <point x="240" y="33.5" />
-    <point x="250" y="32.7" />
-    <point x="260" y="32.4" />
-    <point x="270" y="31.7" />
-    <point x="280" y="31.0" />
-    <point x="290" y="30.4" />
-    <point x="299" y="29.8" />
   </curve>
-  <curve id="au_CWHvm_HW_BA_M_unmanaged_stems_per_ha">
-    <point x="1" y="275.0" />
+  <curve id="au_CWHvm_HW_CW_H_managed_height">
+    <point x="0" y="0.0" />
+    <point x="10" y="7.0" />
+    <point x="20" y="14.0" />
+    <point x="30" y="21.0" />
+    <point x="40" y="28.0" />
+    <point x="50" y="35.0" />
+    <point x="60" y="42.0" />
+    <point x="70" y="49.0" />
+    <point x="80" y="56.0" />
+    <point x="90" y="63.0" />
+    <point x="100" y="70.0" />
+    <point x="110" y="77.0" />
+    <point x="120" y="84.0" />
+    <point x="130" y="91.0" />
+    <point x="140" y="98.0" />
+    <point x="150" y="105.0" />
+    <point x="160" y="112.0" />
+    <point x="170" y="119.0" />
+    <point x="180" y="126.0" />
+    <point x="190" y="133.0" />
+    <point x="200" y="140.0" />
+    <point x="210" y="147.0" />
+    <point x="220" y="154.0" />
+    <point x="230" y="161.0" />
+    <point x="240" y="168.0" />
+    <point x="250" y="175.0" />
+    <point x="260" y="182.0" />
+    <point x="270" y="189.0" />
+    <point x="280" y="196.0" />
+    <point x="290" y="203.0" />
+    <point x="300" y="210.0" />
+    <point x="310" y="217.0" />
+    <point x="320" y="224.0" />
+    <point x="330" y="231.0" />
+    <point x="340" y="238.0" />
+    <point x="350" y="245.0" />
   </curve>
   <curve id="au_CWHvm_HW_CW_H_managed_natural_yield_CW">
     <point x="10" y="0.0" />
@@ -9975,35 +10205,7 @@
     <point x="130" y="650.0" />
   </curve>
   <curve id="au_CWHvm_HW_CW_H_managed_qmd">
-    <point x="10" y="0.0" />
-    <point x="20" y="5.1" />
-    <point x="30" y="16.7" />
-    <point x="40" y="22.3" />
-    <point x="50" y="25.6" />
-    <point x="60" y="28.3" />
-    <point x="70" y="30.2" />
-    <point x="80" y="31.9" />
-    <point x="90" y="33.6" />
-    <point x="100" y="35.3" />
-    <point x="110" y="36.8" />
-    <point x="120" y="38.3" />
-    <point x="130" y="39.7" />
-  </curve>
-  <curve id="au_CWHvm_HW_CW_H_managed_stems_per_ha">
-    <point x="0" y="275.0" />
-    <point x="10" y="699.0" />
-    <point x="20" y="675.0" />
-    <point x="30" y="664.0" />
-    <point x="40" y="660.0" />
-    <point x="50" y="655.0" />
-    <point x="60" y="643.0" />
-    <point x="70" y="630.0" />
-    <point x="80" y="612.0" />
-    <point x="90" y="590.0" />
-    <point x="100" y="566.0" />
-    <point x="110" y="547.0" />
-    <point x="120" y="528.0" />
-    <point x="130" y="509.0" />
+    <point x="0" y="0.0" />
   </curve>
   <curve id="au_CWHvm_HW_CW_H_og1">
     <point x="120" y="0.0" />
@@ -10157,6 +10359,39 @@
     <point x="24" y="1.0" />
     <point x="25" y="1.0" />
     <point x="26" y="0.0" />
+  </curve>
+  <curve id="au_CWHvm_HW_CW_H_unmanaged_height">
+    <point x="1" y="0.7" />
+    <point x="10" y="7.0" />
+    <point x="20" y="14.0" />
+    <point x="30" y="21.0" />
+    <point x="40" y="28.0" />
+    <point x="50" y="35.0" />
+    <point x="60" y="42.0" />
+    <point x="70" y="49.0" />
+    <point x="80" y="56.0" />
+    <point x="90" y="63.0" />
+    <point x="100" y="70.0" />
+    <point x="110" y="77.0" />
+    <point x="120" y="84.0" />
+    <point x="130" y="91.0" />
+    <point x="140" y="98.0" />
+    <point x="150" y="105.0" />
+    <point x="160" y="112.0" />
+    <point x="170" y="119.0" />
+    <point x="180" y="126.0" />
+    <point x="190" y="133.0" />
+    <point x="200" y="140.0" />
+    <point x="210" y="147.0" />
+    <point x="220" y="154.0" />
+    <point x="230" y="161.0" />
+    <point x="240" y="168.0" />
+    <point x="250" y="175.0" />
+    <point x="260" y="182.0" />
+    <point x="270" y="189.0" />
+    <point x="280" y="196.0" />
+    <point x="290" y="203.0" />
+    <point x="299" y="209.3" />
   </curve>
   <curve id="au_CWHvm_HW_CW_H_unmanaged_natural_yield_CW">
     <point x="10" y="0.0" />
@@ -10323,39 +10558,44 @@
   </curve>
   <curve id="au_CWHvm_HW_CW_H_unmanaged_qmd">
     <point x="1" y="0.0" />
-    <point x="10" y="2.5" />
-    <point x="20" y="8.2" />
-    <point x="30" y="14.8" />
-    <point x="40" y="21.1" />
-    <point x="50" y="26.5" />
-    <point x="60" y="30.8" />
-    <point x="70" y="33.9" />
-    <point x="80" y="36.2" />
-    <point x="90" y="37.8" />
-    <point x="100" y="38.8" />
-    <point x="110" y="39.4" />
-    <point x="120" y="39.6" />
-    <point x="130" y="39.6" />
-    <point x="140" y="39.3" />
-    <point x="150" y="38.8" />
-    <point x="160" y="38.2" />
-    <point x="170" y="37.4" />
-    <point x="180" y="36.6" />
-    <point x="190" y="35.7" />
-    <point x="200" y="34.7" />
-    <point x="210" y="33.7" />
-    <point x="220" y="32.8" />
-    <point x="230" y="32.0" />
-    <point x="240" y="31.2" />
-    <point x="250" y="30.5" />
-    <point x="260" y="29.8" />
-    <point x="270" y="29.1" />
-    <point x="280" y="28.5" />
-    <point x="290" y="27.9" />
-    <point x="299" y="27.4" />
   </curve>
-  <curve id="au_CWHvm_HW_CW_H_unmanaged_stems_per_ha">
-    <point x="1" y="275.0" />
+  <curve id="au_CWHvm_HW_CW_L_managed_height">
+    <point x="0" y="0.0" />
+    <point x="10" y="3.0" />
+    <point x="20" y="6.0" />
+    <point x="30" y="9.0" />
+    <point x="40" y="12.0" />
+    <point x="50" y="15.0" />
+    <point x="60" y="18.0" />
+    <point x="70" y="21.0" />
+    <point x="80" y="24.0" />
+    <point x="90" y="27.0" />
+    <point x="100" y="30.0" />
+    <point x="110" y="33.0" />
+    <point x="120" y="36.0" />
+    <point x="130" y="39.0" />
+    <point x="140" y="42.0" />
+    <point x="150" y="45.0" />
+    <point x="160" y="48.0" />
+    <point x="170" y="51.0" />
+    <point x="180" y="54.0" />
+    <point x="190" y="57.0" />
+    <point x="200" y="60.0" />
+    <point x="210" y="63.0" />
+    <point x="220" y="66.0" />
+    <point x="230" y="69.0" />
+    <point x="240" y="72.0" />
+    <point x="250" y="75.0" />
+    <point x="260" y="78.0" />
+    <point x="270" y="81.0" />
+    <point x="280" y="84.0" />
+    <point x="290" y="87.0" />
+    <point x="300" y="90.0" />
+    <point x="310" y="93.0" />
+    <point x="320" y="96.0" />
+    <point x="330" y="99.0" />
+    <point x="340" y="102.0" />
+    <point x="350" y="105.0" />
   </curve>
   <curve id="au_CWHvm_HW_CW_L_managed_natural_yield_CW">
     <point x="20" y="0.0" />
@@ -10508,66 +10748,7 @@
     <point x="290" y="483.2" />
   </curve>
   <curve id="au_CWHvm_HW_CW_L_managed_qmd">
-    <point x="20" y="0.0" />
-    <point x="30" y="3.0" />
-    <point x="40" y="11.3" />
-    <point x="50" y="16.9" />
-    <point x="60" y="20.3" />
-    <point x="70" y="22.7" />
-    <point x="80" y="24.5" />
-    <point x="90" y="25.9" />
-    <point x="100" y="27.2" />
-    <point x="110" y="28.3" />
-    <point x="120" y="29.3" />
-    <point x="130" y="30.0" />
-    <point x="140" y="30.6" />
-    <point x="150" y="31.3" />
-    <point x="160" y="32.0" />
-    <point x="170" y="32.6" />
-    <point x="180" y="33.1" />
-    <point x="190" y="33.6" />
-    <point x="200" y="34.0" />
-    <point x="210" y="34.5" />
-    <point x="220" y="35.0" />
-    <point x="230" y="35.4" />
-    <point x="240" y="35.8" />
-    <point x="250" y="36.1" />
-    <point x="260" y="36.5" />
-    <point x="270" y="36.8" />
-    <point x="280" y="37.1" />
-    <point x="290" y="37.3" />
-  </curve>
-  <curve id="au_CWHvm_HW_CW_L_managed_stems_per_ha">
-    <point x="0" y="300.0" />
-    <point x="10" y="645.0" />
-    <point x="20" y="628.0" />
-    <point x="30" y="614.0" />
-    <point x="40" y="605.0" />
-    <point x="50" y="600.0" />
-    <point x="60" y="597.0" />
-    <point x="70" y="593.0" />
-    <point x="80" y="590.0" />
-    <point x="90" y="585.0" />
-    <point x="100" y="579.0" />
-    <point x="110" y="572.0" />
-    <point x="120" y="565.0" />
-    <point x="130" y="559.0" />
-    <point x="140" y="552.0" />
-    <point x="150" y="544.0" />
-    <point x="160" y="536.0" />
-    <point x="170" y="528.0" />
-    <point x="180" y="520.0" />
-    <point x="190" y="513.0" />
-    <point x="200" y="505.0" />
-    <point x="210" y="497.0" />
-    <point x="220" y="489.0" />
-    <point x="230" y="482.0" />
-    <point x="240" y="475.0" />
-    <point x="250" y="469.0" />
-    <point x="260" y="463.0" />
-    <point x="270" y="457.0" />
-    <point x="280" y="452.0" />
-    <point x="290" y="447.0" />
+    <point x="0" y="0.0" />
   </curve>
   <curve id="au_CWHvm_HW_CW_L_og1">
     <point x="140" y="0.0" />
@@ -10792,6 +10973,39 @@
     <point x="25" y="1.0" />
     <point x="26" y="0.0" />
   </curve>
+  <curve id="au_CWHvm_HW_CW_L_unmanaged_height">
+    <point x="1" y="0.3" />
+    <point x="10" y="3.0" />
+    <point x="20" y="6.0" />
+    <point x="30" y="9.0" />
+    <point x="40" y="12.0" />
+    <point x="50" y="15.0" />
+    <point x="60" y="18.0" />
+    <point x="70" y="21.0" />
+    <point x="80" y="24.0" />
+    <point x="90" y="27.0" />
+    <point x="100" y="30.0" />
+    <point x="110" y="33.0" />
+    <point x="120" y="36.0" />
+    <point x="130" y="39.0" />
+    <point x="140" y="42.0" />
+    <point x="150" y="45.0" />
+    <point x="160" y="48.0" />
+    <point x="170" y="51.0" />
+    <point x="180" y="54.0" />
+    <point x="190" y="57.0" />
+    <point x="200" y="60.0" />
+    <point x="210" y="63.0" />
+    <point x="220" y="66.0" />
+    <point x="230" y="69.0" />
+    <point x="240" y="72.0" />
+    <point x="250" y="75.0" />
+    <point x="260" y="78.0" />
+    <point x="270" y="81.0" />
+    <point x="280" y="84.0" />
+    <point x="290" y="87.0" />
+    <point x="299" y="89.7" />
+  </curve>
   <curve id="au_CWHvm_HW_CW_L_unmanaged_natural_yield_CW">
     <point x="20" y="0.0" />
     <point x="30" y="0.3" />
@@ -10950,39 +11164,45 @@
     <point x="299" y="366.5" />
   </curve>
   <curve id="au_CWHvm_HW_CW_L_unmanaged_qmd">
-    <point x="10" y="0.0" />
-    <point x="20" y="0.9" />
-    <point x="30" y="4.2" />
-    <point x="40" y="9.1" />
-    <point x="50" y="14.6" />
-    <point x="60" y="19.9" />
-    <point x="70" y="24.6" />
-    <point x="80" y="28.2" />
-    <point x="90" y="30.9" />
-    <point x="100" y="32.8" />
-    <point x="110" y="34.1" />
-    <point x="120" y="34.9" />
-    <point x="130" y="35.3" />
-    <point x="140" y="35.4" />
-    <point x="150" y="35.3" />
-    <point x="160" y="34.9" />
-    <point x="170" y="34.4" />
-    <point x="180" y="33.7" />
-    <point x="190" y="33.0" />
-    <point x="200" y="32.2" />
-    <point x="210" y="31.3" />
-    <point x="220" y="30.3" />
-    <point x="230" y="29.4" />
-    <point x="240" y="28.4" />
-    <point x="250" y="27.5" />
-    <point x="260" y="26.9" />
-    <point x="270" y="26.5" />
-    <point x="280" y="25.9" />
-    <point x="290" y="25.4" />
-    <point x="299" y="24.9" />
+    <point x="1" y="0.0" />
   </curve>
-  <curve id="au_CWHvm_HW_CW_L_unmanaged_stems_per_ha">
-    <point x="1" y="300.0" />
+  <curve id="au_CWHvm_HW_CW_M_managed_height">
+    <point x="0" y="0.0" />
+    <point x="10" y="5.0" />
+    <point x="20" y="10.0" />
+    <point x="30" y="15.0" />
+    <point x="40" y="20.0" />
+    <point x="50" y="25.0" />
+    <point x="60" y="30.0" />
+    <point x="70" y="35.0" />
+    <point x="80" y="40.0" />
+    <point x="90" y="45.0" />
+    <point x="100" y="50.0" />
+    <point x="110" y="55.0" />
+    <point x="120" y="60.0" />
+    <point x="130" y="65.0" />
+    <point x="140" y="70.0" />
+    <point x="150" y="75.0" />
+    <point x="160" y="80.0" />
+    <point x="170" y="85.0" />
+    <point x="180" y="90.0" />
+    <point x="190" y="95.0" />
+    <point x="200" y="100.0" />
+    <point x="210" y="105.0" />
+    <point x="220" y="110.0" />
+    <point x="230" y="115.0" />
+    <point x="240" y="120.0" />
+    <point x="250" y="125.0" />
+    <point x="260" y="130.0" />
+    <point x="270" y="135.0" />
+    <point x="280" y="140.0" />
+    <point x="290" y="145.0" />
+    <point x="300" y="150.0" />
+    <point x="310" y="155.0" />
+    <point x="320" y="160.0" />
+    <point x="330" y="165.0" />
+    <point x="340" y="170.0" />
+    <point x="350" y="175.0" />
   </curve>
   <curve id="au_CWHvm_HW_CW_M_managed_natural_yield_CW">
     <point x="20" y="0.0" />
@@ -11102,53 +11322,7 @@
     <point x="220" y="674.3" />
   </curve>
   <curve id="au_CWHvm_HW_CW_M_managed_qmd">
-    <point x="10" y="0.0" />
-    <point x="20" y="0.9" />
-    <point x="30" y="10.2" />
-    <point x="40" y="17.6" />
-    <point x="50" y="21.7" />
-    <point x="60" y="24.5" />
-    <point x="70" y="26.5" />
-    <point x="80" y="28.3" />
-    <point x="90" y="29.7" />
-    <point x="100" y="30.7" />
-    <point x="110" y="31.8" />
-    <point x="120" y="32.9" />
-    <point x="130" y="33.9" />
-    <point x="140" y="34.8" />
-    <point x="150" y="35.7" />
-    <point x="160" y="36.5" />
-    <point x="170" y="37.2" />
-    <point x="180" y="37.9" />
-    <point x="190" y="38.6" />
-    <point x="200" y="39.3" />
-    <point x="210" y="39.9" />
-    <point x="220" y="40.4" />
-  </curve>
-  <curve id="au_CWHvm_HW_CW_M_managed_stems_per_ha">
-    <point x="0" y="350.0" />
-    <point x="10" y="739.0" />
-    <point x="20" y="716.0" />
-    <point x="30" y="701.0" />
-    <point x="40" y="694.0" />
-    <point x="50" y="690.0" />
-    <point x="60" y="686.0" />
-    <point x="70" y="679.0" />
-    <point x="80" y="669.0" />
-    <point x="90" y="658.0" />
-    <point x="100" y="647.0" />
-    <point x="110" y="634.0" />
-    <point x="120" y="620.0" />
-    <point x="130" y="605.0" />
-    <point x="140" y="589.0" />
-    <point x="150" y="575.0" />
-    <point x="160" y="563.0" />
-    <point x="170" y="552.0" />
-    <point x="180" y="542.0" />
-    <point x="190" y="530.0" />
-    <point x="200" y="519.0" />
-    <point x="210" y="509.0" />
-    <point x="220" y="500.0" />
+    <point x="0" y="0.0" />
   </curve>
   <curve id="au_CWHvm_HW_CW_M_og1">
     <point x="130" y="0.0" />
@@ -11373,6 +11547,39 @@
     <point x="25" y="1.0" />
     <point x="26" y="0.0" />
   </curve>
+  <curve id="au_CWHvm_HW_CW_M_unmanaged_height">
+    <point x="1" y="0.5" />
+    <point x="10" y="5.0" />
+    <point x="20" y="10.0" />
+    <point x="30" y="15.0" />
+    <point x="40" y="20.0" />
+    <point x="50" y="25.0" />
+    <point x="60" y="30.0" />
+    <point x="70" y="35.0" />
+    <point x="80" y="40.0" />
+    <point x="90" y="45.0" />
+    <point x="100" y="50.0" />
+    <point x="110" y="55.0" />
+    <point x="120" y="60.0" />
+    <point x="130" y="65.0" />
+    <point x="140" y="70.0" />
+    <point x="150" y="75.0" />
+    <point x="160" y="80.0" />
+    <point x="170" y="85.0" />
+    <point x="180" y="90.0" />
+    <point x="190" y="95.0" />
+    <point x="200" y="100.0" />
+    <point x="210" y="105.0" />
+    <point x="220" y="110.0" />
+    <point x="230" y="115.0" />
+    <point x="240" y="120.0" />
+    <point x="250" y="125.0" />
+    <point x="260" y="130.0" />
+    <point x="270" y="135.0" />
+    <point x="280" y="140.0" />
+    <point x="290" y="145.0" />
+    <point x="299" y="149.5" />
+  </curve>
   <curve id="au_CWHvm_HW_CW_M_unmanaged_natural_yield_CW">
     <point x="10" y="0.0" />
     <point x="20" y="0.4" />
@@ -11537,39 +11744,6 @@
   </curve>
   <curve id="au_CWHvm_HW_CW_M_unmanaged_qmd">
     <point x="1" y="0.0" />
-    <point x="10" y="1.1" />
-    <point x="20" y="5.3" />
-    <point x="30" y="10.6" />
-    <point x="40" y="16.0" />
-    <point x="50" y="20.9" />
-    <point x="60" y="24.9" />
-    <point x="70" y="27.9" />
-    <point x="80" y="30.1" />
-    <point x="90" y="31.6" />
-    <point x="100" y="32.7" />
-    <point x="110" y="33.3" />
-    <point x="120" y="33.6" />
-    <point x="130" y="33.7" />
-    <point x="140" y="33.5" />
-    <point x="150" y="33.2" />
-    <point x="160" y="32.7" />
-    <point x="170" y="32.1" />
-    <point x="180" y="31.4" />
-    <point x="190" y="30.7" />
-    <point x="200" y="29.9" />
-    <point x="210" y="29.1" />
-    <point x="220" y="28.3" />
-    <point x="230" y="27.7" />
-    <point x="240" y="27.0" />
-    <point x="250" y="26.4" />
-    <point x="260" y="25.8" />
-    <point x="270" y="25.3" />
-    <point x="280" y="24.8" />
-    <point x="290" y="24.3" />
-    <point x="299" y="23.9" />
-  </curve>
-  <curve id="au_CWHvm_HW_CW_M_unmanaged_stems_per_ha">
-    <point x="1" y="350.0" />
   </curve>
   <curve id="au_CWHvm_HW_FDC_H_managed_cc_pl_pct_species_prop_CW">
     <point x="1" y="0.4" />
@@ -11579,18 +11753,6 @@
   </curve>
   <curve id="au_CWHvm_HW_FDC_H_managed_cc_pl_pct_species_prop_HW">
     <point x="1" y="0.4" />
-  </curve>
-  <curve id="au_CWHvm_HW_FDC_H_managed_cc_pl_pct_stems_per_ha">
-    <point x="0" y="500.0" />
-    <point x="10" y="425.0" />
-    <point x="20" y="410.5" />
-    <point x="30" y="406.5" />
-    <point x="40" y="403.0" />
-    <point x="50" y="393.0" />
-    <point x="60" y="379.0" />
-    <point x="70" y="358.0" />
-    <point x="80" y="339.0" />
-    <point x="90" y="319.0" />
   </curve>
   <curve id="au_CWHvm_HW_FDC_H_managed_cc_pl_pct_yield_CW">
     <point x="10" y="0.0" />
@@ -11624,6 +11786,44 @@
     <point x="70" y="347.8" />
     <point x="80" y="405.4" />
     <point x="90" y="461.4" />
+  </curve>
+  <curve id="au_CWHvm_HW_FDC_H_managed_height">
+    <point x="0" y="0.0" />
+    <point x="10" y="7.0" />
+    <point x="20" y="14.0" />
+    <point x="30" y="21.0" />
+    <point x="40" y="28.0" />
+    <point x="50" y="35.0" />
+    <point x="60" y="42.0" />
+    <point x="70" y="49.0" />
+    <point x="80" y="56.0" />
+    <point x="90" y="63.0" />
+    <point x="100" y="70.0" />
+    <point x="110" y="77.0" />
+    <point x="120" y="84.0" />
+    <point x="130" y="91.0" />
+    <point x="140" y="98.0" />
+    <point x="150" y="105.0" />
+    <point x="160" y="112.0" />
+    <point x="170" y="119.0" />
+    <point x="180" y="126.0" />
+    <point x="190" y="133.0" />
+    <point x="200" y="140.0" />
+    <point x="210" y="147.0" />
+    <point x="220" y="154.0" />
+    <point x="230" y="161.0" />
+    <point x="240" y="168.0" />
+    <point x="250" y="175.0" />
+    <point x="260" y="182.0" />
+    <point x="270" y="189.0" />
+    <point x="280" y="196.0" />
+    <point x="290" y="203.0" />
+    <point x="300" y="210.0" />
+    <point x="310" y="217.0" />
+    <point x="320" y="224.0" />
+    <point x="330" y="231.0" />
+    <point x="340" y="238.0" />
+    <point x="350" y="245.0" />
   </curve>
   <curve id="au_CWHvm_HW_FDC_H_managed_natural_yield_FDC">
     <point x="10" y="0.0" />
@@ -11681,27 +11881,7 @@
     <point x="90" y="807.4" />
   </curve>
   <curve id="au_CWHvm_HW_FDC_H_managed_qmd">
-    <point x="10" y="0.0" />
-    <point x="20" y="11.6" />
-    <point x="30" y="21.3" />
-    <point x="40" y="25.9" />
-    <point x="50" y="29.3" />
-    <point x="60" y="31.8" />
-    <point x="70" y="34.5" />
-    <point x="80" y="37.0" />
-    <point x="90" y="39.6" />
-  </curve>
-  <curve id="au_CWHvm_HW_FDC_H_managed_stems_per_ha">
-    <point x="0" y="500.0" />
-    <point x="10" y="850.0" />
-    <point x="20" y="821.0" />
-    <point x="30" y="813.0" />
-    <point x="40" y="806.0" />
-    <point x="50" y="786.0" />
-    <point x="60" y="758.0" />
-    <point x="70" y="716.0" />
-    <point x="80" y="678.0" />
-    <point x="90" y="638.0" />
+    <point x="0" y="0.0" />
   </curve>
   <curve id="au_CWHvm_HW_FDC_H_og1">
     <point x="100" y="0.0" />
@@ -11816,6 +11996,39 @@
     <point x="24" y="1.0" />
     <point x="25" y="1.0" />
     <point x="26" y="0.0" />
+  </curve>
+  <curve id="au_CWHvm_HW_FDC_H_unmanaged_height">
+    <point x="1" y="0.7" />
+    <point x="10" y="7.0" />
+    <point x="20" y="14.0" />
+    <point x="30" y="21.0" />
+    <point x="40" y="28.0" />
+    <point x="50" y="35.0" />
+    <point x="60" y="42.0" />
+    <point x="70" y="49.0" />
+    <point x="80" y="56.0" />
+    <point x="90" y="63.0" />
+    <point x="100" y="70.0" />
+    <point x="110" y="77.0" />
+    <point x="120" y="84.0" />
+    <point x="130" y="91.0" />
+    <point x="140" y="98.0" />
+    <point x="150" y="105.0" />
+    <point x="160" y="112.0" />
+    <point x="170" y="119.0" />
+    <point x="180" y="126.0" />
+    <point x="190" y="133.0" />
+    <point x="200" y="140.0" />
+    <point x="210" y="147.0" />
+    <point x="220" y="154.0" />
+    <point x="230" y="161.0" />
+    <point x="240" y="168.0" />
+    <point x="250" y="175.0" />
+    <point x="260" y="182.0" />
+    <point x="270" y="189.0" />
+    <point x="280" y="196.0" />
+    <point x="290" y="203.0" />
+    <point x="299" y="209.3" />
   </curve>
   <curve id="au_CWHvm_HW_FDC_H_unmanaged_natural_yield_FDC">
     <point x="1" y="0.0" />
@@ -11984,39 +12197,44 @@
   </curve>
   <curve id="au_CWHvm_HW_FDC_H_unmanaged_qmd">
     <point x="1" y="0.0" />
-    <point x="10" y="13.9" />
-    <point x="20" y="20.4" />
-    <point x="30" y="24.7" />
-    <point x="40" y="27.7" />
-    <point x="50" y="29.8" />
-    <point x="60" y="31.3" />
-    <point x="70" y="32.3" />
-    <point x="80" y="32.9" />
-    <point x="90" y="33.2" />
-    <point x="100" y="33.2" />
-    <point x="110" y="33.1" />
-    <point x="120" y="32.8" />
-    <point x="130" y="32.3" />
-    <point x="140" y="31.8" />
-    <point x="150" y="31.1" />
-    <point x="160" y="30.4" />
-    <point x="170" y="29.6" />
-    <point x="180" y="28.8" />
-    <point x="190" y="28.0" />
-    <point x="200" y="27.1" />
-    <point x="210" y="26.4" />
-    <point x="220" y="25.7" />
-    <point x="230" y="25.1" />
-    <point x="240" y="24.5" />
-    <point x="250" y="23.9" />
-    <point x="260" y="23.4" />
-    <point x="270" y="22.9" />
-    <point x="280" y="22.4" />
-    <point x="290" y="21.9" />
-    <point x="299" y="21.5" />
   </curve>
-  <curve id="au_CWHvm_HW_FDC_H_unmanaged_stems_per_ha">
-    <point x="1" y="500.0" />
+  <curve id="au_CWHvm_HW_FDC_L_managed_height">
+    <point x="0" y="0.0" />
+    <point x="10" y="3.0" />
+    <point x="20" y="6.0" />
+    <point x="30" y="9.0" />
+    <point x="40" y="12.0" />
+    <point x="50" y="15.0" />
+    <point x="60" y="18.0" />
+    <point x="70" y="21.0" />
+    <point x="80" y="24.0" />
+    <point x="90" y="27.0" />
+    <point x="100" y="30.0" />
+    <point x="110" y="33.0" />
+    <point x="120" y="36.0" />
+    <point x="130" y="39.0" />
+    <point x="140" y="42.0" />
+    <point x="150" y="45.0" />
+    <point x="160" y="48.0" />
+    <point x="170" y="51.0" />
+    <point x="180" y="54.0" />
+    <point x="190" y="57.0" />
+    <point x="200" y="60.0" />
+    <point x="210" y="63.0" />
+    <point x="220" y="66.0" />
+    <point x="230" y="69.0" />
+    <point x="240" y="72.0" />
+    <point x="250" y="75.0" />
+    <point x="260" y="78.0" />
+    <point x="270" y="81.0" />
+    <point x="280" y="84.0" />
+    <point x="290" y="87.0" />
+    <point x="300" y="90.0" />
+    <point x="310" y="93.0" />
+    <point x="320" y="96.0" />
+    <point x="330" y="99.0" />
+    <point x="340" y="102.0" />
+    <point x="350" y="105.0" />
   </curve>
   <curve id="au_CWHvm_HW_FDC_L_managed_natural_yield_FDC">
     <point x="10" y="0.0" />
@@ -12099,37 +12317,7 @@
     <point x="140" y="717.4" />
   </curve>
   <curve id="au_CWHvm_HW_FDC_L_managed_qmd">
-    <point x="10" y="0.0" />
-    <point x="20" y="2.7" />
-    <point x="30" y="15.2" />
-    <point x="40" y="21.1" />
-    <point x="50" y="24.7" />
-    <point x="60" y="27.3" />
-    <point x="70" y="29.3" />
-    <point x="80" y="30.9" />
-    <point x="90" y="32.4" />
-    <point x="100" y="33.9" />
-    <point x="110" y="35.4" />
-    <point x="120" y="36.7" />
-    <point x="130" y="37.9" />
-    <point x="140" y="39.1" />
-  </curve>
-  <curve id="au_CWHvm_HW_FDC_L_managed_stems_per_ha">
-    <point x="0" y="449.5" />
-    <point x="10" y="797.0" />
-    <point x="20" y="769.0" />
-    <point x="30" y="756.0" />
-    <point x="40" y="751.0" />
-    <point x="50" y="747.0" />
-    <point x="60" y="736.0" />
-    <point x="70" y="722.0" />
-    <point x="80" y="706.0" />
-    <point x="90" y="686.0" />
-    <point x="100" y="664.0" />
-    <point x="110" y="639.0" />
-    <point x="120" y="621.0" />
-    <point x="130" y="602.0" />
-    <point x="140" y="583.0" />
+    <point x="0" y="0.0" />
   </curve>
   <curve id="au_CWHvm_HW_FDC_L_og1">
     <point x="100" y="0.0" />
@@ -12293,6 +12481,39 @@
     <point x="24" y="1.0" />
     <point x="25" y="1.0" />
     <point x="26" y="0.0" />
+  </curve>
+  <curve id="au_CWHvm_HW_FDC_L_unmanaged_height">
+    <point x="1" y="0.3" />
+    <point x="10" y="3.0" />
+    <point x="20" y="6.0" />
+    <point x="30" y="9.0" />
+    <point x="40" y="12.0" />
+    <point x="50" y="15.0" />
+    <point x="60" y="18.0" />
+    <point x="70" y="21.0" />
+    <point x="80" y="24.0" />
+    <point x="90" y="27.0" />
+    <point x="100" y="30.0" />
+    <point x="110" y="33.0" />
+    <point x="120" y="36.0" />
+    <point x="130" y="39.0" />
+    <point x="140" y="42.0" />
+    <point x="150" y="45.0" />
+    <point x="160" y="48.0" />
+    <point x="170" y="51.0" />
+    <point x="180" y="54.0" />
+    <point x="190" y="57.0" />
+    <point x="200" y="60.0" />
+    <point x="210" y="63.0" />
+    <point x="220" y="66.0" />
+    <point x="230" y="69.0" />
+    <point x="240" y="72.0" />
+    <point x="250" y="75.0" />
+    <point x="260" y="78.0" />
+    <point x="270" y="81.0" />
+    <point x="280" y="84.0" />
+    <point x="290" y="87.0" />
+    <point x="299" y="89.7" />
   </curve>
   <curve id="au_CWHvm_HW_FDC_L_unmanaged_natural_yield_FDC">
     <point x="1" y="0.0" />
@@ -12461,49 +12682,12 @@
   </curve>
   <curve id="au_CWHvm_HW_FDC_L_unmanaged_qmd">
     <point x="1" y="0.0" />
-    <point x="10" y="14.9" />
-    <point x="20" y="21.5" />
-    <point x="30" y="25.7" />
-    <point x="40" y="28.6" />
-    <point x="50" y="30.6" />
-    <point x="60" y="32.0" />
-    <point x="70" y="32.9" />
-    <point x="80" y="33.5" />
-    <point x="90" y="33.8" />
-    <point x="100" y="33.8" />
-    <point x="110" y="33.7" />
-    <point x="120" y="33.3" />
-    <point x="130" y="32.9" />
-    <point x="140" y="32.4" />
-    <point x="150" y="31.7" />
-    <point x="160" y="31.0" />
-    <point x="170" y="30.3" />
-    <point x="180" y="29.5" />
-    <point x="190" y="28.7" />
-    <point x="200" y="27.8" />
-    <point x="210" y="27.1" />
-    <point x="220" y="26.4" />
-    <point x="230" y="25.7" />
-    <point x="240" y="25.1" />
-    <point x="250" y="24.5" />
-    <point x="260" y="24.0" />
-    <point x="270" y="23.5" />
-    <point x="280" y="23.0" />
-    <point x="290" y="22.5" />
-    <point x="299" y="22.1" />
-  </curve>
-  <curve id="au_CWHvm_HW_FDC_L_unmanaged_stems_per_ha">
-    <point x="1" y="449.5" />
   </curve>
   <curve id="au_CWHvm_HW_FDC_M_managed_cc_pl_pct_species_prop_FDC">
     <point x="1" y="0.5" />
   </curve>
   <curve id="au_CWHvm_HW_FDC_M_managed_cc_pl_pct_species_prop_HW">
     <point x="1" y="0.5" />
-  </curve>
-  <curve id="au_CWHvm_HW_FDC_M_managed_cc_pl_pct_stems_per_ha">
-    <point x="1" y="649.0" />
-    <point x="10" y="324.5" />
   </curve>
   <curve id="au_CWHvm_HW_FDC_M_managed_cc_pl_pct_yield_FDC">
     <point x="1" y="0.0" />
@@ -12570,6 +12754,39 @@
     <point x="280" y="691.3" />
     <point x="290" y="687.3" />
     <point x="299" y="683.7" />
+  </curve>
+  <curve id="au_CWHvm_HW_FDC_M_managed_height">
+    <point x="1" y="0.5" />
+    <point x="10" y="5.0" />
+    <point x="20" y="10.0" />
+    <point x="30" y="15.0" />
+    <point x="40" y="20.0" />
+    <point x="50" y="25.0" />
+    <point x="60" y="30.0" />
+    <point x="70" y="35.0" />
+    <point x="80" y="40.0" />
+    <point x="90" y="45.0" />
+    <point x="100" y="50.0" />
+    <point x="110" y="55.0" />
+    <point x="120" y="60.0" />
+    <point x="130" y="65.0" />
+    <point x="140" y="70.0" />
+    <point x="150" y="75.0" />
+    <point x="160" y="80.0" />
+    <point x="170" y="85.0" />
+    <point x="180" y="90.0" />
+    <point x="190" y="95.0" />
+    <point x="200" y="100.0" />
+    <point x="210" y="105.0" />
+    <point x="220" y="110.0" />
+    <point x="230" y="115.0" />
+    <point x="240" y="120.0" />
+    <point x="250" y="125.0" />
+    <point x="260" y="130.0" />
+    <point x="270" y="135.0" />
+    <point x="280" y="140.0" />
+    <point x="290" y="145.0" />
+    <point x="299" y="149.5" />
   </curve>
   <curve id="au_CWHvm_HW_FDC_M_managed_natural_yield_FDC">
     <point x="1" y="0.0" />
@@ -12705,39 +12922,6 @@
   </curve>
   <curve id="au_CWHvm_HW_FDC_M_managed_qmd">
     <point x="1" y="0.0" />
-    <point x="10" y="12.6" />
-    <point x="20" y="18.4" />
-    <point x="30" y="22.3" />
-    <point x="40" y="25.0" />
-    <point x="50" y="26.9" />
-    <point x="60" y="28.3" />
-    <point x="70" y="29.2" />
-    <point x="80" y="29.8" />
-    <point x="90" y="30.1" />
-    <point x="100" y="30.2" />
-    <point x="110" y="30.1" />
-    <point x="120" y="29.8" />
-    <point x="130" y="29.4" />
-    <point x="140" y="28.9" />
-    <point x="150" y="28.4" />
-    <point x="160" y="27.7" />
-    <point x="170" y="27.0" />
-    <point x="180" y="26.3" />
-    <point x="190" y="25.6" />
-    <point x="200" y="24.8" />
-    <point x="210" y="24.1" />
-    <point x="220" y="23.6" />
-    <point x="230" y="23.0" />
-    <point x="240" y="22.4" />
-    <point x="250" y="21.9" />
-    <point x="260" y="21.4" />
-    <point x="270" y="21.0" />
-    <point x="280" y="20.5" />
-    <point x="290" y="20.1" />
-    <point x="299" y="19.8" />
-  </curve>
-  <curve id="au_CWHvm_HW_FDC_M_managed_stems_per_ha">
-    <point x="1" y="649.0" />
   </curve>
   <curve id="au_CWHvm_HW_FDC_M_og1">
     <point x="100" y="0.0" />
@@ -12942,6 +13126,39 @@
     <point x="25" y="1.0" />
     <point x="26" y="0.0" />
   </curve>
+  <curve id="au_CWHvm_HW_FDC_M_unmanaged_height">
+    <point x="1" y="0.5" />
+    <point x="10" y="5.0" />
+    <point x="20" y="10.0" />
+    <point x="30" y="15.0" />
+    <point x="40" y="20.0" />
+    <point x="50" y="25.0" />
+    <point x="60" y="30.0" />
+    <point x="70" y="35.0" />
+    <point x="80" y="40.0" />
+    <point x="90" y="45.0" />
+    <point x="100" y="50.0" />
+    <point x="110" y="55.0" />
+    <point x="120" y="60.0" />
+    <point x="130" y="65.0" />
+    <point x="140" y="70.0" />
+    <point x="150" y="75.0" />
+    <point x="160" y="80.0" />
+    <point x="170" y="85.0" />
+    <point x="180" y="90.0" />
+    <point x="190" y="95.0" />
+    <point x="200" y="100.0" />
+    <point x="210" y="105.0" />
+    <point x="220" y="110.0" />
+    <point x="230" y="115.0" />
+    <point x="240" y="120.0" />
+    <point x="250" y="125.0" />
+    <point x="260" y="130.0" />
+    <point x="270" y="135.0" />
+    <point x="280" y="140.0" />
+    <point x="290" y="145.0" />
+    <point x="299" y="149.5" />
+  </curve>
   <curve id="au_CWHvm_HW_FDC_M_unmanaged_natural_yield_FDC">
     <point x="1" y="0.0" />
     <point x="10" y="4.0" />
@@ -13076,39 +13293,39 @@
   </curve>
   <curve id="au_CWHvm_HW_FDC_M_unmanaged_qmd">
     <point x="1" y="0.0" />
-    <point x="10" y="12.6" />
-    <point x="20" y="18.4" />
-    <point x="30" y="22.3" />
-    <point x="40" y="25.0" />
-    <point x="50" y="26.9" />
-    <point x="60" y="28.3" />
-    <point x="70" y="29.2" />
-    <point x="80" y="29.8" />
-    <point x="90" y="30.1" />
-    <point x="100" y="30.2" />
-    <point x="110" y="30.1" />
-    <point x="120" y="29.8" />
-    <point x="130" y="29.4" />
-    <point x="140" y="28.9" />
-    <point x="150" y="28.4" />
-    <point x="160" y="27.7" />
-    <point x="170" y="27.0" />
-    <point x="180" y="26.3" />
-    <point x="190" y="25.6" />
-    <point x="200" y="24.8" />
-    <point x="210" y="24.1" />
-    <point x="220" y="23.6" />
-    <point x="230" y="23.0" />
-    <point x="240" y="22.4" />
-    <point x="250" y="21.9" />
-    <point x="260" y="21.4" />
-    <point x="270" y="21.0" />
-    <point x="280" y="20.5" />
-    <point x="290" y="20.1" />
-    <point x="299" y="19.8" />
   </curve>
-  <curve id="au_CWHvm_HW_FDC_M_unmanaged_stems_per_ha">
-    <point x="1" y="649.0" />
+  <curve id="au_CWHvm_HW_SS_H_managed_height">
+    <point x="1" y="0.7" />
+    <point x="10" y="7.0" />
+    <point x="20" y="14.0" />
+    <point x="30" y="21.0" />
+    <point x="40" y="28.0" />
+    <point x="50" y="35.0" />
+    <point x="60" y="42.0" />
+    <point x="70" y="49.0" />
+    <point x="80" y="56.0" />
+    <point x="90" y="63.0" />
+    <point x="100" y="70.0" />
+    <point x="110" y="77.0" />
+    <point x="120" y="84.0" />
+    <point x="130" y="91.0" />
+    <point x="140" y="98.0" />
+    <point x="150" y="105.0" />
+    <point x="160" y="112.0" />
+    <point x="170" y="119.0" />
+    <point x="180" y="126.0" />
+    <point x="190" y="133.0" />
+    <point x="200" y="140.0" />
+    <point x="210" y="147.0" />
+    <point x="220" y="154.0" />
+    <point x="230" y="161.0" />
+    <point x="240" y="168.0" />
+    <point x="250" y="175.0" />
+    <point x="260" y="182.0" />
+    <point x="270" y="189.0" />
+    <point x="280" y="196.0" />
+    <point x="290" y="203.0" />
+    <point x="299" y="209.3" />
   </curve>
   <curve id="au_CWHvm_HW_SS_H_managed_natural_yield_HW">
     <point x="1" y="0.0" />
@@ -13448,6 +13665,39 @@
     <point x="25" y="1.0" />
     <point x="26" y="0.0" />
   </curve>
+  <curve id="au_CWHvm_HW_SS_H_unmanaged_height">
+    <point x="1" y="0.7" />
+    <point x="10" y="7.0" />
+    <point x="20" y="14.0" />
+    <point x="30" y="21.0" />
+    <point x="40" y="28.0" />
+    <point x="50" y="35.0" />
+    <point x="60" y="42.0" />
+    <point x="70" y="49.0" />
+    <point x="80" y="56.0" />
+    <point x="90" y="63.0" />
+    <point x="100" y="70.0" />
+    <point x="110" y="77.0" />
+    <point x="120" y="84.0" />
+    <point x="130" y="91.0" />
+    <point x="140" y="98.0" />
+    <point x="150" y="105.0" />
+    <point x="160" y="112.0" />
+    <point x="170" y="119.0" />
+    <point x="180" y="126.0" />
+    <point x="190" y="133.0" />
+    <point x="200" y="140.0" />
+    <point x="210" y="147.0" />
+    <point x="220" y="154.0" />
+    <point x="230" y="161.0" />
+    <point x="240" y="168.0" />
+    <point x="250" y="175.0" />
+    <point x="260" y="182.0" />
+    <point x="270" y="189.0" />
+    <point x="280" y="196.0" />
+    <point x="290" y="203.0" />
+    <point x="299" y="209.3" />
+  </curve>
   <curve id="au_CWHvm_HW_SS_H_unmanaged_natural_yield_HW">
     <point x="1" y="0.0" />
     <point x="10" y="13.6" />
@@ -13583,6 +13833,39 @@
   <curve id="au_CWHvm_HW_SS_H_unmanaged_qmd">
     <point x="1" y="0.0" />
   </curve>
+  <curve id="au_CWHvm_HW_SS_L_managed_height">
+    <point x="1" y="0.3" />
+    <point x="10" y="3.0" />
+    <point x="20" y="6.0" />
+    <point x="30" y="9.0" />
+    <point x="40" y="12.0" />
+    <point x="50" y="15.0" />
+    <point x="60" y="18.0" />
+    <point x="70" y="21.0" />
+    <point x="80" y="24.0" />
+    <point x="90" y="27.0" />
+    <point x="100" y="30.0" />
+    <point x="110" y="33.0" />
+    <point x="120" y="36.0" />
+    <point x="130" y="39.0" />
+    <point x="140" y="42.0" />
+    <point x="150" y="45.0" />
+    <point x="160" y="48.0" />
+    <point x="170" y="51.0" />
+    <point x="180" y="54.0" />
+    <point x="190" y="57.0" />
+    <point x="200" y="60.0" />
+    <point x="210" y="63.0" />
+    <point x="220" y="66.0" />
+    <point x="230" y="69.0" />
+    <point x="240" y="72.0" />
+    <point x="250" y="75.0" />
+    <point x="260" y="78.0" />
+    <point x="270" y="81.0" />
+    <point x="280" y="84.0" />
+    <point x="290" y="87.0" />
+    <point x="299" y="89.7" />
+  </curve>
   <curve id="au_CWHvm_HW_SS_L_managed_natural_yield_HW">
     <point x="1" y="0.0" />
     <point x="10" y="13.6" />
@@ -13717,39 +14000,6 @@
   </curve>
   <curve id="au_CWHvm_HW_SS_L_managed_qmd">
     <point x="1" y="0.0" />
-    <point x="10" y="13.9" />
-    <point x="20" y="20.5" />
-    <point x="30" y="24.8" />
-    <point x="40" y="27.9" />
-    <point x="50" y="30.1" />
-    <point x="60" y="31.6" />
-    <point x="70" y="32.6" />
-    <point x="80" y="33.3" />
-    <point x="90" y="33.6" />
-    <point x="100" y="33.7" />
-    <point x="110" y="33.6" />
-    <point x="120" y="33.3" />
-    <point x="130" y="32.9" />
-    <point x="140" y="32.3" />
-    <point x="150" y="31.7" />
-    <point x="160" y="31.0" />
-    <point x="170" y="30.2" />
-    <point x="180" y="29.4" />
-    <point x="190" y="28.6" />
-    <point x="200" y="27.7" />
-    <point x="210" y="27.0" />
-    <point x="220" y="26.3" />
-    <point x="230" y="25.7" />
-    <point x="240" y="25.0" />
-    <point x="250" y="24.5" />
-    <point x="260" y="23.9" />
-    <point x="270" y="23.4" />
-    <point x="280" y="22.9" />
-    <point x="290" y="22.4" />
-    <point x="299" y="22.0" />
-  </curve>
-  <curve id="au_CWHvm_HW_SS_L_managed_stems_per_ha">
-    <point x="1" y="574.0" />
   </curve>
   <curve id="au_CWHvm_HW_SS_L_og1">
     <point x="100" y="0.0" />
@@ -13954,6 +14204,39 @@
     <point x="25" y="1.0" />
     <point x="26" y="0.0" />
   </curve>
+  <curve id="au_CWHvm_HW_SS_L_unmanaged_height">
+    <point x="1" y="0.3" />
+    <point x="10" y="3.0" />
+    <point x="20" y="6.0" />
+    <point x="30" y="9.0" />
+    <point x="40" y="12.0" />
+    <point x="50" y="15.0" />
+    <point x="60" y="18.0" />
+    <point x="70" y="21.0" />
+    <point x="80" y="24.0" />
+    <point x="90" y="27.0" />
+    <point x="100" y="30.0" />
+    <point x="110" y="33.0" />
+    <point x="120" y="36.0" />
+    <point x="130" y="39.0" />
+    <point x="140" y="42.0" />
+    <point x="150" y="45.0" />
+    <point x="160" y="48.0" />
+    <point x="170" y="51.0" />
+    <point x="180" y="54.0" />
+    <point x="190" y="57.0" />
+    <point x="200" y="60.0" />
+    <point x="210" y="63.0" />
+    <point x="220" y="66.0" />
+    <point x="230" y="69.0" />
+    <point x="240" y="72.0" />
+    <point x="250" y="75.0" />
+    <point x="260" y="78.0" />
+    <point x="270" y="81.0" />
+    <point x="280" y="84.0" />
+    <point x="290" y="87.0" />
+    <point x="299" y="89.7" />
+  </curve>
   <curve id="au_CWHvm_HW_SS_L_unmanaged_natural_yield_HW">
     <point x="1" y="0.0" />
     <point x="10" y="13.6" />
@@ -14088,39 +14371,44 @@
   </curve>
   <curve id="au_CWHvm_HW_SS_L_unmanaged_qmd">
     <point x="1" y="0.0" />
-    <point x="10" y="13.9" />
-    <point x="20" y="20.5" />
-    <point x="30" y="24.8" />
-    <point x="40" y="27.9" />
-    <point x="50" y="30.1" />
-    <point x="60" y="31.6" />
-    <point x="70" y="32.6" />
-    <point x="80" y="33.3" />
-    <point x="90" y="33.6" />
-    <point x="100" y="33.7" />
-    <point x="110" y="33.6" />
-    <point x="120" y="33.3" />
-    <point x="130" y="32.9" />
-    <point x="140" y="32.3" />
-    <point x="150" y="31.7" />
-    <point x="160" y="31.0" />
-    <point x="170" y="30.2" />
-    <point x="180" y="29.4" />
-    <point x="190" y="28.6" />
-    <point x="200" y="27.7" />
-    <point x="210" y="27.0" />
-    <point x="220" y="26.3" />
-    <point x="230" y="25.7" />
-    <point x="240" y="25.0" />
-    <point x="250" y="24.5" />
-    <point x="260" y="23.9" />
-    <point x="270" y="23.4" />
-    <point x="280" y="22.9" />
-    <point x="290" y="22.4" />
-    <point x="299" y="22.0" />
   </curve>
-  <curve id="au_CWHvm_HW_SS_L_unmanaged_stems_per_ha">
-    <point x="1" y="574.0" />
+  <curve id="au_CWHvm_HW_SS_M_managed_height">
+    <point x="0" y="0.0" />
+    <point x="10" y="5.0" />
+    <point x="20" y="10.0" />
+    <point x="30" y="15.0" />
+    <point x="40" y="20.0" />
+    <point x="50" y="25.0" />
+    <point x="60" y="30.0" />
+    <point x="70" y="35.0" />
+    <point x="80" y="40.0" />
+    <point x="90" y="45.0" />
+    <point x="100" y="50.0" />
+    <point x="110" y="55.0" />
+    <point x="120" y="60.0" />
+    <point x="130" y="65.0" />
+    <point x="140" y="70.0" />
+    <point x="150" y="75.0" />
+    <point x="160" y="80.0" />
+    <point x="170" y="85.0" />
+    <point x="180" y="90.0" />
+    <point x="190" y="95.0" />
+    <point x="200" y="100.0" />
+    <point x="210" y="105.0" />
+    <point x="220" y="110.0" />
+    <point x="230" y="115.0" />
+    <point x="240" y="120.0" />
+    <point x="250" y="125.0" />
+    <point x="260" y="130.0" />
+    <point x="270" y="135.0" />
+    <point x="280" y="140.0" />
+    <point x="290" y="145.0" />
+    <point x="300" y="150.0" />
+    <point x="310" y="155.0" />
+    <point x="320" y="160.0" />
+    <point x="330" y="165.0" />
+    <point x="340" y="170.0" />
+    <point x="350" y="175.0" />
   </curve>
   <curve id="au_CWHvm_HW_SS_M_managed_natural_yield_HW">
     <point x="10" y="0.0" />
@@ -14183,29 +14471,7 @@
     <point x="100" y="811.9" />
   </curve>
   <curve id="au_CWHvm_HW_SS_M_managed_qmd">
-    <point x="10" y="0.0" />
-    <point x="20" y="9.2" />
-    <point x="30" y="19.8" />
-    <point x="40" y="24.8" />
-    <point x="50" y="28.1" />
-    <point x="60" y="30.6" />
-    <point x="70" y="32.8" />
-    <point x="80" y="35.1" />
-    <point x="90" y="37.2" />
-    <point x="100" y="39.4" />
-  </curve>
-  <curve id="au_CWHvm_HW_SS_M_managed_stems_per_ha">
-    <point x="0" y="650.0" />
-    <point x="10" y="870.0" />
-    <point x="20" y="839.0" />
-    <point x="30" y="830.0" />
-    <point x="40" y="825.0" />
-    <point x="50" y="809.0" />
-    <point x="60" y="788.0" />
-    <point x="70" y="757.0" />
-    <point x="80" y="717.0" />
-    <point x="90" y="686.0" />
-    <point x="100" y="651.0" />
+    <point x="0" y="0.0" />
   </curve>
   <curve id="au_CWHvm_HW_SS_M_og1">
     <point x="100" y="0.0" />
@@ -14330,6 +14596,39 @@
     <point x="24" y="1.0" />
     <point x="25" y="1.0" />
     <point x="26" y="0.0" />
+  </curve>
+  <curve id="au_CWHvm_HW_SS_M_unmanaged_height">
+    <point x="1" y="0.5" />
+    <point x="10" y="5.0" />
+    <point x="20" y="10.0" />
+    <point x="30" y="15.0" />
+    <point x="40" y="20.0" />
+    <point x="50" y="25.0" />
+    <point x="60" y="30.0" />
+    <point x="70" y="35.0" />
+    <point x="80" y="40.0" />
+    <point x="90" y="45.0" />
+    <point x="100" y="50.0" />
+    <point x="110" y="55.0" />
+    <point x="120" y="60.0" />
+    <point x="130" y="65.0" />
+    <point x="140" y="70.0" />
+    <point x="150" y="75.0" />
+    <point x="160" y="80.0" />
+    <point x="170" y="85.0" />
+    <point x="180" y="90.0" />
+    <point x="190" y="95.0" />
+    <point x="200" y="100.0" />
+    <point x="210" y="105.0" />
+    <point x="220" y="110.0" />
+    <point x="230" y="115.0" />
+    <point x="240" y="120.0" />
+    <point x="250" y="125.0" />
+    <point x="260" y="130.0" />
+    <point x="270" y="135.0" />
+    <point x="280" y="140.0" />
+    <point x="290" y="145.0" />
+    <point x="299" y="149.5" />
   </curve>
   <curve id="au_CWHvm_HW_SS_M_unmanaged_natural_yield_HW">
     <point x="1" y="0.0" />
@@ -14498,39 +14797,6 @@
   </curve>
   <curve id="au_CWHvm_HW_SS_M_unmanaged_qmd">
     <point x="1" y="0.0" />
-    <point x="10" y="12.9" />
-    <point x="20" y="19.0" />
-    <point x="30" y="23.0" />
-    <point x="40" y="25.9" />
-    <point x="50" y="27.9" />
-    <point x="60" y="29.3" />
-    <point x="70" y="30.3" />
-    <point x="80" y="30.9" />
-    <point x="90" y="31.2" />
-    <point x="100" y="31.3" />
-    <point x="110" y="31.2" />
-    <point x="120" y="30.9" />
-    <point x="130" y="30.5" />
-    <point x="140" y="30.0" />
-    <point x="150" y="29.4" />
-    <point x="160" y="28.8" />
-    <point x="170" y="28.0" />
-    <point x="180" y="27.3" />
-    <point x="190" y="26.5" />
-    <point x="200" y="25.7" />
-    <point x="210" y="25.0" />
-    <point x="220" y="24.4" />
-    <point x="230" y="23.8" />
-    <point x="240" y="23.2" />
-    <point x="250" y="22.7" />
-    <point x="260" y="22.2" />
-    <point x="270" y="21.7" />
-    <point x="280" y="21.2" />
-    <point x="290" y="20.8" />
-    <point x="299" y="20.4" />
-  </curve>
-  <curve id="au_CWHvm_HW_SS_M_unmanaged_stems_per_ha">
-    <point x="1" y="650.0" />
   </curve>
   <curve id="managed_prop_BA_CWHvm_CW_HW_M_985522002001">
     <point x="1" y="0" />
@@ -16798,8 +17064,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_FDC_L_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_HW_FDC_L">
-        <curve idref="au_CWHvm_HW_FDC_L_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_HW_FDC_L">
+        <curve idref="au_CWHvm_HW_FDC_L_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_HW_FDC_L">
         <curve idref="au_CWHvm_HW_FDC_L_unmanaged_qmd" />
@@ -16869,8 +17135,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_FDC_L_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_HW_FDC_L">
-        <curve idref="au_CWHvm_HW_FDC_L_managed_stems_per_ha" />
+      <attribute label="feature.Height.managed.CWHvm_HW_FDC_L">
+        <curve idref="au_CWHvm_HW_FDC_L_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_HW_FDC_L">
         <curve idref="au_CWHvm_HW_FDC_L_managed_qmd" />
@@ -17005,8 +17271,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_FDC_L_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_HW_FDC_L">
-        <curve idref="au_CWHvm_HW_FDC_L_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_HW_FDC_L">
+        <curve idref="au_CWHvm_HW_FDC_L_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_HW_FDC_L">
         <curve idref="au_CWHvm_HW_FDC_L_unmanaged_qmd" />
@@ -17082,8 +17348,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_FDC_L_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_HW_FDC_L">
-        <curve idref="au_CWHvm_HW_FDC_L_managed_stems_per_ha" />
+      <attribute label="feature.Height.managed.CWHvm_HW_FDC_L">
+        <curve idref="au_CWHvm_HW_FDC_L_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_HW_FDC_L">
         <curve idref="au_CWHvm_HW_FDC_L_managed_qmd" />
@@ -17233,8 +17499,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_FDC_HW_L_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_FDC_HW_L">
-        <curve idref="au_CWHvm_FDC_HW_L_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_FDC_HW_L">
+        <curve idref="au_CWHvm_FDC_HW_L_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_FDC_HW_L">
         <curve idref="au_CWHvm_FDC_HW_L_unmanaged_qmd" />
@@ -17304,8 +17570,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_FDC_HW_L_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_FDC_HW_L">
-        <curve idref="au_CWHvm_FDC_HW_L_managed_stems_per_ha" />
+      <attribute label="feature.Height.managed.CWHvm_FDC_HW_L">
+        <curve idref="au_CWHvm_FDC_HW_L_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_FDC_HW_L">
         <curve idref="au_CWHvm_FDC_HW_L_managed_qmd" />
@@ -17440,8 +17706,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_FDC_HW_L_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_FDC_HW_L">
-        <curve idref="au_CWHvm_FDC_HW_L_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_FDC_HW_L">
+        <curve idref="au_CWHvm_FDC_HW_L_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_FDC_HW_L">
         <curve idref="au_CWHvm_FDC_HW_L_unmanaged_qmd" />
@@ -17517,8 +17783,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_FDC_HW_L_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_FDC_HW_L">
-        <curve idref="au_CWHvm_FDC_HW_L_managed_stems_per_ha" />
+      <attribute label="feature.Height.managed.CWHvm_FDC_HW_L">
+        <curve idref="au_CWHvm_FDC_HW_L_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_FDC_HW_L">
         <curve idref="au_CWHvm_FDC_HW_L_managed_qmd" />
@@ -17668,8 +17934,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_CW_HW_L_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_CW_HW_L">
-        <curve idref="au_CWHvm_CW_HW_L_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_CW_HW_L">
+        <curve idref="au_CWHvm_CW_HW_L_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_CW_HW_L">
         <curve idref="au_CWHvm_CW_HW_L_unmanaged_qmd" />
@@ -17739,8 +18005,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_CW_HW_L_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_CW_HW_L">
-        <curve idref="au_CWHvm_CW_HW_L_managed_stems_per_ha" />
+      <attribute label="feature.Height.managed.CWHvm_CW_HW_L">
+        <curve idref="au_CWHvm_CW_HW_L_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_CW_HW_L">
         <curve idref="au_CWHvm_CW_HW_L_managed_qmd" />
@@ -17875,8 +18141,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_CW_HW_L_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_CW_HW_L">
-        <curve idref="au_CWHvm_CW_HW_L_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_CW_HW_L">
+        <curve idref="au_CWHvm_CW_HW_L_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_CW_HW_L">
         <curve idref="au_CWHvm_CW_HW_L_unmanaged_qmd" />
@@ -17946,8 +18212,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_CW_HW_L_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_CW_HW_L">
-        <curve idref="au_CWHvm_CW_HW_L_managed_stems_per_ha" />
+      <attribute label="feature.Height.managed.CWHvm_CW_HW_L">
+        <curve idref="au_CWHvm_CW_HW_L_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_CW_HW_L">
         <curve idref="au_CWHvm_CW_HW_L_managed_qmd" />
@@ -18082,8 +18348,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_CW_L_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_HW_CW_L">
-        <curve idref="au_CWHvm_HW_CW_L_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_HW_CW_L">
+        <curve idref="au_CWHvm_HW_CW_L_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_HW_CW_L">
         <curve idref="au_CWHvm_HW_CW_L_unmanaged_qmd" />
@@ -18153,8 +18419,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_CW_L_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_HW_CW_L">
-        <curve idref="au_CWHvm_HW_CW_L_managed_stems_per_ha" />
+      <attribute label="feature.Height.managed.CWHvm_HW_CW_L">
+        <curve idref="au_CWHvm_HW_CW_L_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_HW_CW_L">
         <curve idref="au_CWHvm_HW_CW_L_managed_qmd" />
@@ -18289,8 +18555,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_CW_L_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_HW_CW_L">
-        <curve idref="au_CWHvm_HW_CW_L_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_HW_CW_L">
+        <curve idref="au_CWHvm_HW_CW_L_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_HW_CW_L">
         <curve idref="au_CWHvm_HW_CW_L_unmanaged_qmd" />
@@ -18366,8 +18632,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_CW_L_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_HW_CW_L">
-        <curve idref="au_CWHvm_HW_CW_L_managed_stems_per_ha" />
+      <attribute label="feature.Height.managed.CWHvm_HW_CW_L">
+        <curve idref="au_CWHvm_HW_CW_L_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_HW_CW_L">
         <curve idref="au_CWHvm_HW_CW_L_managed_qmd" />
@@ -18517,8 +18783,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_DR_HW_L_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_DR_HW_L">
-        <curve idref="au_CWHvm_DR_HW_L_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_DR_HW_L">
+        <curve idref="au_CWHvm_DR_HW_L_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_DR_HW_L">
         <curve idref="au_CWHvm_DR_HW_L_unmanaged_qmd" />
@@ -18588,8 +18854,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_DR_HW_L_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_DR_HW_L">
-        <curve idref="au_CWHvm_DR_HW_L_managed_stems_per_ha" />
+      <attribute label="feature.Height.managed.CWHvm_DR_HW_L">
+        <curve idref="au_CWHvm_DR_HW_L_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_DR_HW_L">
         <curve idref="au_CWHvm_DR_HW_L_managed_qmd" />
@@ -18724,8 +18990,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_DR_HW_L_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_DR_HW_L">
-        <curve idref="au_CWHvm_DR_HW_L_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_DR_HW_L">
+        <curve idref="au_CWHvm_DR_HW_L_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_DR_HW_L">
         <curve idref="au_CWHvm_DR_HW_L_unmanaged_qmd" />
@@ -18795,8 +19061,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_DR_HW_L_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_DR_HW_L">
-        <curve idref="au_CWHvm_DR_HW_L_managed_stems_per_ha" />
+      <attribute label="feature.Height.managed.CWHvm_DR_HW_L">
+        <curve idref="au_CWHvm_DR_HW_L_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_DR_HW_L">
         <curve idref="au_CWHvm_DR_HW_L_managed_qmd" />
@@ -18931,8 +19197,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_SS_L_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_HW_SS_L">
-        <curve idref="au_CWHvm_HW_SS_L_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_HW_SS_L">
+        <curve idref="au_CWHvm_HW_SS_L_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_HW_SS_L">
         <curve idref="au_CWHvm_HW_SS_L_unmanaged_qmd" />
@@ -19002,8 +19268,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_SS_L_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_HW_SS_L">
-        <curve idref="au_CWHvm_HW_SS_L_managed_stems_per_ha" />
+      <attribute label="feature.Height.managed.CWHvm_HW_SS_L">
+        <curve idref="au_CWHvm_HW_SS_L_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_HW_SS_L">
         <curve idref="au_CWHvm_HW_SS_L_managed_qmd" />
@@ -19138,8 +19404,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_SS_L_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_HW_SS_L">
-        <curve idref="au_CWHvm_HW_SS_L_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_HW_SS_L">
+        <curve idref="au_CWHvm_HW_SS_L_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_HW_SS_L">
         <curve idref="au_CWHvm_HW_SS_L_unmanaged_qmd" />
@@ -19209,8 +19475,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_SS_L_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_HW_SS_L">
-        <curve idref="au_CWHvm_HW_SS_L_managed_stems_per_ha" />
+      <attribute label="feature.Height.managed.CWHvm_HW_SS_L">
+        <curve idref="au_CWHvm_HW_SS_L_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_HW_SS_L">
         <curve idref="au_CWHvm_HW_SS_L_managed_qmd" />
@@ -19345,8 +19611,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_CW_YC_L_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_CW_YC_L">
-        <curve idref="au_CWHvm_CW_YC_L_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_CW_YC_L">
+        <curve idref="au_CWHvm_CW_YC_L_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_CW_YC_L">
         <curve idref="au_CWHvm_CW_YC_L_unmanaged_qmd" />
@@ -19422,8 +19688,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_CW_YC_L_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_CW_YC_L">
-        <curve idref="au_CWHvm_CW_YC_L_managed_stems_per_ha" />
+      <attribute label="feature.Height.managed.CWHvm_CW_YC_L">
+        <curve idref="au_CWHvm_CW_YC_L_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_CW_YC_L">
         <curve idref="au_CWHvm_CW_YC_L_managed_qmd" />
@@ -19573,8 +19839,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_CW_YC_L_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_CW_YC_L">
-        <curve idref="au_CWHvm_CW_YC_L_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_CW_YC_L">
+        <curve idref="au_CWHvm_CW_YC_L_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_CW_YC_L">
         <curve idref="au_CWHvm_CW_YC_L_unmanaged_qmd" />
@@ -19650,8 +19916,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_CW_YC_L_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_CW_YC_L">
-        <curve idref="au_CWHvm_CW_YC_L_managed_stems_per_ha" />
+      <attribute label="feature.Height.managed.CWHvm_CW_YC_L">
+        <curve idref="au_CWHvm_CW_YC_L_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_CW_YC_L">
         <curve idref="au_CWHvm_CW_YC_L_managed_qmd" />
@@ -19801,8 +20067,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_BA_L_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_HW_BA_L">
-        <curve idref="au_CWHvm_HW_BA_L_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_HW_BA_L">
+        <curve idref="au_CWHvm_HW_BA_L_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_HW_BA_L">
         <curve idref="au_CWHvm_HW_BA_L_unmanaged_qmd" />
@@ -19872,8 +20138,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_BA_L_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_HW_BA_L">
-        <curve idref="au_CWHvm_HW_BA_L_managed_stems_per_ha" />
+      <attribute label="feature.Height.managed.CWHvm_HW_BA_L">
+        <curve idref="au_CWHvm_HW_BA_L_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_HW_BA_L">
         <curve idref="au_CWHvm_HW_BA_L_managed_qmd" />
@@ -20008,8 +20274,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_BA_L_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_HW_BA_L">
-        <curve idref="au_CWHvm_HW_BA_L_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_HW_BA_L">
+        <curve idref="au_CWHvm_HW_BA_L_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_HW_BA_L">
         <curve idref="au_CWHvm_HW_BA_L_unmanaged_qmd" />
@@ -20079,8 +20345,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_BA_L_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_HW_BA_L">
-        <curve idref="au_CWHvm_HW_BA_L_managed_stems_per_ha" />
+      <attribute label="feature.Height.managed.CWHvm_HW_BA_L">
+        <curve idref="au_CWHvm_HW_BA_L_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_HW_BA_L">
         <curve idref="au_CWHvm_HW_BA_L_managed_qmd" />
@@ -20215,8 +20481,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_CW_PLC_L_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_CW_PLC_L">
-        <curve idref="au_CWHvm_CW_PLC_L_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_CW_PLC_L">
+        <curve idref="au_CWHvm_CW_PLC_L_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_CW_PLC_L">
         <curve idref="au_CWHvm_CW_PLC_L_unmanaged_qmd" />
@@ -20298,8 +20564,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_CW_PLC_L_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_CW_PLC_L">
-        <curve idref="au_CWHvm_CW_PLC_L_managed_stems_per_ha" />
+      <attribute label="feature.Height.managed.CWHvm_CW_PLC_L">
+        <curve idref="au_CWHvm_CW_PLC_L_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_CW_PLC_L">
         <curve idref="au_CWHvm_CW_PLC_L_managed_qmd" />
@@ -20464,8 +20730,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_CW_PLC_L_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_CW_PLC_L">
-        <curve idref="au_CWHvm_CW_PLC_L_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_CW_PLC_L">
+        <curve idref="au_CWHvm_CW_PLC_L_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_CW_PLC_L">
         <curve idref="au_CWHvm_CW_PLC_L_unmanaged_qmd" />
@@ -20547,8 +20813,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_CW_PLC_L_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_CW_PLC_L">
-        <curve idref="au_CWHvm_CW_PLC_L_managed_stems_per_ha" />
+      <attribute label="feature.Height.managed.CWHvm_CW_PLC_L">
+        <curve idref="au_CWHvm_CW_PLC_L_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_CW_PLC_L">
         <curve idref="au_CWHvm_CW_PLC_L_managed_qmd" />
@@ -20713,8 +20979,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_FDC_M_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_HW_FDC_M">
-        <curve idref="au_CWHvm_HW_FDC_M_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_HW_FDC_M">
+        <curve idref="au_CWHvm_HW_FDC_M_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_HW_FDC_M">
         <curve idref="au_CWHvm_HW_FDC_M_unmanaged_qmd" />
@@ -20784,8 +21050,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_FDC_M_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_HW_FDC_M">
-        <curve idref="au_CWHvm_HW_FDC_M_managed_stems_per_ha" />
+      <attribute label="feature.Height.managed.CWHvm_HW_FDC_M">
+        <curve idref="au_CWHvm_HW_FDC_M_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_HW_FDC_M">
         <curve idref="au_CWHvm_HW_FDC_M_managed_qmd" />
@@ -20920,8 +21186,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_FDC_M_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_HW_FDC_M">
-        <curve idref="au_CWHvm_HW_FDC_M_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_HW_FDC_M">
+        <curve idref="au_CWHvm_HW_FDC_M_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_HW_FDC_M">
         <curve idref="au_CWHvm_HW_FDC_M_unmanaged_qmd" />
@@ -20991,8 +21257,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_FDC_M_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_HW_FDC_M">
-        <curve idref="au_CWHvm_HW_FDC_M_managed_stems_per_ha" />
+      <attribute label="feature.Height.managed.CWHvm_HW_FDC_M">
+        <curve idref="au_CWHvm_HW_FDC_M_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_HW_FDC_M">
         <curve idref="au_CWHvm_HW_FDC_M_managed_qmd" />
@@ -21135,8 +21401,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_FDC_M_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_HW_FDC_M">
-        <curve idref="au_CWHvm_HW_FDC_M_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_HW_FDC_M">
+        <curve idref="au_CWHvm_HW_FDC_M_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_HW_FDC_M">
         <curve idref="au_CWHvm_HW_FDC_M_unmanaged_qmd" />
@@ -21206,11 +21472,11 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_FDC_M_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_HW_FDC_M">
-        <curve idref="au_CWHvm_HW_FDC_M_managed_cc_pl_pct_stems_per_ha" />
-      </attribute>
       <attribute label="feature.QMD.managed.CWHvm_HW_FDC_M">
         <curve idref="au_CWHvm_HW_FDC_M_managed_qmd" />
+      </attribute>
+      <attribute label="feature.Height.managed.CWHvm_HW_FDC_M">
+        <curve idref="au_CWHvm_HW_FDC_M_managed_height" />
       </attribute>
       <attribute label="feature.Yield.managed.FDC">
         <curve idref="au_CWHvm_HW_FDC_M_managed_cc_pl_pct_yield_FDC" />
@@ -21310,8 +21576,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_FDC_HW_M_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_FDC_HW_M">
-        <curve idref="au_CWHvm_FDC_HW_M_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_FDC_HW_M">
+        <curve idref="au_CWHvm_FDC_HW_M_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_FDC_HW_M">
         <curve idref="au_CWHvm_FDC_HW_M_unmanaged_qmd" />
@@ -21381,8 +21647,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_FDC_HW_M_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_FDC_HW_M">
-        <curve idref="au_CWHvm_FDC_HW_M_managed_stems_per_ha" />
+      <attribute label="feature.Height.managed.CWHvm_FDC_HW_M">
+        <curve idref="au_CWHvm_FDC_HW_M_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_FDC_HW_M">
         <curve idref="au_CWHvm_FDC_HW_M_managed_qmd" />
@@ -21517,8 +21783,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_FDC_HW_M_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_FDC_HW_M">
-        <curve idref="au_CWHvm_FDC_HW_M_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_FDC_HW_M">
+        <curve idref="au_CWHvm_FDC_HW_M_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_FDC_HW_M">
         <curve idref="au_CWHvm_FDC_HW_M_unmanaged_qmd" />
@@ -21594,8 +21860,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_FDC_HW_M_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_FDC_HW_M">
-        <curve idref="au_CWHvm_FDC_HW_M_managed_stems_per_ha" />
+      <attribute label="feature.Height.managed.CWHvm_FDC_HW_M">
+        <curve idref="au_CWHvm_FDC_HW_M_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_FDC_HW_M">
         <curve idref="au_CWHvm_FDC_HW_M_managed_qmd" />
@@ -21753,8 +22019,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_FDC_HW_M_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_FDC_HW_M">
-        <curve idref="au_CWHvm_FDC_HW_M_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_FDC_HW_M">
+        <curve idref="au_CWHvm_FDC_HW_M_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_FDC_HW_M">
         <curve idref="au_CWHvm_FDC_HW_M_unmanaged_qmd" />
@@ -21830,11 +22096,11 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_FDC_HW_M_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_FDC_HW_M">
-        <curve idref="au_CWHvm_FDC_HW_M_managed_cc_pl_pct_stems_per_ha" />
-      </attribute>
       <attribute label="feature.QMD.managed.CWHvm_FDC_HW_M">
         <curve idref="au_CWHvm_FDC_HW_M_managed_qmd" />
+      </attribute>
+      <attribute label="feature.Height.managed.CWHvm_FDC_HW_M">
+        <curve idref="au_CWHvm_FDC_HW_M_managed_height" />
       </attribute>
       <attribute label="feature.Yield.managed.CW">
         <curve idref="au_CWHvm_FDC_HW_M_managed_cc_pl_pct_yield_CW" />
@@ -21934,8 +22200,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_CW_HW_M_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_CW_HW_M">
-        <curve idref="au_CWHvm_CW_HW_M_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_CW_HW_M">
+        <curve idref="au_CWHvm_CW_HW_M_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_CW_HW_M">
         <curve idref="au_CWHvm_CW_HW_M_unmanaged_qmd" />
@@ -22005,8 +22271,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_CW_HW_M_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_CW_HW_M">
-        <curve idref="au_CWHvm_CW_HW_M_managed_stems_per_ha" />
+      <attribute label="feature.Height.managed.CWHvm_CW_HW_M">
+        <curve idref="au_CWHvm_CW_HW_M_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_CW_HW_M">
         <curve idref="au_CWHvm_CW_HW_M_managed_qmd" />
@@ -22141,8 +22407,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_CW_HW_M_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_CW_HW_M">
-        <curve idref="au_CWHvm_CW_HW_M_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_CW_HW_M">
+        <curve idref="au_CWHvm_CW_HW_M_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_CW_HW_M">
         <curve idref="au_CWHvm_CW_HW_M_unmanaged_qmd" />
@@ -22218,8 +22484,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_CW_HW_M_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_CW_HW_M">
-        <curve idref="au_CWHvm_CW_HW_M_managed_stems_per_ha" />
+      <attribute label="feature.Height.managed.CWHvm_CW_HW_M">
+        <curve idref="au_CWHvm_CW_HW_M_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_CW_HW_M">
         <curve idref="au_CWHvm_CW_HW_M_managed_qmd" />
@@ -22369,8 +22635,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_CW_M_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_HW_CW_M">
-        <curve idref="au_CWHvm_HW_CW_M_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_HW_CW_M">
+        <curve idref="au_CWHvm_HW_CW_M_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_HW_CW_M">
         <curve idref="au_CWHvm_HW_CW_M_unmanaged_qmd" />
@@ -22440,8 +22706,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_CW_M_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_HW_CW_M">
-        <curve idref="au_CWHvm_HW_CW_M_managed_stems_per_ha" />
+      <attribute label="feature.Height.managed.CWHvm_HW_CW_M">
+        <curve idref="au_CWHvm_HW_CW_M_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_HW_CW_M">
         <curve idref="au_CWHvm_HW_CW_M_managed_qmd" />
@@ -22576,8 +22842,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_CW_M_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_HW_CW_M">
-        <curve idref="au_CWHvm_HW_CW_M_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_HW_CW_M">
+        <curve idref="au_CWHvm_HW_CW_M_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_HW_CW_M">
         <curve idref="au_CWHvm_HW_CW_M_unmanaged_qmd" />
@@ -22653,8 +22919,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_CW_M_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_HW_CW_M">
-        <curve idref="au_CWHvm_HW_CW_M_managed_stems_per_ha" />
+      <attribute label="feature.Height.managed.CWHvm_HW_CW_M">
+        <curve idref="au_CWHvm_HW_CW_M_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_HW_CW_M">
         <curve idref="au_CWHvm_HW_CW_M_managed_qmd" />
@@ -22804,8 +23070,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_DR_HW_M_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_DR_HW_M">
-        <curve idref="au_CWHvm_DR_HW_M_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_DR_HW_M">
+        <curve idref="au_CWHvm_DR_HW_M_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_DR_HW_M">
         <curve idref="au_CWHvm_DR_HW_M_unmanaged_qmd" />
@@ -22875,8 +23141,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_DR_HW_M_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_DR_HW_M">
-        <curve idref="au_CWHvm_DR_HW_M_managed_stems_per_ha" />
+      <attribute label="feature.Height.managed.CWHvm_DR_HW_M">
+        <curve idref="au_CWHvm_DR_HW_M_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_DR_HW_M">
         <curve idref="au_CWHvm_DR_HW_M_managed_qmd" />
@@ -23011,8 +23277,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_DR_HW_M_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_DR_HW_M">
-        <curve idref="au_CWHvm_DR_HW_M_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_DR_HW_M">
+        <curve idref="au_CWHvm_DR_HW_M_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_DR_HW_M">
         <curve idref="au_CWHvm_DR_HW_M_unmanaged_qmd" />
@@ -23088,8 +23354,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_DR_HW_M_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_DR_HW_M">
-        <curve idref="au_CWHvm_DR_HW_M_managed_stems_per_ha" />
+      <attribute label="feature.Height.managed.CWHvm_DR_HW_M">
+        <curve idref="au_CWHvm_DR_HW_M_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_DR_HW_M">
         <curve idref="au_CWHvm_DR_HW_M_managed_qmd" />
@@ -23239,8 +23505,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_SS_M_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_HW_SS_M">
-        <curve idref="au_CWHvm_HW_SS_M_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_HW_SS_M">
+        <curve idref="au_CWHvm_HW_SS_M_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_HW_SS_M">
         <curve idref="au_CWHvm_HW_SS_M_unmanaged_qmd" />
@@ -23310,8 +23576,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_SS_M_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_HW_SS_M">
-        <curve idref="au_CWHvm_HW_SS_M_managed_stems_per_ha" />
+      <attribute label="feature.Height.managed.CWHvm_HW_SS_M">
+        <curve idref="au_CWHvm_HW_SS_M_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_HW_SS_M">
         <curve idref="au_CWHvm_HW_SS_M_managed_qmd" />
@@ -23446,8 +23712,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_SS_M_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_HW_SS_M">
-        <curve idref="au_CWHvm_HW_SS_M_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_HW_SS_M">
+        <curve idref="au_CWHvm_HW_SS_M_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_HW_SS_M">
         <curve idref="au_CWHvm_HW_SS_M_unmanaged_qmd" />
@@ -23523,8 +23789,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_SS_M_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_HW_SS_M">
-        <curve idref="au_CWHvm_HW_SS_M_managed_stems_per_ha" />
+      <attribute label="feature.Height.managed.CWHvm_HW_SS_M">
+        <curve idref="au_CWHvm_HW_SS_M_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_HW_SS_M">
         <curve idref="au_CWHvm_HW_SS_M_managed_qmd" />
@@ -23674,8 +23940,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_CW_YC_M_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_CW_YC_M">
-        <curve idref="au_CWHvm_CW_YC_M_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_CW_YC_M">
+        <curve idref="au_CWHvm_CW_YC_M_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_CW_YC_M">
         <curve idref="au_CWHvm_CW_YC_M_unmanaged_qmd" />
@@ -23751,8 +24017,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_CW_YC_M_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_CW_YC_M">
-        <curve idref="au_CWHvm_CW_YC_M_managed_stems_per_ha" />
+      <attribute label="feature.Height.managed.CWHvm_CW_YC_M">
+        <curve idref="au_CWHvm_CW_YC_M_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_CW_YC_M">
         <curve idref="au_CWHvm_CW_YC_M_managed_qmd" />
@@ -23902,8 +24168,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_CW_YC_M_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_CW_YC_M">
-        <curve idref="au_CWHvm_CW_YC_M_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_CW_YC_M">
+        <curve idref="au_CWHvm_CW_YC_M_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_CW_YC_M">
         <curve idref="au_CWHvm_CW_YC_M_unmanaged_qmd" />
@@ -23979,8 +24245,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_CW_YC_M_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_CW_YC_M">
-        <curve idref="au_CWHvm_CW_YC_M_managed_stems_per_ha" />
+      <attribute label="feature.Height.managed.CWHvm_CW_YC_M">
+        <curve idref="au_CWHvm_CW_YC_M_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_CW_YC_M">
         <curve idref="au_CWHvm_CW_YC_M_managed_qmd" />
@@ -24130,8 +24396,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_BA_M_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_HW_BA_M">
-        <curve idref="au_CWHvm_HW_BA_M_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_HW_BA_M">
+        <curve idref="au_CWHvm_HW_BA_M_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_HW_BA_M">
         <curve idref="au_CWHvm_HW_BA_M_unmanaged_qmd" />
@@ -24201,8 +24467,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_BA_M_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_HW_BA_M">
-        <curve idref="au_CWHvm_HW_BA_M_managed_stems_per_ha" />
+      <attribute label="feature.Height.managed.CWHvm_HW_BA_M">
+        <curve idref="au_CWHvm_HW_BA_M_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_HW_BA_M">
         <curve idref="au_CWHvm_HW_BA_M_managed_qmd" />
@@ -24337,8 +24603,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_BA_M_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_HW_BA_M">
-        <curve idref="au_CWHvm_HW_BA_M_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_HW_BA_M">
+        <curve idref="au_CWHvm_HW_BA_M_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_HW_BA_M">
         <curve idref="au_CWHvm_HW_BA_M_unmanaged_qmd" />
@@ -24414,8 +24680,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_BA_M_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_HW_BA_M">
-        <curve idref="au_CWHvm_HW_BA_M_managed_stems_per_ha" />
+      <attribute label="feature.Height.managed.CWHvm_HW_BA_M">
+        <curve idref="au_CWHvm_HW_BA_M_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_HW_BA_M">
         <curve idref="au_CWHvm_HW_BA_M_managed_qmd" />
@@ -24565,6 +24831,9 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_CW_PLC_M_og2" />
       </attribute>
+      <attribute label="feature.Height.unmanaged.CWHvm_CW_PLC_M">
+        <curve idref="au_CWHvm_CW_PLC_M_unmanaged_height" />
+      </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_CW_PLC_M">
         <curve idref="au_CWHvm_CW_PLC_M_unmanaged_qmd" />
       </attribute>
@@ -24645,8 +24914,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_CW_PLC_M_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_CW_PLC_M">
-        <curve idref="au_CWHvm_CW_PLC_M_managed_stems_per_ha" />
+      <attribute label="feature.Height.managed.CWHvm_CW_PLC_M">
+        <curve idref="au_CWHvm_CW_PLC_M_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_CW_PLC_M">
         <curve idref="au_CWHvm_CW_PLC_M_managed_qmd" />
@@ -24775,6 +25044,9 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_CW_PLC_M_og2" />
       </attribute>
+      <attribute label="feature.Height.unmanaged.CWHvm_CW_PLC_M">
+        <curve idref="au_CWHvm_CW_PLC_M_unmanaged_height" />
+      </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_CW_PLC_M">
         <curve idref="au_CWHvm_CW_PLC_M_unmanaged_qmd" />
       </attribute>
@@ -24849,8 +25121,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_CW_PLC_M_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_CW_PLC_M">
-        <curve idref="au_CWHvm_CW_PLC_M_managed_stems_per_ha" />
+      <attribute label="feature.Height.managed.CWHvm_CW_PLC_M">
+        <curve idref="au_CWHvm_CW_PLC_M_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_CW_PLC_M">
         <curve idref="au_CWHvm_CW_PLC_M_managed_qmd" />
@@ -24973,8 +25245,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_FDC_H_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_HW_FDC_H">
-        <curve idref="au_CWHvm_HW_FDC_H_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_HW_FDC_H">
+        <curve idref="au_CWHvm_HW_FDC_H_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_HW_FDC_H">
         <curve idref="au_CWHvm_HW_FDC_H_unmanaged_qmd" />
@@ -25044,8 +25316,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_FDC_H_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_HW_FDC_H">
-        <curve idref="au_CWHvm_HW_FDC_H_managed_stems_per_ha" />
+      <attribute label="feature.Height.managed.CWHvm_HW_FDC_H">
+        <curve idref="au_CWHvm_HW_FDC_H_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_HW_FDC_H">
         <curve idref="au_CWHvm_HW_FDC_H_managed_qmd" />
@@ -25180,8 +25452,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_FDC_H_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_HW_FDC_H">
-        <curve idref="au_CWHvm_HW_FDC_H_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_HW_FDC_H">
+        <curve idref="au_CWHvm_HW_FDC_H_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_HW_FDC_H">
         <curve idref="au_CWHvm_HW_FDC_H_unmanaged_qmd" />
@@ -25257,8 +25529,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_FDC_H_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_HW_FDC_H">
-        <curve idref="au_CWHvm_HW_FDC_H_managed_stems_per_ha" />
+      <attribute label="feature.Height.managed.CWHvm_HW_FDC_H">
+        <curve idref="au_CWHvm_HW_FDC_H_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_HW_FDC_H">
         <curve idref="au_CWHvm_HW_FDC_H_managed_qmd" />
@@ -25416,8 +25688,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_FDC_H_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_HW_FDC_H">
-        <curve idref="au_CWHvm_HW_FDC_H_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_HW_FDC_H">
+        <curve idref="au_CWHvm_HW_FDC_H_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_HW_FDC_H">
         <curve idref="au_CWHvm_HW_FDC_H_unmanaged_qmd" />
@@ -25493,11 +25765,11 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_FDC_H_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_HW_FDC_H">
-        <curve idref="au_CWHvm_HW_FDC_H_managed_cc_pl_pct_stems_per_ha" />
-      </attribute>
       <attribute label="feature.QMD.managed.CWHvm_HW_FDC_H">
         <curve idref="au_CWHvm_HW_FDC_H_managed_qmd" />
+      </attribute>
+      <attribute label="feature.Height.managed.CWHvm_HW_FDC_H">
+        <curve idref="au_CWHvm_HW_FDC_H_managed_height" />
       </attribute>
       <attribute label="feature.Yield.managed.CW">
         <curve idref="au_CWHvm_HW_FDC_H_managed_cc_pl_pct_yield_CW" />
@@ -25612,8 +25884,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_FDC_HW_H_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_FDC_HW_H">
-        <curve idref="au_CWHvm_FDC_HW_H_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_FDC_HW_H">
+        <curve idref="au_CWHvm_FDC_HW_H_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_FDC_HW_H">
         <curve idref="au_CWHvm_FDC_HW_H_unmanaged_qmd" />
@@ -25683,8 +25955,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_FDC_HW_H_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_FDC_HW_H">
-        <curve idref="au_CWHvm_FDC_HW_H_managed_stems_per_ha" />
+      <attribute label="feature.Height.managed.CWHvm_FDC_HW_H">
+        <curve idref="au_CWHvm_FDC_HW_H_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_FDC_HW_H">
         <curve idref="au_CWHvm_FDC_HW_H_managed_qmd" />
@@ -25819,8 +26091,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_FDC_HW_H_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_FDC_HW_H">
-        <curve idref="au_CWHvm_FDC_HW_H_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_FDC_HW_H">
+        <curve idref="au_CWHvm_FDC_HW_H_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_FDC_HW_H">
         <curve idref="au_CWHvm_FDC_HW_H_unmanaged_qmd" />
@@ -25896,8 +26168,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_FDC_HW_H_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_FDC_HW_H">
-        <curve idref="au_CWHvm_FDC_HW_H_managed_stems_per_ha" />
+      <attribute label="feature.Height.managed.CWHvm_FDC_HW_H">
+        <curve idref="au_CWHvm_FDC_HW_H_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_FDC_HW_H">
         <curve idref="au_CWHvm_FDC_HW_H_managed_qmd" />
@@ -26055,8 +26327,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_FDC_HW_H_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_FDC_HW_H">
-        <curve idref="au_CWHvm_FDC_HW_H_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_FDC_HW_H">
+        <curve idref="au_CWHvm_FDC_HW_H_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_FDC_HW_H">
         <curve idref="au_CWHvm_FDC_HW_H_unmanaged_qmd" />
@@ -26132,11 +26404,11 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_FDC_HW_H_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_FDC_HW_H">
-        <curve idref="au_CWHvm_FDC_HW_H_managed_cc_pl_pct_stems_per_ha" />
-      </attribute>
       <attribute label="feature.QMD.managed.CWHvm_FDC_HW_H">
         <curve idref="au_CWHvm_FDC_HW_H_managed_qmd" />
+      </attribute>
+      <attribute label="feature.Height.managed.CWHvm_FDC_HW_H">
+        <curve idref="au_CWHvm_FDC_HW_H_managed_height" />
       </attribute>
       <attribute label="feature.Yield.managed.CW">
         <curve idref="au_CWHvm_FDC_HW_H_managed_cc_pl_pct_yield_CW" />
@@ -26236,8 +26508,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_CW_HW_H_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_CW_HW_H">
-        <curve idref="au_CWHvm_CW_HW_H_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_CW_HW_H">
+        <curve idref="au_CWHvm_CW_HW_H_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_CW_HW_H">
         <curve idref="au_CWHvm_CW_HW_H_unmanaged_qmd" />
@@ -26307,8 +26579,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_CW_HW_H_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_CW_HW_H">
-        <curve idref="au_CWHvm_CW_HW_H_managed_stems_per_ha" />
+      <attribute label="feature.Height.managed.CWHvm_CW_HW_H">
+        <curve idref="au_CWHvm_CW_HW_H_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_CW_HW_H">
         <curve idref="au_CWHvm_CW_HW_H_managed_qmd" />
@@ -26443,8 +26715,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_CW_HW_H_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_CW_HW_H">
-        <curve idref="au_CWHvm_CW_HW_H_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_CW_HW_H">
+        <curve idref="au_CWHvm_CW_HW_H_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_CW_HW_H">
         <curve idref="au_CWHvm_CW_HW_H_unmanaged_qmd" />
@@ -26514,8 +26786,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_CW_HW_H_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_CW_HW_H">
-        <curve idref="au_CWHvm_CW_HW_H_managed_stems_per_ha" />
+      <attribute label="feature.Height.managed.CWHvm_CW_HW_H">
+        <curve idref="au_CWHvm_CW_HW_H_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_CW_HW_H">
         <curve idref="au_CWHvm_CW_HW_H_managed_qmd" />
@@ -26650,8 +26922,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_CW_H_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_HW_CW_H">
-        <curve idref="au_CWHvm_HW_CW_H_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_HW_CW_H">
+        <curve idref="au_CWHvm_HW_CW_H_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_HW_CW_H">
         <curve idref="au_CWHvm_HW_CW_H_unmanaged_qmd" />
@@ -26721,8 +26993,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_CW_H_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_HW_CW_H">
-        <curve idref="au_CWHvm_HW_CW_H_managed_stems_per_ha" />
+      <attribute label="feature.Height.managed.CWHvm_HW_CW_H">
+        <curve idref="au_CWHvm_HW_CW_H_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_HW_CW_H">
         <curve idref="au_CWHvm_HW_CW_H_managed_qmd" />
@@ -26857,8 +27129,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_CW_H_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_HW_CW_H">
-        <curve idref="au_CWHvm_HW_CW_H_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_HW_CW_H">
+        <curve idref="au_CWHvm_HW_CW_H_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_HW_CW_H">
         <curve idref="au_CWHvm_HW_CW_H_unmanaged_qmd" />
@@ -26934,8 +27206,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_CW_H_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_HW_CW_H">
-        <curve idref="au_CWHvm_HW_CW_H_managed_stems_per_ha" />
+      <attribute label="feature.Height.managed.CWHvm_HW_CW_H">
+        <curve idref="au_CWHvm_HW_CW_H_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_HW_CW_H">
         <curve idref="au_CWHvm_HW_CW_H_managed_qmd" />
@@ -27085,8 +27357,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_DR_HW_H_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_DR_HW_H">
-        <curve idref="au_CWHvm_DR_HW_H_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_DR_HW_H">
+        <curve idref="au_CWHvm_DR_HW_H_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_DR_HW_H">
         <curve idref="au_CWHvm_DR_HW_H_unmanaged_qmd" />
@@ -27156,8 +27428,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_DR_HW_H_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_DR_HW_H">
-        <curve idref="au_CWHvm_DR_HW_H_managed_stems_per_ha" />
+      <attribute label="feature.Height.managed.CWHvm_DR_HW_H">
+        <curve idref="au_CWHvm_DR_HW_H_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_DR_HW_H">
         <curve idref="au_CWHvm_DR_HW_H_managed_qmd" />
@@ -27292,8 +27564,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_DR_HW_H_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_DR_HW_H">
-        <curve idref="au_CWHvm_DR_HW_H_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_DR_HW_H">
+        <curve idref="au_CWHvm_DR_HW_H_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_DR_HW_H">
         <curve idref="au_CWHvm_DR_HW_H_unmanaged_qmd" />
@@ -27363,8 +27635,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_DR_HW_H_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_DR_HW_H">
-        <curve idref="au_CWHvm_DR_HW_H_managed_stems_per_ha" />
+      <attribute label="feature.Height.managed.CWHvm_DR_HW_H">
+        <curve idref="au_CWHvm_DR_HW_H_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_DR_HW_H">
         <curve idref="au_CWHvm_DR_HW_H_managed_qmd" />
@@ -27499,6 +27771,9 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_SS_H_og2" />
       </attribute>
+      <attribute label="feature.Height.unmanaged.CWHvm_HW_SS_H">
+        <curve idref="au_CWHvm_HW_SS_H_unmanaged_height" />
+      </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_HW_SS_H">
         <curve idref="au_CWHvm_HW_SS_H_unmanaged_qmd" />
       </attribute>
@@ -27566,6 +27841,9 @@
       </attribute>
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_SS_H_og2" />
+      </attribute>
+      <attribute label="feature.Height.managed.CWHvm_HW_SS_H">
+        <curve idref="au_CWHvm_HW_SS_H_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_HW_SS_H">
         <curve idref="au_CWHvm_HW_SS_H_managed_qmd" />
@@ -27700,6 +27978,9 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_SS_H_og2" />
       </attribute>
+      <attribute label="feature.Height.unmanaged.CWHvm_HW_SS_H">
+        <curve idref="au_CWHvm_HW_SS_H_unmanaged_height" />
+      </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_HW_SS_H">
         <curve idref="au_CWHvm_HW_SS_H_unmanaged_qmd" />
       </attribute>
@@ -27767,6 +28048,9 @@
       </attribute>
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_SS_H_og2" />
+      </attribute>
+      <attribute label="feature.Height.managed.CWHvm_HW_SS_H">
+        <curve idref="au_CWHvm_HW_SS_H_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_HW_SS_H">
         <curve idref="au_CWHvm_HW_SS_H_managed_qmd" />
@@ -27901,6 +28185,9 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_CW_YC_H_og2" />
       </attribute>
+      <attribute label="feature.Height.unmanaged.CWHvm_CW_YC_H">
+        <curve idref="au_CWHvm_CW_YC_H_unmanaged_height" />
+      </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_CW_YC_H">
         <curve idref="au_CWHvm_CW_YC_H_unmanaged_qmd" />
       </attribute>
@@ -27974,6 +28261,9 @@
       </attribute>
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_CW_YC_H_og2" />
+      </attribute>
+      <attribute label="feature.Height.managed.CWHvm_CW_YC_H">
+        <curve idref="au_CWHvm_CW_YC_H_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_CW_YC_H">
         <curve idref="au_CWHvm_CW_YC_H_managed_qmd" />
@@ -28123,6 +28413,9 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_CW_YC_H_og2" />
       </attribute>
+      <attribute label="feature.Height.unmanaged.CWHvm_CW_YC_H">
+        <curve idref="au_CWHvm_CW_YC_H_unmanaged_height" />
+      </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_CW_YC_H">
         <curve idref="au_CWHvm_CW_YC_H_unmanaged_qmd" />
       </attribute>
@@ -28196,6 +28489,9 @@
       </attribute>
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_CW_YC_H_og2" />
+      </attribute>
+      <attribute label="feature.Height.managed.CWHvm_CW_YC_H">
+        <curve idref="au_CWHvm_CW_YC_H_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_CW_YC_H">
         <curve idref="au_CWHvm_CW_YC_H_managed_qmd" />
@@ -28345,8 +28641,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_BA_H_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_HW_BA_H">
-        <curve idref="au_CWHvm_HW_BA_H_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_HW_BA_H">
+        <curve idref="au_CWHvm_HW_BA_H_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_HW_BA_H">
         <curve idref="au_CWHvm_HW_BA_H_unmanaged_qmd" />
@@ -28416,8 +28712,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_BA_H_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_HW_BA_H">
-        <curve idref="au_CWHvm_HW_BA_H_managed_stems_per_ha" />
+      <attribute label="feature.Height.managed.CWHvm_HW_BA_H">
+        <curve idref="au_CWHvm_HW_BA_H_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_HW_BA_H">
         <curve idref="au_CWHvm_HW_BA_H_managed_qmd" />
@@ -28552,8 +28848,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_BA_H_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.unmanaged.CWHvm_HW_BA_H">
-        <curve idref="au_CWHvm_HW_BA_H_unmanaged_stems_per_ha" />
+      <attribute label="feature.Height.unmanaged.CWHvm_HW_BA_H">
+        <curve idref="au_CWHvm_HW_BA_H_unmanaged_height" />
       </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_HW_BA_H">
         <curve idref="au_CWHvm_HW_BA_H_unmanaged_qmd" />
@@ -28623,8 +28919,8 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_HW_BA_H_og2" />
       </attribute>
-      <attribute label="feature.StemsPerHa.managed.CWHvm_HW_BA_H">
-        <curve idref="au_CWHvm_HW_BA_H_managed_stems_per_ha" />
+      <attribute label="feature.Height.managed.CWHvm_HW_BA_H">
+        <curve idref="au_CWHvm_HW_BA_H_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_HW_BA_H">
         <curve idref="au_CWHvm_HW_BA_H_managed_qmd" />
@@ -28759,6 +29055,9 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_CW_PLC_H_og2" />
       </attribute>
+      <attribute label="feature.Height.unmanaged.CWHvm_CW_PLC_H">
+        <curve idref="au_CWHvm_CW_PLC_H_unmanaged_height" />
+      </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_CW_PLC_H">
         <curve idref="au_CWHvm_CW_PLC_H_unmanaged_qmd" />
       </attribute>
@@ -28838,6 +29137,9 @@
       </attribute>
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_CW_PLC_H_og2" />
+      </attribute>
+      <attribute label="feature.Height.managed.CWHvm_CW_PLC_H">
+        <curve idref="au_CWHvm_CW_PLC_H_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_CW_PLC_H">
         <curve idref="au_CWHvm_CW_PLC_H_managed_qmd" />
@@ -29002,6 +29304,9 @@
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_CW_PLC_H_og2" />
       </attribute>
+      <attribute label="feature.Height.unmanaged.CWHvm_CW_PLC_H">
+        <curve idref="au_CWHvm_CW_PLC_H_unmanaged_height" />
+      </attribute>
       <attribute label="feature.QMD.unmanaged.CWHvm_CW_PLC_H">
         <curve idref="au_CWHvm_CW_PLC_H_unmanaged_qmd" />
       </attribute>
@@ -29081,6 +29386,9 @@
       </attribute>
       <attribute label="feature.Area.og2.total">
         <curve idref="au_CWHvm_CW_PLC_H_og2" />
+      </attribute>
+      <attribute label="feature.Height.managed.CWHvm_CW_PLC_H">
+        <curve idref="au_CWHvm_CW_PLC_H_managed_height" />
       </attribute>
       <attribute label="feature.QMD.managed.CWHvm_CW_PLC_H">
         <curve idref="au_CWHvm_CW_PLC_H_managed_qmd" />

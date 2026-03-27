@@ -1,5 +1,7 @@
 qmd:
   enabled: true
   harvested_product_accounts_enabled: true
+height:
+  enabled: true
 stems_per_ha:
   enabled: true

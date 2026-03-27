@@ -77,12 +77,16 @@ feature accounts:
 
 - ``feature.StemsPerHa.managed.<au_token>``
 - ``feature.StemsPerHa.unmanaged.<au_token>``
+- ``feature.Height.managed.<au_token>``
+- ``feature.Height.unmanaged.<au_token>``
 
 These are exported from ForestModel as feature attributes, then normalized
 downstream during ``protoaccounts.csv -> accounts.csv`` promotion using the
 AU-wise managed/unmanaged area implied by the validated fragments plus
 ``RETENTION``. Read the live ``feature.StemsPerHa.*`` accounts directly as mean
 standing stems per hectare, not total stem counts.
+Read the live ``feature.Height.*`` accounts directly as mean standing height in
+``m``.
 
 Surface Selection Cheatsheet
 ----------------------------
@@ -144,6 +148,9 @@ Variant review points:
 - The CT/fert tracks also expose AU-wise standing stems-per-ha feature rows:
   - ``feature.StemsPerHa.managed.<au_token>``
   - ``feature.StemsPerHa.unmanaged.<au_token>``
+- The CT/fert tracks also expose AU-wise standing stem-height feature rows:
+  - ``feature.Height.managed.<au_token>``
+  - ``feature.Height.unmanaged.<au_token>``
 - Matching denominator rows:
   - ``product.Treated.managed.<au_token>.CC``
   - ``product.Treated.managed.<au_token>.CT``
@@ -204,6 +211,10 @@ Variant review points:
   stems-per-ha feature rows:
   - ``feature.StemsPerHa.managed.<au_token>``
   - ``feature.StemsPerHa.unmanaged.<au_token>``
+- Each ``tracks_pct_*`` surface should also expose AU-wise standing stem-height
+  feature rows:
+  - ``feature.Height.managed.<au_token>``
+  - ``feature.Height.unmanaged.<au_token>``
 - Matching denominator rows:
   - ``product.Treated.managed.<au_token>.PCT``
   - ``product.Treated.managed.<au_token>.CC``
@@ -262,6 +273,10 @@ Variant review points:
   - ``product.QMDNumerator.managed.<au_token>.PCT``
   - ``product.QMDNumerator.managed.<au_token>.CT``
   - ``product.QMDNumerator.managed.<au_token>.CC``
+- Each ``tracks_intensive_*`` surface should also expose AU-wise standing
+  stem-height feature rows:
+  - ``feature.Height.managed.<au_token>``
+  - ``feature.Height.unmanaged.<au_token>``
 - Matching denominator rows:
   - ``product.Treated.managed.<au_token>.PCT``
   - ``product.Treated.managed.<au_token>.CT``
@@ -307,6 +322,8 @@ Review points:
 - confirm the AU-wise harvested-stem QMD ``CC`` numerator / denominator /
   ratio-account contract still matches baseline;
 - confirm the AU-wise standing stems-per-ha feature accounts still match the
+  baseline contract;
+- confirm the AU-wise standing stem-height feature accounts still match the
   baseline contract;
 - confirm any missing managed species accounts are consistent with high
   retained area, not with a bad tracks surface.

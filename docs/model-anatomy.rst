@@ -88,6 +88,9 @@ Additional baseline/overlay support surfaces:
 - standing-stock approximate QMD outputs:
   - ``feature.QMD.managed.<au_token>``
   - ``feature.QMD.unmanaged.<au_token>``
+- standing stem-height outputs:
+  - ``feature.Height.managed.<au_token>``
+  - ``feature.Height.unmanaged.<au_token>``
 - standing stems-per-ha outputs:
   - ``feature.StemsPerHa.managed.<au_token>``
   - ``feature.StemsPerHa.unmanaged.<au_token>``
@@ -112,6 +115,10 @@ The standing stems-per-ha feature accounts are normalized downstream during the
 unmanaged area from the validated fragments surface. Read the live
 ``feature.StemsPerHa.*`` accounts directly as mean standing stems per hectare,
 not total stem counts.
+
+The standing stem-height feature accounts follow the same downstream
+area-normalized contract. Read the live ``feature.Height.*`` accounts directly
+as mean standing height in ``m`` for the matching AU and IFM side.
 
 These baseline and overlay launch surfaces also apply a downstream recovered-
 volume utilization assumption during ``protoaccounts.csv -> accounts.csv``
@@ -160,6 +167,9 @@ Additional state/config artifacts for that variant:
 - approximate QMD outputs:
   - ``feature.QMD.managed.<au_token>``
   - ``feature.QMD.unmanaged.<au_token>``
+- standing stem-height outputs:
+  - ``feature.Height.managed.<au_token>``
+  - ``feature.Height.unmanaged.<au_token>``
 - standing stems-per-ha outputs:
   - ``feature.StemsPerHa.managed.<au_token>``
   - ``feature.StemsPerHa.unmanaged.<au_token>``
@@ -210,6 +220,10 @@ standing QMD:
   fraction from the CT age forward;
 - fertilization states carry the same standing stems surface forward unchanged.
 
+The standing ``feature.Height.*`` accounts are exposed on the same AU-wise
+managed/unmanaged contract. Read them directly as mean standing height in
+``m``.
+
 The shipped CT/fert launch surfaces also apply the downstream recovered-volume
 utilization policy during ``protoaccounts.csv -> accounts.csv`` promotion:
 
@@ -253,6 +267,9 @@ Additional state/config artifacts for that variant:
 - approximate QMD outputs:
   - ``feature.QMD.managed.<au_token>``
   - ``feature.QMD.unmanaged.<au_token>``
+- standing stem-height outputs:
+  - ``feature.Height.managed.<au_token>``
+  - ``feature.Height.unmanaged.<au_token>``
 - standing stems-per-ha outputs:
   - ``feature.StemsPerHa.managed.<au_token>``
   - ``feature.StemsPerHa.unmanaged.<au_token>``
@@ -296,6 +313,11 @@ surface from age 10 onward by the configured PCT residual fraction. In other
 words, the light/moderate/heavy subvariants now expose standing-density
 surfaces that are distinct, not just different product/yield paths.
 
+The standing ``feature.Height.*`` accounts are available alongside
+``feature.StemsPerHa.*`` and ``feature.QMD.*``, so the ``pct_*`` family now
+exposes standing height, standing density, and harvested-diameter views in
+parallel.
+
 The shipped ``pct_*`` launch surfaces inherit the same downstream recovered-
 volume utilization policy during ``protoaccounts.csv -> accounts.csv``
 promotion:
@@ -332,6 +354,9 @@ Additional state/config artifacts for that variant:
 - approximate QMD outputs:
   - ``feature.QMD.managed.<au_token>``
   - ``feature.QMD.unmanaged.<au_token>``
+- standing stem-height outputs:
+  - ``feature.Height.managed.<au_token>``
+  - ``feature.Height.unmanaged.<au_token>``
 - standing stems-per-ha outputs:
   - ``feature.StemsPerHa.managed.<au_token>``
   - ``feature.StemsPerHa.unmanaged.<au_token>``
@@ -383,6 +408,11 @@ same teaching-model pattern as the current CT/fert and PCT families:
 - post-CT states scale that standing stems surface again by the configured CT
   removal fraction from age 40 onward;
 - fertilization states carry the same standing stems surface forward unchanged.
+
+The standing ``feature.Height.*`` accounts are available on the same AU-wise
+contract as ``feature.StemsPerHa.*`` and ``feature.QMD.*``, so the full
+intensive family now exposes standing height, standing density, and harvested
+diameter views together.
 
 The shipped ``intensive_*`` launch surfaces inherit the same downstream
 recovered-volume utilization policy during ``protoaccounts.csv -> accounts.csv``
