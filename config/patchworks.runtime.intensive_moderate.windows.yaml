@@ -1,0 +1,17 @@
+patchworks:
+  jar_path: C:/Program Files/Spatial Planning Systems/Patchworks/patchworks.jar
+  wine_prefix: null
+  license_env: SPS_LICENSE_SERVER
+  license_value: null
+  spshome: C:\Program Files\Spatial Planning Systems\Patchworks
+  use_xvfb: false
+
+matrix_builder:
+  fragments_path: ../output/patchworks_k3z_intensive_moderate_validated/fragments/fragments.dbf
+  output_dir: ../models/k3z_patchworks_model/tracks_intensive_moderate
+  forestmodel_xml_path: ../models/k3z_patchworks_model/yield/forestmodel_intensive_moderate.xml
+  harvested_volume_utilization_by_treatment:
+    CC: 0.85
+    CT: 0.75
+  accounts_exclude_regex:
+    - "\\.PL(\\.|$)"

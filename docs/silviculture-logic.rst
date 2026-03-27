@@ -5,7 +5,7 @@ Purpose
 -------
 
 This page documents the actual treatment parameters, gating fields, and
-sequencing logic for the two intensive-silviculture K3Z variants.
+sequencing logic for the shipped intensive-silviculture K3Z variant families.
 
 Control Fields
 --------------
@@ -14,7 +14,7 @@ Control Fields
 - ``IFM`` distinguishes managed vs unmanaged land-base behavior.
 - ``SILV_STATE`` carries treatment history for the intensive variants.
 
-In both intensive variants, treatment history is carried by ``SILV_STATE``,
+In all intensive variants, treatment history is carried by ``SILV_STATE``,
 not by overloading ``ORIGIN``.
 
 Gate Summary
@@ -164,6 +164,64 @@ Sequencing logic:
    - ``pct_heavy``: remove ``3000`` stems/ha
 4. No ``CT`` / ``F1`` / ``F2`` / ``F3`` chain is compiled in this variant.
 
+Full-Intensive Subvariants
+--------------------------
+
+Canonical control files:
+
+- ``config/patchworks.variant.intensive_light.yaml`` +
+  ``config/silviculture.k3z.intensive_light.yaml``
+- ``config/patchworks.variant.intensive_moderate.yaml`` +
+  ``config/silviculture.k3z.intensive_moderate.yaml``
+- ``config/patchworks.variant.intensive_heavy.yaml`` +
+  ``config/silviculture.k3z.intensive_heavy.yaml``
+
+Treatment parameter table:
+
+.. list-table::
+   :header-rows: 1
+
+   * - Element
+     - Current implementation
+   * - Eligible AUs
+     - ``985501001``, ``985502001``, ``985503001``, ``985501002``, ``985502002``, ``985503002``, ``985502000``, and ``985503000``
+   * - Subvariant names
+     - ``intensive_light``, ``intensive_moderate``, and ``intensive_heavy``
+   * - Eligibility gate
+     - planted-only path (``min_origin: planted``)
+   * - State transition field
+     - ``SILV_STATE``
+   * - Combined state chain
+     - ``cc_pl -> cc_pl_pct -> cc_pl_pct_ct -> cc_pl_ct_f1 -> cc_pl_ct_f1_f2 -> cc_pl_ct_f1_f2_f3``
+   * - PCT transition
+     - ``cc_pl -> cc_pl_pct`` at age ``10``
+   * - CT transition
+     - ``cc_pl_pct -> cc_pl_pct_ct`` at age ``40``
+   * - PCT flavors
+     - ``intensive_light`` removes ``1000`` HW stems/ha, ``intensive_moderate`` removes ``2000``, and ``intensive_heavy`` removes ``3000``
+   * - Fert response profile
+     - reuse the accepted ``ctfert_l15h5`` profile: ``L=15%``, ``M=10%``, ``H=5%``
+   * - F1 transition
+     - ``cc_pl_pct_ct -> cc_pl_ct_f1`` at ``cai_argmax``
+   * - F2 transition
+     - ``cc_pl_ct_f1 -> cc_pl_ct_f1_f2`` after ``10`` years
+   * - F3 transition
+     - ``cc_pl_ct_f1_f2 -> cc_pl_ct_f1_f2_f3`` after ``10`` years
+   * - CT final-felling gap factor
+     - ``0.0`` so the residual final-felling volume gap tapers to zero by ``cmai_argmax``
+   * - Curated retention overlay
+     - reuse the accepted CT/fert curated fragments surface from ``tmp/CTFert Fragments/fragments_updated3_Usedinbasecase.shp``
+
+Sequencing logic:
+
+1. ``CC`` establishes the planted path.
+2. One age-10 ``PCT`` option is compiled per selected ``intensive_*``
+   subvariant.
+3. ``CT`` is available only after ``PCT`` and only on the eight eligible AUs.
+4. ``F1`` is available only after ``CT`` and fires at ``cai_argmax``.
+5. ``F2`` is available only after ``F1`` and waits ``10`` years.
+6. ``F3`` is available only after ``F2`` and waits ``10`` years.
+
 State Machines
 --------------
 
@@ -182,6 +240,16 @@ State Machines
 - ``cc_pl``
 - ``cc_pl_pct``
 
+``intensive_*`` states:
+
+- ``baseline``
+- ``cc_pl``
+- ``cc_pl_pct``
+- ``cc_pl_pct_ct``
+- ``cc_pl_ct_f1``
+- ``cc_pl_ct_f1_f2``
+- ``cc_pl_ct_f1_f2_f3``
+
 Interpretation Notes
 --------------------
 
@@ -191,5 +259,8 @@ Interpretation Notes
 - Use ``pct_light`` / ``pct_moderate`` / ``pct_heavy`` when the teaching
   question is about comparing PCT intensity on an otherwise consistent
   planted stand-tending path.
+- Use ``intensive_light`` / ``intensive_moderate`` / ``intensive_heavy`` when
+  the teaching question needs the full ``PCT -> CT -> F1 -> F2 -> F3``
+  treatment scaffold on one launchable K3Z surface.
 - Do not interpret these surfaces as polished operational prescriptions; they
   are explicit teaching scaffolds built from YAML-facing assumptions.

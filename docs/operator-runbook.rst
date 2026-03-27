@@ -104,6 +104,12 @@ Surface Selection Cheatsheet
      - ``config/patchworks.runtime.pct_moderate.windows.yaml`` + ``analysis/pct_moderate.pin``
    * - heavy PCT-only surface
      - ``config/patchworks.runtime.pct_heavy.windows.yaml`` + ``analysis/pct_heavy.pin``
+   * - full-intensive light surface
+     - ``config/patchworks.runtime.intensive_light.windows.yaml`` + ``analysis/intensive_light.pin``
+   * - full-intensive moderate surface
+     - ``config/patchworks.runtime.intensive_moderate.windows.yaml`` + ``analysis/intensive_moderate.pin``
+   * - full-intensive heavy surface
+     - ``config/patchworks.runtime.intensive_heavy.windows.yaml`` + ``analysis/intensive_heavy.pin``
    * - retained-area sensitivity only
      - one of the overlay runtime configs + the matching ``analysis/overlay_*.pin``
 
@@ -220,6 +226,62 @@ Variant review points:
   ``Total``.
 - Deep reference: :doc:`silviculture-logic`
 
+Optional Full-Intensive Subvariant Workflow
+-------------------------------------------
+
+Use this only if you intentionally want the full teaching scaffold with
+``PCT -> CT -> F1 -> F2 -> F3`` on one launchable surface.
+
+.. code-block:: bash
+
+   femic patchworks matrix-build --config config/patchworks.runtime.intensive_light.windows.yaml --run-id k3z_intensive_light
+   femic patchworks matrix-build --config config/patchworks.runtime.intensive_moderate.windows.yaml --run-id k3z_intensive_moderate
+   femic patchworks matrix-build --config config/patchworks.runtime.intensive_heavy.windows.yaml --run-id k3z_intensive_heavy
+
+Variant review points:
+
+- `intensive_light`:
+  - variant spec: ``config/patchworks.variant.intensive_light.yaml``
+  - silviculture config: ``config/silviculture.k3z.intensive_light.yaml``
+  - launch entrypoint: ``models/k3z_patchworks_model/analysis/intensive_light.pin``
+  - tracks surface: ``models/k3z_patchworks_model/tracks_intensive_light/``
+- `intensive_moderate`:
+  - variant spec: ``config/patchworks.variant.intensive_moderate.yaml``
+  - silviculture config: ``config/silviculture.k3z.intensive_moderate.yaml``
+  - launch entrypoint: ``models/k3z_patchworks_model/analysis/intensive_moderate.pin``
+  - tracks surface: ``models/k3z_patchworks_model/tracks_intensive_moderate/``
+- `intensive_heavy`:
+  - variant spec: ``config/patchworks.variant.intensive_heavy.yaml``
+  - silviculture config: ``config/silviculture.k3z.intensive_heavy.yaml``
+  - launch entrypoint: ``models/k3z_patchworks_model/analysis/intensive_heavy.pin``
+  - tracks surface: ``models/k3z_patchworks_model/tracks_intensive_heavy/``
+- Each ``tracks_intensive_*`` surface should materialize the full
+  ``PCT -> CT -> F1 -> F2 -> F3`` chain.
+- Each ``tracks_intensive_*`` surface should expose AU-wise harvested-stem QMD
+  numerator rows for ``PCT``, ``CT``, and downstream ``CC``:
+  - ``product.QMDNumerator.managed.<au_token>.PCT``
+  - ``product.QMDNumerator.managed.<au_token>.CT``
+  - ``product.QMDNumerator.managed.<au_token>.CC``
+- Matching denominator rows:
+  - ``product.Treated.managed.<au_token>.PCT``
+  - ``product.Treated.managed.<au_token>.CT``
+  - ``product.Treated.managed.<au_token>.CC``
+- The live ``intensive_*`` Patchworks PIN files should register user-facing
+  ratio accounts:
+  - ``product.QMD.managed.<au_token>.PCT``
+  - ``product.QMD.managed.<au_token>.CT``
+  - ``product.QMD.managed.<au_token>.CC``
+- Read the live ``product.QMD.*`` ratio accounts directly as mean harvested
+  diameter in ``cm``.
+- Read ``product.HarvestedVolume.*`` accounts as recovered merchantable volume:
+  ``CC`` uses downstream utilization ``0.85`` and ``CT`` uses downstream
+  utilization ``0.75``.
+- The ``intensive_*`` family reuses the curated CT/fert retained-area overlay
+  from ``tmp/CTFert Fragments/fragments_updated3_Usedinbasecase.shp``.
+- Patchworks smoke expectation: pulling on ``F3`` treated area should induce
+  ``F2`` -> ``F1`` -> ``CT`` -> ``PCT`` -> ``CC``.
+- Deep reference: :doc:`silviculture-logic`
+
 Baseline Overlay Subvariant Workflow
 ------------------------------------
 
@@ -294,6 +356,10 @@ Release Checklist
 - If releasing the optional PCT-only subvariants, confirm the light/moderate/
   heavy variant specs, runtime configs, and ``pct_*.pin`` launch
   instructions are documented for student groups.
+- If releasing the optional full-intensive subvariants, confirm the
+  ``intensive_light`` / ``intensive_moderate`` / ``intensive_heavy`` variant
+  specs, runtime configs, curated ``RETENTION`` provenance, and
+  ``intensive_*.pin`` launch instructions are documented for student groups.
 
 Publication Checklist
 ---------------------

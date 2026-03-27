@@ -1,0 +1,30 @@
+variant_id: intensive_moderate
+label: "K3Z optional full intensive-silviculture moderate subvariant"
+description: "Optional K3Z Patchworks intensive-silviculture subvariant with moderate PCT, CT, and F1/F2/F3 across the 8-AU union of the current pct_* and ctfert_l15h5 families."
+patchworks:
+  runtime_config: config/patchworks.runtime.intensive_moderate.windows.yaml
+  analysis_pin: models/k3z_patchworks_model/analysis/intensive_moderate.pin
+  tracks_dir: models/k3z_patchworks_model/tracks_intensive_moderate
+  forestmodel_xml: models/k3z_patchworks_model/yield/forestmodel_intensive_moderate.xml
+  fragments_shapefile: output/patchworks_k3z_intensive_moderate_validated/fragments/fragments.shp
+  silviculture_config: config/silviculture.k3z.intensive_moderate.yaml
+build:
+  export_command: >-
+    femic export patchworks --tsa k3z --instance-root external/femic-k3z-instance
+    --output-dir output/patchworks_k3z_intensive_moderate_validated --seral-stage-config config/seral.k3z.yaml
+    --silviculture-config config/silviculture.k3z.intensive_moderate.yaml
+  publish_forestmodel_note: >-
+    Treat the export primarily as the canonical full-intensive moderate-subvariant
+    ForestModel refresh. The accepted fragments surface should stay aligned to
+    the curated 218-fragment CT/fert retention overlay in
+    tmp/CTFert Fragments/fragments_updated3_Usedinbasecase.shp; after export,
+    replace the raw fragments surface with the curated overlay before Matrix
+    Builder and copy the fresh forestmodel.xml to
+    models/k3z_patchworks_model/yield/forestmodel_intensive_moderate.xml.
+  matrix_build_command: >-
+    femic patchworks matrix-build --instance-root external/femic-k3z-instance
+    --config config/patchworks.runtime.intensive_moderate.windows.yaml --run-id k3z_intensive_moderate
+notes:
+  - "Use this subvariant when the class exercise needs the full PCT -> CT -> F1 -> F2 -> F3 chain with moderate PCT intensity."
+  - "Patchworks launch entrypoint: analysis/intensive_moderate.pin"
+  - "Canonical rebuild contract: refresh ForestModel from current bundle/checkpoint inputs, then matrix-build against the accepted curated CT/fert RETENTION overlay surface."

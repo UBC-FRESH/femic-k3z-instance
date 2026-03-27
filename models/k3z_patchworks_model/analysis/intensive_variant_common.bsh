@@ -1,0 +1,173 @@
+/*
+ * Shared Patchworks PIN body for full-intensive K3Z variants.
+ * Wrapper pins must define `tracks_path_prefix` before sourcing this file.
+ */
+
+int periods = 30;
+Horizon.setHorizon(periods, 10);
+
+boolean useRoutes = false;
+boolean usePatches = false;
+
+sourceRelative("../scripts/targets/flowTargets.bsh");
+sourceRelative("../scripts/targets/qmdRatioAccounts.bsh");
+sourceRelative("../scripts/targets/seralStages.bsh");
+
+blocks = tracks_path_prefix + "blocks.csv";
+curves = tracks_path_prefix + "curves.csv";
+features = tracks_path_prefix + "features.csv";
+products = tracks_path_prefix + "products.csv";
+tracknames = tracks_path_prefix + "tracknames.csv";
+treatments = tracks_path_prefix + "treatments.csv";
+accounts = tracks_path_prefix + "accounts.csv";
+stratas = tracks_path_prefix + "strata.csv";
+if (
+    AttributeStore.absoluteFile(tracks_path_prefix + "packages.csv").exists()
+    && AttributeStore.absoluteFile(tracks_path_prefix + "packageSequences.csv").exists()
+) {
+  packages = tracks_path_prefix + "packages.csv";
+  sequences = tracks_path_prefix + "packageSequences.csv";
+}
+
+block_shape = "../blocks/blocks.shp";
+block_key = "BLOCK";
+
+String roads_path_prefix = "../roads/";
+roadShapeFile = roads_path_prefix + "access.shp";
+roadShapeKey = "ACCESS_";
+if (useRoutes) {
+   vertices = roads_path_prefix + "vertices.csv";
+   segments = roads_path_prefix + "segments.csv";
+   destinations = roads_path_prefix + "destinations.csv";
+   linkages = roads_path_prefix + "linkages.csv";
+}
+
+int Patchworks_TargetInit() {
+   control.calculateGroups("AU");
+   control.calculateGroups("IFM");
+   setupYieldFlowTargets(control, periods, tracks_path_prefix);
+   setupHarvestedQmdRatioAccounts(control, tracks_path_prefix);
+   validateSeralStageAttributes();
+   control.inputTopology("../blocks/topology_blocks_200r.csv", 100d);
+   return 1;
+}
+
+int PatchWorks_Init() {
+   classic_GUI(control);
+
+    DefaultTheme def = new DefaultTheme(
+        blockData,
+        new PolygonSymbol(new Color(204, 204, 255))
+    );
+    Layer defLayer = new GeoRelLayer(blockData, def);
+    layers.add(defLayer);
+
+    UniqueValueTheme currTreatTheme = new UniqueValueTheme(blockData);
+    currTreatTheme.setFieldname("CURRENTTREATMENT");
+    currTreatTheme.addElement(
+        new ThemeElement("CC", new PolygonSymbol(new Color(200, 60, 60))),
+        "CC"
+    );
+    currTreatTheme.addElement(
+        new ThemeElement("PCT", new PolygonSymbol(new Color(120, 170, 235))),
+        "PCT"
+    );
+    currTreatTheme.addElement(
+        new ThemeElement("CT", new PolygonSymbol(new Color(80, 170, 110))),
+        "CT"
+    );
+    currTreatTheme.addElement(
+        new ThemeElement("F1", new PolygonSymbol(new Color(80, 140, 220))),
+        "F1"
+    );
+    currTreatTheme.addElement(
+        new ThemeElement("F2", new PolygonSymbol(new Color(170, 110, 210))),
+        "F2"
+    );
+    currTreatTheme.addElement(
+        new ThemeElement("F3", new PolygonSymbol(new Color(230, 160, 70))),
+        "F3"
+    );
+    currTreatTheme.setCaption("Current Treatments");
+    currTreatTheme.setUnclassified(new ThemeElement("", PolygonSymbol.erase));
+    blockData.addTheme(currTreatTheme);
+    GeoRelLayer currTreatLayer = new GeoRelLayer(blockData, currTreatTheme);
+    currTreatLayer.setVisible(false);
+    layers.add(currTreatLayer);
+
+    UniqueValueTheme latestTreatTheme = new UniqueValueTheme(blockData);
+    latestTreatTheme.setFieldname("LASTTREATMENT");
+    latestTreatTheme.addElement(
+        new ThemeElement("CC", new PolygonSymbol(new Color(200, 60, 60))),
+        "CC"
+    );
+    latestTreatTheme.addElement(
+        new ThemeElement("PCT", new PolygonSymbol(new Color(120, 170, 235))),
+        "PCT"
+    );
+    latestTreatTheme.addElement(
+        new ThemeElement("CT", new PolygonSymbol(new Color(80, 170, 110))),
+        "CT"
+    );
+    latestTreatTheme.addElement(
+        new ThemeElement("F1", new PolygonSymbol(new Color(80, 140, 220))),
+        "F1"
+    );
+    latestTreatTheme.addElement(
+        new ThemeElement("F2", new PolygonSymbol(new Color(170, 110, 210))),
+        "F2"
+    );
+    latestTreatTheme.addElement(
+        new ThemeElement("F3", new PolygonSymbol(new Color(230, 160, 70))),
+        "F3"
+    );
+    latestTreatTheme.setCaption("Latest Treatments");
+    latestTreatTheme.setUnclassified(new ThemeElement("", PolygonSymbol.erase));
+    blockData.addTheme(latestTreatTheme);
+    GeoRelLayer latestTreatLayer = new GeoRelLayer(blockData, latestTreatTheme);
+    latestTreatLayer.setVisible(false);
+    layers.add(latestTreatLayer);
+
+    AlphaComposite alpha = AlphaComposite.SrcOver;
+    global.seral2 = new DitherTheme(blockData, "feature.Seral.");
+    seral2.setCaption("Dithered Seral Stage");
+    seral2.setAlpha(alpha);
+    seral2.setIsScaled(false);
+    seral2.addElement("Regen", new Color(250, 230, 0), "feature.Seral.regenerating");
+    seral2.addElement("Young", new Color(200, 250, 200), "feature.Seral.young");
+    seral2.addElement("Immature", new Color(160, 220, 160), "feature.Seral.immature");
+    seral2.addElement("Mature", new Color(100, 190, 100), "feature.Seral.mature");
+    seral2.addElement("Old", new Color(128, 64, 64), "feature.Seral.overmature");
+    blockData.addTheme(seral2, "Dithered Seral Stage");
+    Layer seral2Layer = new GeoRelLayer(blockData, seral2);
+    seral2Layer.setTitle("Seral Stages");
+    layers.add(seral2Layer);
+
+    RangeLabel[] ageClass = new RangeLabel[] {
+      new RangeLabel("Regen", -5, 0),
+      new RangeLabel("1 - 20", 0, 20),
+      new RangeLabel("20 - 40", 20, 40),
+      new RangeLabel("40 - 60", 40, 60),
+      new RangeLabel("60 - 80", 60, 80),
+      new RangeLabel("80 - 100", 80, 100),
+      new RangeLabel("100 - 120", 100, 120),
+      new RangeLabel("120 - 140", 120, 140),
+      new RangeLabel("140+", 140, 9999)
+    };
+
+    reportWriter.addReport(new RangePeriodReport(
+         "ageClass",
+         "Managed area by age class and period",
+         "hectares",
+         control.getBlockTable(),
+         "MANAGEDAREA",
+         "MANAGEDOFFSET",
+         ageClass,
+         null,
+         Horizon.periodList,
+         null,
+         false
+    ));
+
+    return 1;
+}

@@ -32,6 +32,9 @@ Safe to edit directly:
 - ``config/silviculture.k3z.pct_light.yaml`` for the optional light PCT-only subvariant
 - ``config/silviculture.k3z.pct_moderate.yaml`` for the optional moderate PCT-only subvariant
 - ``config/silviculture.k3z.pct_heavy.yaml`` for the optional heavy PCT-only subvariant
+- ``config/silviculture.k3z.intensive_light.yaml`` for the optional full-intensive light subvariant
+- ``config/silviculture.k3z.intensive_moderate.yaml`` for the optional full-intensive moderate subvariant
+- ``config/silviculture.k3z.intensive_heavy.yaml`` for the optional full-intensive heavy subvariant
 - fragment-level ``RETENTION`` values when/if you intentionally edit retained-area policy in the validated fragments dataset
 
 Regenerate instead of hand-edit:
@@ -303,6 +306,93 @@ promotion:
 
 This variant is intended as a teaching scaffold for PCT intensity comparison
 without the added complexity of CT or fertilization.
+
+Optional Full-Intensive Subvariant Family Surface
+-------------------------------------------------
+
+The optional ``intensive_light``, ``intensive_moderate``, and
+``intensive_heavy`` subvariants add a coexisting teaching family that combines
+the current PCT-only and CT/fert scaffolds on one planted-path surface.
+
+Additional state/config artifacts for that variant:
+
+- fragment/XML state field: ``SILV_STATE``
+- silviculture configs:
+  - ``config/silviculture.k3z.intensive_light.yaml``
+  - ``config/silviculture.k3z.intensive_moderate.yaml``
+  - ``config/silviculture.k3z.intensive_heavy.yaml``
+- treatment-path states:
+  - ``baseline``
+  - ``cc_pl``
+  - ``cc_pl_pct``
+  - ``cc_pl_pct_ct``
+  - ``cc_pl_ct_f1``
+  - ``cc_pl_ct_f1_f2``
+  - ``cc_pl_ct_f1_f2_f3``
+- approximate QMD outputs:
+  - ``feature.QMD.managed.<au_token>``
+  - ``feature.QMD.unmanaged.<au_token>``
+- standing stems-per-ha outputs:
+  - ``feature.StemsPerHa.managed.<au_token>``
+  - ``feature.StemsPerHa.unmanaged.<au_token>``
+
+Optional treatment surfaces for that variant:
+
+- ``PCT`` on the full 8-AU union of the current ``pct_*`` and
+  ``ctfert_l15h5`` families
+- ``CT`` after ``PCT`` on that same 8-AU cohort
+- ``F1`` / ``F2`` / ``F3`` after ``CT`` using the accepted
+  ``ctfert_l15h5`` response profile
+- matching compiled treatment products/accounts such as:
+  - ``product.Treated.managed.PCT``
+  - ``product.Treated.managed.CT``
+  - ``product.Treated.managed.F1``
+  - ``product.Treated.managed.F2``
+  - ``product.Treated.managed.F3``
+  - ``product.Treated.managed.<au_token>.PCT``
+  - ``product.Treated.managed.<au_token>.CT``
+  - ``product.Treated.managed.<au_token>.CC``
+  - ``product.QMDNumerator.managed.<au_token>.PCT``
+  - ``product.QMDNumerator.managed.<au_token>.CT``
+  - ``product.QMDNumerator.managed.<au_token>.CC``
+
+The shipped XML/tracks define AU-wise harvested-QMD numerator attributes for
+``PCT``, ``CT``, and downstream ``CC``, plus the matching AU-wise treated-area
+denominator attributes. At launch time, the ``intensive_*`` PIN files register
+live Patchworks ratio accounts:
+
+- ``product.QMD.managed.<au_token>.PCT``
+- ``product.QMD.managed.<au_token>.CT``
+- ``product.QMD.managed.<au_token>.CC``
+
+Those runtime ratio accounts divide the matching
+``product.QMDNumerator.managed.<au_token>.<treatment>`` account by the
+corresponding ``product.Treated.managed.<au_token>.<treatment>`` account with
+scale ``1``, so the live values resolve directly to mean harvested-stem
+diameter in ``cm``.
+
+The standing stems-per-ha surfaces on the ``intensive_*`` family follow the
+same teaching-model pattern as the current CT/fert and PCT families:
+
+- managed baseline/planted support uses the accepted TIPSY ``TPH`` handoff
+  where available;
+- unmanaged support uses the checkpoint-derived AU median
+  ``STEMS_PER_HA_75`` value;
+- post-PCT states scale the planted-path standing stems surface by the
+  configured residual-stems fraction from age 10 onward;
+- post-CT states scale that standing stems surface again by the configured CT
+  removal fraction from age 40 onward;
+- fertilization states carry the same standing stems surface forward unchanged.
+
+The shipped ``intensive_*`` launch surfaces inherit the same downstream
+recovered-volume utilization policy during ``protoaccounts.csv -> accounts.csv``
+promotion:
+
+- ``CC`` harvested volume uses utilization ``0.85``
+- ``CT`` harvested volume uses utilization ``0.75``
+
+This variant is intended as a teaching scaffold for combined treatment-path
+comparison, not as a polished operational prescription package.
 
 Deep references
 ---------------

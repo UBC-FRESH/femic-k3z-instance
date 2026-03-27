@@ -1,0 +1,6 @@
+/*
+ * Full-intensive heavy-subvariant Patchworks PIN file.
+ */
+
+String tracks_path_prefix = "../tracks_intensive_heavy/";
+sourceRelative("intensive_variant_common.bsh");

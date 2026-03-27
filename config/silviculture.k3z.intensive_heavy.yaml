@@ -1,0 +1,114 @@
+pre_commercial_thinning:
+  enabled: true
+  state_field: "SILV_STATE"
+  from_state: "cc_pl"
+  to_state: "cc_pl_pct"
+  ct_to_state: "cc_pl_pct_ct"
+  eligible_au_ids:
+    - 985501001  # FDC+HW-L
+    - 985502001  # FDC+HW-M
+    - 985503001  # FDC+HW-H
+    - 985501002  # CW+HW-L
+    - 985502002  # CW+HW-M
+    - 985503002  # CW+HW-H
+    - 985502000  # HW+FDC-M
+    - 985503000  # HW+FDC-H
+  min_origin: "planted"
+  source_total_stems_per_ha: 4000
+  age_by_au:
+    985501001: 10
+    985502001: 10
+    985503001: 10
+    985501002: 10
+    985502002: 10
+    985503002: 10
+    985502000: 10
+    985503000: 10
+  remove_species:
+    - "HW"
+  remove_stems_per_ha:
+    HW: 3000
+
+commercial_thinning:
+  enabled: true
+  state_field: "SILV_STATE"
+  eligible_au_ids:
+    - 985501001  # FDC+HW-L
+    - 985502001  # FDC+HW-M
+    - 985503001  # FDC+HW-H
+    - 985501002  # CW+HW-L
+    - 985502002  # CW+HW-M
+    - 985503002  # CW+HW-H
+    - 985502000  # HW+FDC-M
+    - 985503000  # HW+FDC-H
+  min_origin: "planted"
+  age_by_au:
+    985501001: 40
+    985502001: 40
+    985503001: 40
+    985501002: 40
+    985502002: 40
+    985503002: 40
+    985502000: 40
+    985503000: 40
+  basal_area_removal_fraction: 0.30
+  basal_area_to_volume_ratio: 1.0
+  final_felling_gap_factor: 0.0
+
+fertilization:
+  enabled: true
+  state_field: "SILV_STATE"
+  response_years: 10
+  eligible_au_ids:
+    - 985501001  # FDC+HW-L
+    - 985502001  # FDC+HW-M
+    - 985503001  # FDC+HW-H
+    - 985501002  # CW+HW-L
+    - 985502002  # CW+HW-M
+    - 985503002  # CW+HW-H
+    - 985502000  # HW+FDC-M
+    - 985503000  # HW+FDC-H
+  growth_speedup_fraction_by_au:
+    985501001: 0.15
+    985502001: 0.10
+    985503001: 0.05
+    985501002: 0.15
+    985502002: 0.10
+    985503002: 0.05
+    985502000: 0.10
+    985503000: 0.05
+  qmd_response_fraction_by_au:
+    985501001: 0.15
+    985502001: 0.10
+    985503001: 0.05
+    985501002: 0.15
+    985502002: 0.10
+    985503002: 0.05
+    985502000: 0.10
+    985503000: 0.05
+  first_application:
+    from_state: "cc_pl_pct_ct"
+    to_state: "cc_pl_ct_f1"
+    timing_rule: "cai_argmax"
+  second_application:
+    enabled: true
+    from_state: "cc_pl_ct_f1"
+    to_state: "cc_pl_ct_f1_f2"
+    years_after_previous: 10
+  third_application:
+    enabled: true
+    from_state: "cc_pl_ct_f1_f2"
+    to_state: "cc_pl_ct_f1_f2_f3"
+    years_after_previous: 10
+
+qmd:
+  enabled: true
+  harvested_product_accounts_enabled: true
+stems_per_ha:
+  enabled: true
+
+retention:
+  default_retention_fraction: 0.05
+  full_retention_stratum_codes:
+    - "CWHvm_CW+YC"
+    - "CWHvm_CW+PLC"

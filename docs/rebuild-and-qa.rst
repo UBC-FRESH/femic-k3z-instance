@@ -152,6 +152,43 @@ Variant-specific expectations:
 
 Deep reference: :doc:`silviculture-logic`
 
+Optional Full-Intensive Subvariant QA
+-------------------------------------
+
+These checks apply only to the three full-intensive subvariants
+(``intensive_light``, ``intensive_moderate``, ``intensive_heavy``).
+
+Variant command pattern:
+
+.. code-block:: bash
+
+   femic patchworks matrix-build --config config/patchworks.runtime.intensive_light.windows.yaml --run-id k3z_intensive_light
+   femic patchworks matrix-build --config config/patchworks.runtime.intensive_moderate.windows.yaml --run-id k3z_intensive_moderate
+   femic patchworks matrix-build --config config/patchworks.runtime.intensive_heavy.windows.yaml --run-id k3z_intensive_heavy
+
+Variant-specific expectations:
+
+- each ``tracks_intensive_*`` ``treatments.csv`` includes ``PCT``, ``CT``,
+  ``F1``, ``F2``, and ``F3``.
+- each ``tracks_intensive_*`` surface materializes ``cc_pl_pct`` and
+  ``cc_pl_pct_ct`` in the treatment-history state chain.
+- the combined treatment family is centered on the full 8-AU union of the
+  current ``pct_*`` and ``ctfert_l15h5`` families:
+  ``985501001``, ``985502001``, ``985503001``, ``985501002``, ``985502002``,
+  ``985503002``, ``985502000``, and ``985503000``.
+- each ``tracks_intensive_*`` surface exposes AU-wise harvested-QMD numerator /
+  denominator / ratio-account support for ``PCT``, ``CT``, and downstream
+  ``CC``.
+- each ``tracks_intensive_*`` surface exposes AU-wise standing stems-per-ha
+  feature accounts on both the managed and unmanaged side.
+- the accepted validated fragments surfaces preserve the curated 218-fragment
+  geometry footprint from
+  ``tmp/CTFert Fragments/fragments_updated3_Usedinbasecase.shp`` exactly.
+- live Patchworks smoke should show that pulling on a minimum ``F3``
+  treated-area target induces ``F2`` -> ``F1`` -> ``CT`` -> ``PCT`` -> ``CC``.
+
+Deep reference: :doc:`silviculture-logic`
+
 Baseline Overlay Subvariant QA
 ------------------------------
 

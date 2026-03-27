@@ -24,6 +24,18 @@ Current variants:
   - variant spec: ``config/patchworks.variant.ctfert_l20h0.yaml``
   - runtime config: ``config/patchworks.runtime.ctfert_l20h0.windows.yaml``
   - Patchworks PIN: ``models/k3z_patchworks_model/analysis/ctfert_l20h0.pin``
+- optional full-intensive light subvariant ``intensive_light``
+  - variant spec: ``config/patchworks.variant.intensive_light.yaml``
+  - runtime config: ``config/patchworks.runtime.intensive_light.windows.yaml``
+  - Patchworks PIN: ``models/k3z_patchworks_model/analysis/intensive_light.pin``
+- optional full-intensive moderate subvariant ``intensive_moderate``
+  - variant spec: ``config/patchworks.variant.intensive_moderate.yaml``
+  - runtime config: ``config/patchworks.runtime.intensive_moderate.windows.yaml``
+  - Patchworks PIN: ``models/k3z_patchworks_model/analysis/intensive_moderate.pin``
+- optional full-intensive heavy subvariant ``intensive_heavy``
+  - variant spec: ``config/patchworks.variant.intensive_heavy.yaml``
+  - runtime config: ``config/patchworks.runtime.intensive_heavy.windows.yaml``
+  - Patchworks PIN: ``models/k3z_patchworks_model/analysis/intensive_heavy.pin``
 - optional PCT-only light subvariant:
   ``config/patchworks.variant.pct_light.yaml`` +
   ``config/patchworks.runtime.pct_light.windows.yaml`` +
@@ -53,6 +65,9 @@ The intended launch pairings are:
 - baseline: ``config/patchworks.runtime.windows.yaml`` + ``analysis/base.pin``
 - CT/fert SI profile ``L15/M10/H5``: ``config/patchworks.runtime.ctfert_l15h5.windows.yaml`` + ``analysis/ctfert_l15h5.pin``
 - CT/fert SI profile ``L20/M10/H0``: ``config/patchworks.runtime.ctfert_l20h0.windows.yaml`` + ``analysis/ctfert_l20h0.pin``
+- full-intensive light subvariant: ``config/patchworks.runtime.intensive_light.windows.yaml`` + ``analysis/intensive_light.pin``
+- full-intensive moderate subvariant: ``config/patchworks.runtime.intensive_moderate.windows.yaml`` + ``analysis/intensive_moderate.pin``
+- full-intensive heavy subvariant: ``config/patchworks.runtime.intensive_heavy.windows.yaml`` + ``analysis/intensive_heavy.pin``
 - PCT-only light subvariant: ``config/patchworks.runtime.pct_light.windows.yaml`` + ``analysis/pct_light.pin``
 - PCT-only moderate subvariant: ``config/patchworks.runtime.pct_moderate.windows.yaml`` + ``analysis/pct_moderate.pin``
 - PCT-only heavy subvariant: ``config/patchworks.runtime.pct_heavy.windows.yaml`` + ``analysis/pct_heavy.pin``
@@ -74,6 +89,8 @@ Quick Surface Picker
      - ``base``
    * - CT plus fertilization across L/M/H SI classes
      - ``ctfert_l15h5`` or ``ctfert_l20h0``
+   * - Full intensive silviculture chain
+     - ``intensive_light``, ``intensive_moderate``, or ``intensive_heavy``
    * - PCT-only teaching exercise
      - ``pct_light``, ``pct_moderate``, or ``pct_heavy``
    * - Retained-area sensitivity exercise driven by the student workbook
@@ -125,7 +142,15 @@ Quickstart
       femic patchworks matrix-build --config config/patchworks.runtime.ctfert_l15h5.windows.yaml --run-id k3z_ctfert_l15h5
       femic patchworks matrix-build --config config/patchworks.runtime.ctfert_l20h0.windows.yaml --run-id k3z_ctfert_l20h0
 
-7. Run one of the optional PCT-only subvariant matrix builds:
+7. Run one of the optional full-intensive subvariant matrix builds:
+
+   .. code-block:: bash
+
+      femic patchworks matrix-build --config config/patchworks.runtime.intensive_light.windows.yaml --run-id k3z_intensive_light
+      femic patchworks matrix-build --config config/patchworks.runtime.intensive_moderate.windows.yaml --run-id k3z_intensive_moderate
+      femic patchworks matrix-build --config config/patchworks.runtime.intensive_heavy.windows.yaml --run-id k3z_intensive_heavy
+
+8. Run one of the optional PCT-only subvariant matrix builds:
 
    .. code-block:: bash
 
@@ -196,6 +221,31 @@ The subvariant-specific PCT flavors are:
 - ``pct_heavy``: remove ``3000`` HW stems/ha, leaving ``900 CW + 100 HW``
 - deep reference: :doc:`silviculture-logic`
 
+Optional full-intensive subvariants:
+
+- ``config/patchworks.variant.intensive_light.yaml`` +
+  ``config/silviculture.k3z.intensive_light.yaml``
+- ``config/patchworks.variant.intensive_moderate.yaml`` +
+  ``config/silviculture.k3z.intensive_moderate.yaml``
+- ``config/patchworks.variant.intensive_heavy.yaml`` +
+  ``config/silviculture.k3z.intensive_heavy.yaml``
+
+The three full-intensive subvariant YAMLs currently:
+
+- use the ``ctfert_l15h5`` SI-response profile on the CT/fert side;
+- expand the treatment family to the full 8-AU union of the current
+  ``pct_*`` and ``ctfert_l15h5`` families;
+- keep the combined state chain
+  ``cc_pl -> cc_pl_pct -> cc_pl_pct_ct -> cc_pl_ct_f1 -> cc_pl_ct_f1_f2 -> cc_pl_ct_f1_f2_f3``;
+- vary only the PCT intensity:
+  - ``intensive_light``: remove ``1000`` HW stems/ha
+  - ``intensive_moderate``: remove ``2000`` HW stems/ha
+  - ``intensive_heavy``: remove ``3000`` HW stems/ha
+- use the curated CT/fert retention overlay from
+  ``tmp/CTFert Fragments/fragments_updated3_Usedinbasecase.shp``.
+
+- deep reference: :doc:`silviculture-logic`
+
 Baseline overlay subvariants:
 
 - ``config/patchworks.runtime.overlay.basecase_riparian.windows.yaml``
@@ -217,6 +267,12 @@ Authoritative Paths
   ``models/k3z_patchworks_model/tracks_ctfert_l15h5/``
 - CT/fert ``L20/M10/H0`` tracks:
   ``models/k3z_patchworks_model/tracks_ctfert_l20h0/``
+- full-intensive light tracks:
+  ``models/k3z_patchworks_model/tracks_intensive_light/``
+- full-intensive moderate tracks:
+  ``models/k3z_patchworks_model/tracks_intensive_moderate/``
+- full-intensive heavy tracks:
+  ``models/k3z_patchworks_model/tracks_intensive_heavy/``
 - PCT-only light tracks:
   ``models/k3z_patchworks_model/tracks_pct_light/``
 - PCT-only moderate tracks:
