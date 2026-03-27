@@ -41,7 +41,7 @@ Regenerate instead of hand-edit:
 
 - ``data/model_input_bundle/*.csv``
 - ``models/k3z_patchworks_model/tracks/*.csv``
-- ``models/k3z_patchworks_model/yield/forestmodel.xml``
+- ``output/patchworks_k3z_validated/forestmodel.xml``
 - ``output/patchworks_k3z_validated/fragments/*``
 
 Use caution:

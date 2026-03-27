@@ -22,7 +22,7 @@ Edit Policy Matrix
    * - ``models/k3z_patchworks_model/tracks/*.csv``
      - Regenerate preferred
      - Matrix builder outputs; hand edits can break joins/targets.
-   * - ``models/k3z_patchworks_model/yield/forestmodel.xml``
+   * - ``output/patchworks_k3z_validated/forestmodel.xml``
      - Regenerate preferred
      - Export product tied to source assumptions and curve logic.
 

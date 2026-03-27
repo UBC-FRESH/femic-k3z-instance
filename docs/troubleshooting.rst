@@ -77,7 +77,7 @@ Actions:
 2. Inspect the matching ``models/k3z_patchworks_model/tracks_pct_*/accounts.csv``
    and ``products.csv`` files to confirm whether only total managed yield
    surfaces were compiled.
-3. Inspect the matching ``models/k3z_patchworks_model/yield/forestmodel_pct_*.xml``
+3. Inspect the matching ``output/patchworks_k3z_pct_*/forestmodel.xml``
    file to see whether species-wise managed yield surfaces were exported
    upstream.
 4. Treat this as a regression if the treatment path is otherwise correct. Do

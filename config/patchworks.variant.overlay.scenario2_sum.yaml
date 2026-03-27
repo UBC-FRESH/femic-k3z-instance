@@ -10,7 +10,7 @@ patchworks:
   runtime_config: config/patchworks.runtime.overlay.scenario2_sum.windows.yaml
   analysis_pin: models/k3z_patchworks_model/analysis/overlay_scenario2_sum.pin
   tracks_dir: models/k3z_patchworks_model/tracks_overlay_scenario2_sum
-  forestmodel_xml: models/k3z_patchworks_model/yield/forestmodel.xml
+  forestmodel_xml: output/patchworks_k3z_validated/forestmodel.xml
   fragments_shapefile: output/patchworks_k3z_overlay_scenario2_sum_validated/fragments/fragments.shp
 build:
   matrix_build_command: >-

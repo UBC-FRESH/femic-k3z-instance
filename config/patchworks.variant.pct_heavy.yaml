@@ -5,7 +5,7 @@ patchworks:
   runtime_config: config/patchworks.runtime.pct_heavy.windows.yaml
   analysis_pin: models/k3z_patchworks_model/analysis/pct_heavy.pin
   tracks_dir: models/k3z_patchworks_model/tracks_pct_heavy
-  forestmodel_xml: models/k3z_patchworks_model/yield/forestmodel_pct_heavy.xml
+  forestmodel_xml: output/patchworks_k3z_pct_heavy_validated/forestmodel.xml
   fragments_shapefile: output/patchworks_k3z_pct_heavy_validated/fragments/fragments.shp
   silviculture_config: config/silviculture.k3z.pct_heavy.yaml
 build:

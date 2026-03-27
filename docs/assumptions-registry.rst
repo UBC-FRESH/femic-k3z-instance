@@ -67,7 +67,7 @@ Provenance Table
      - QA Status
    * - Yield model definition
      - Per export rebuild
-     - ``models/k3z_patchworks_model/yield/forestmodel.xml``
+     - ``output/patchworks_k3z_validated/forestmodel.xml``
      - ``femic export patchworks``
      - Verified by Patchworks load + matrix build
    * - Tracks assumptions surface
