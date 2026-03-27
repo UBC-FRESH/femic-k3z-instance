@@ -24,7 +24,7 @@ Safe to edit directly:
 - ``config/seral.k3z.yaml``
 - ``config/tipsy/tsak3z.yaml``
 - ``config/silviculture.k3z.base.yaml`` for optional baseline harvested-QMD
-  support-surface switches
+  and stems-per-ha support-surface switches
 - ``config/silviculture.k3z.ctfert_l15h5.yaml`` for the optional CT/fert
   ``L15/M10/H5`` subvariant
 - ``config/silviculture.k3z.ctfert_l20h0.yaml`` for the optional CT/fert
@@ -85,6 +85,9 @@ Additional baseline/overlay support surfaces:
 - standing-stock approximate QMD outputs:
   - ``feature.QMD.managed.<au_token>``
   - ``feature.QMD.unmanaged.<au_token>``
+- standing stems-per-ha outputs:
+  - ``feature.StemsPerHa.managed.<au_token>``
+  - ``feature.StemsPerHa.unmanaged.<au_token>``
 - harvested-QMD numerator attributes:
   - ``product.QMDNumerator.managed.<au_token>.CC``
 - matching denominator attributes:
@@ -100,6 +103,12 @@ Those live ratio accounts divide the matching
 ``product.QMDNumerator.managed.<au_token>.CC`` account by the corresponding
 ``product.Treated.managed.<au_token>.CC`` account with scale ``1``, so the
 live values resolve directly to mean harvested-stem diameter in ``cm``.
+
+The standing stems-per-ha feature accounts are normalized downstream during the
+``protoaccounts.csv -> accounts.csv`` promotion step, using AU-wise managed and
+unmanaged area from the validated fragments surface. Read the live
+``feature.StemsPerHa.*`` accounts directly as mean standing stems per hectare,
+not total stem counts.
 
 These baseline and overlay launch surfaces also apply a downstream recovered-
 volume utilization assumption during ``protoaccounts.csv -> accounts.csv``
@@ -148,6 +157,9 @@ Additional state/config artifacts for that variant:
 - approximate QMD outputs:
   - ``feature.QMD.managed.<au_token>``
   - ``feature.QMD.unmanaged.<au_token>``
+- standing stems-per-ha outputs:
+  - ``feature.StemsPerHa.managed.<au_token>``
+  - ``feature.StemsPerHa.unmanaged.<au_token>``
   - harvested-QMD numerator attributes:
   - ``product.QMDNumerator.managed.<au_token>.CC``
   - ``product.QMDNumerator.managed.<au_token>.CT`` on the CT-eligible AU cohort
@@ -183,6 +195,17 @@ Those runtime ratio accounts divide the matching
 corresponding ``product.Treated.managed.<au_token>.<treatment>`` account with
 scale ``1``, so the live values resolve directly to mean harvested-stem
 diameter in ``cm``.
+
+The standing stems-per-ha surfaces follow the same teaching-model pattern as
+standing QMD:
+
+- managed baseline/planted support uses the accepted TIPSY ``TPH`` handoff
+  where available;
+- unmanaged support uses the checkpoint-derived AU median
+  ``STEMS_PER_HA_75`` value;
+- post-CT states scale the standing stems surface by the configured CT removal
+  fraction from the CT age forward;
+- fertilization states carry the same standing stems surface forward unchanged.
 
 The shipped CT/fert launch surfaces also apply the downstream recovered-volume
 utilization policy during ``protoaccounts.csv -> accounts.csv`` promotion:
@@ -227,6 +250,9 @@ Additional state/config artifacts for that variant:
 - approximate QMD outputs:
   - ``feature.QMD.managed.<au_token>``
   - ``feature.QMD.unmanaged.<au_token>``
+- standing stems-per-ha outputs:
+  - ``feature.StemsPerHa.managed.<au_token>``
+  - ``feature.StemsPerHa.unmanaged.<au_token>``
 
 Optional treatment surfaces for that variant:
 
@@ -260,6 +286,12 @@ Those runtime ratio accounts divide the matching
 corresponding ``product.Treated.managed.<au_token>.<treatment>`` account with
 scale ``1``, so the live values resolve directly to mean harvested-stem
 diameter in ``cm``.
+
+The standing stems-per-ha surfaces on the ``pct_*`` family use the accepted
+managed/unmanaged support inputs, then scale the planted-path standing stems
+surface from age 10 onward by the configured PCT residual fraction. In other
+words, the light/moderate/heavy subvariants now expose standing-density
+surfaces that are distinct, not just different product/yield paths.
 
 The shipped ``pct_*`` launch surfaces inherit the same downstream recovered-
 volume utilization policy during ``protoaccounts.csv -> accounts.csv``

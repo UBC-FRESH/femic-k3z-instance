@@ -69,6 +69,21 @@ assumption in the ``protoaccounts.csv -> accounts.csv`` promotion layer:
 This is a runtime-account policy only. It does not change standing yield
 curves, ForestModel XML, or fragment-level ``RETENTION``.
 
+Standing stems-per-ha account contract
+--------------------------------------
+
+The active K3Z launch surfaces now also ship AU-wise standing stems-per-ha
+feature accounts:
+
+- ``feature.StemsPerHa.managed.<au_token>``
+- ``feature.StemsPerHa.unmanaged.<au_token>``
+
+These are exported from ForestModel as feature attributes, then normalized
+downstream during ``protoaccounts.csv -> accounts.csv`` promotion using the
+AU-wise managed/unmanaged area implied by the validated fragments plus
+``RETENTION``. Read the live ``feature.StemsPerHa.*`` accounts directly as mean
+standing stems per hectare, not total stem counts.
+
 Surface Selection Cheatsheet
 ----------------------------
 
@@ -120,6 +135,9 @@ Variant review points:
 - The CT/fert tracks now expose AU-wise harvested-stem QMD numerator rows:
   - ``product.QMDNumerator.managed.<au_token>.CC``
   - ``product.QMDNumerator.managed.<au_token>.CT`` on the CT-eligible AUs
+- The CT/fert tracks also expose AU-wise standing stems-per-ha feature rows:
+  - ``feature.StemsPerHa.managed.<au_token>``
+  - ``feature.StemsPerHa.unmanaged.<au_token>``
 - Matching denominator rows:
   - ``product.Treated.managed.<au_token>.CC``
   - ``product.Treated.managed.<au_token>.CT``
@@ -176,6 +194,10 @@ Variant review points:
   numerator rows:
   - ``product.QMDNumerator.managed.<au_token>.PCT``
   - ``product.QMDNumerator.managed.<au_token>.CC``
+- Each ``tracks_pct_*`` surface should also expose AU-wise standing
+  stems-per-ha feature rows:
+  - ``feature.StemsPerHa.managed.<au_token>``
+  - ``feature.StemsPerHa.unmanaged.<au_token>``
 - Matching denominator rows:
   - ``product.Treated.managed.<au_token>.PCT``
   - ``product.Treated.managed.<au_token>.CC``
@@ -222,6 +244,8 @@ Review points:
   overlay retention column;
 - confirm the AU-wise harvested-stem QMD ``CC`` numerator / denominator /
   ratio-account contract still matches baseline;
+- confirm the AU-wise standing stems-per-ha feature accounts still match the
+  baseline contract;
 - confirm any missing managed species accounts are consistent with high
   retained area, not with a bad tracks surface.
 
