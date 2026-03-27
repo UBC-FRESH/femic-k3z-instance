@@ -53,6 +53,12 @@ Diagnostics Workflow
    femic tsa post-tipsy --run-config config/run_profile.k3z.yaml --tsa k3z --run-id k3z_reprocheck
    femic patchworks matrix-build --config config/patchworks.runtime.windows.yaml --run-id k3z_reprocheck
 
+On the shipped Windows runtime configs, FEMIC now supervises the noninteractive
+Matrix Builder launch and automatically closes the spawned Matrix Builder GUI
+window after fresh output activity has stabilized. This is intended to remove
+the routine manual "close the Matrix Builder window so the workflow can
+continue" step from local rebuilds.
+
 Review:
 
 - ``vdyp_io/logs/patchworks_matrixbuilder_manifest-<run_id>.json``

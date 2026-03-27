@@ -10,6 +10,9 @@ matrix_builder:
   fragments_path: ../output/patchworks_k3z_overlay_scenario2_sum_validated/fragments/fragments.dbf
   output_dir: ../models/k3z_patchworks_model/tracks_overlay_scenario2_sum
   forestmodel_xml_path: ../output/patchworks_k3z_validated/forestmodel.xml
+  auto_close_window_on_success: true
+  auto_close_settle_seconds: 2.0
+  auto_close_timeout_seconds: 10.0
   harvested_volume_utilization_by_treatment:
     CC: 0.85
     CT: 0.75
