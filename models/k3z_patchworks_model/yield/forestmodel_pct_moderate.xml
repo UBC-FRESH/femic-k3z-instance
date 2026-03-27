@@ -18951,7 +18951,7 @@
           <assign field="SILV_STATE" value="'cc_pl'" />
         </transition>
       </treatment>
-      <treatment label="PCT" minage="10" maxage="10">
+      <treatment label="PCT" minage="10" maxage="10" adjust="R">
         <produce>
           <assign field="treatment" value="'PCT'" />
         </produce>
@@ -19500,7 +19500,7 @@
           <assign field="SILV_STATE" value="'cc_pl'" />
         </transition>
       </treatment>
-      <treatment label="PCT" minage="10" maxage="10">
+      <treatment label="PCT" minage="10" maxage="10" adjust="R">
         <produce>
           <assign field="treatment" value="'PCT'" />
         </produce>
@@ -22857,7 +22857,7 @@
           <assign field="SILV_STATE" value="'cc_pl'" />
         </transition>
       </treatment>
-      <treatment label="PCT" minage="10" maxage="10">
+      <treatment label="PCT" minage="10" maxage="10" adjust="R">
         <produce>
           <assign field="treatment" value="'PCT'" />
         </produce>
@@ -23436,7 +23436,7 @@
           <assign field="SILV_STATE" value="'cc_pl'" />
         </transition>
       </treatment>
-      <treatment label="PCT" minage="10" maxage="10">
+      <treatment label="PCT" minage="10" maxage="10" adjust="R">
         <produce>
           <assign field="treatment" value="'PCT'" />
         </produce>
