@@ -1,0 +1,20 @@
+patchworks:
+  jar_path: C:/Program Files/Spatial Planning Systems/Patchworks/patchworks.jar
+  wine_prefix: null
+  license_env: SPS_LICENSE_SERVER
+  license_value: null
+  spshome: C:\Program Files\Spatial Planning Systems\Patchworks
+  use_xvfb: false
+
+matrix_builder:
+  fragments_path: ../output/patchworks_k3z_intensive_light_standstructure_validated/fragments/fragments.dbf
+  output_dir: ../models/k3z_patchworks_model/tracks_intensive_light_standstructure
+  forestmodel_xml_path: ../output/patchworks_k3z_intensive_light_standstructure_validated/forestmodel.xml
+  auto_close_window_on_success: true
+  auto_close_settle_seconds: 2.0
+  auto_close_timeout_seconds: 10.0
+  harvested_volume_utilization_by_treatment:
+    CC: 0.85
+    CT: 0.75
+  accounts_exclude_regex:
+    - "\\.PL(\\.|$)"

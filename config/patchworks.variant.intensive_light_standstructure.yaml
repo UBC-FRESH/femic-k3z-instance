@@ -1,0 +1,30 @@
+variant_id: intensive_light_standstructure
+label: "K3Z proving-ground intensive-light stand-structure bank subvariant"
+description: "Experimental K3Z Patchworks intensive-light proving-ground subvariant that exposes the first unattended BTC stand-structure indicator bank on top of the existing PCT -> CT -> F1 -> F2 -> F3 treatment chain."
+patchworks:
+  runtime_config: config/patchworks.runtime.intensive_light_standstructure.windows.yaml
+  analysis_pin: models/k3z_patchworks_model/analysis/intensive_light_standstructure.pin
+  tracks_dir: models/k3z_patchworks_model/tracks_intensive_light_standstructure
+  forestmodel_xml: output/patchworks_k3z_intensive_light_standstructure_validated/forestmodel.xml
+  fragments_shapefile: output/patchworks_k3z_intensive_light_standstructure_validated/fragments/fragments.shp
+  silviculture_config: config/silviculture.k3z.intensive_light_standstructure.yaml
+build:
+  export_command: >-
+    femic export patchworks --tsa k3z --instance-root external/femic-k3z-instance
+    --output-dir output/patchworks_k3z_intensive_light_standstructure_validated --seral-stage-config config/seral.k3z.yaml
+    --silviculture-config config/silviculture.k3z.intensive_light_standstructure.yaml
+  publish_forestmodel_note: >-
+    Treat the export primarily as the canonical proving-ground ForestModel refresh
+    for the first unattended BTC stand-structure bank. The accepted fragments
+    surface should stay aligned to the curated 218-fragment CT/fert retention
+    overlay in tmp/CTFert Fragments/fragments_updated3_Usedinbasecase.shp; after
+    export, replace the raw fragments surface with the curated overlay before
+    Matrix Builder and copy the fresh forestmodel.xml to
+    output/patchworks_k3z_intensive_light_standstructure_validated/forestmodel.xml.
+  matrix_build_command: >-
+    femic patchworks matrix-build --instance-root external/femic-k3z-instance
+    --config config/patchworks.runtime.intensive_light_standstructure.windows.yaml --run-id k3z_intensive_light_standstructure
+notes:
+  - "Use this proving-ground subvariant to validate the first unattended BTC stand-structure bank without touching the student-facing K3Z surfaces."
+  - "Patchworks launch entrypoint: analysis/intensive_light_standstructure.pin"
+  - "Canonical rebuild contract: refresh the BTC-managed curve bundle, export this dedicated proving-ground ForestModel, then matrix-build against the accepted curated CT/fert RETENTION overlay surface."

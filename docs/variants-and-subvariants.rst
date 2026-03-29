@@ -6,8 +6,8 @@ Purpose
 
 K3Z now ships as one instance checkout with one baseline surface, a small
 family of coexisting CT/fert surfaces, a full-intensive teaching family,
-three PCT-only teaching subvariants, and four baseline-derived overlay
-subvariants.
+three PCT-only teaching subvariants, one dedicated stand-structure proving
+ground, and four baseline-derived overlay subvariants.
 
 Use this page as the canonical launch and interpretation map.
 
@@ -47,6 +47,9 @@ Quick Launch Selector
    * - "What changes if we apply heavy PCT at age 10?"
      - ``pct_heavy``
      - ``config/patchworks.runtime.pct_heavy.windows.yaml`` + ``analysis/pct_heavy.pin``
+   * - "What does the first optional BTC stand-structure bank look like in a safe proving ground?"
+     - ``intensive_light_standstructure``
+     - ``config/patchworks.runtime.intensive_light_standstructure.windows.yaml`` + ``analysis/intensive_light_standstructure.pin``
    * - "What changes if retained area follows the student overlay table?"
      - one of the four baseline overlay subvariants
      - the matching ``config/patchworks.runtime.overlay.*.windows.yaml`` + ``analysis/overlay_*.pin``
@@ -117,6 +120,12 @@ Variant Matrix
      - Adds ``SILV_STATE`` plus a planted-only heavy PCT gate, but no CT or fertilization chain.
      - ``PCT`` treated products, AU-wise standing height, AU-wise standing stems-per-ha, AU-wise harvested-stem QMD numerator / treated-area / live ratio accounts for both ``PCT`` and ``CC``, plus species-wise managed yield / harvest-volume surfaces.
      - Heavy-intensity stand-tending teaching scaffold.
+   * - ``intensive_light_standstructure``
+     - ``config/patchworks.runtime.intensive_light_standstructure.windows.yaml`` + ``analysis/intensive_light_standstructure.pin``
+     - ``tracks_intensive_light_standstructure/`` + ``output/patchworks_k3z_intensive_light_standstructure_validated/forestmodel.xml`` + ``output/patchworks_k3z_intensive_light_standstructure_validated/fragments/fragments.shp``
+     - Reuses the light full-intensive treatment scaffold, but also activates the first optional BTC stand-structure bank through the unattended `/TSR` overlay seam.
+     - Adds AU-wise managed stand-structure feature accounts for ``MAI``, ``BasalArea000``, ``DBHg000``, ``SPH000``, ``StemCount000``, ``StemCount125``, and ``StemCount175`` on top of the ordinary full-intensive light surface.
+     - Dedicated proving-ground surface for validating the first optional BTC indicator bank without touching student-facing variants.
    * - ``basecase_riparian``
      - ``config/patchworks.runtime.overlay.basecase_riparian.windows.yaml`` + ``analysis/overlay_basecase_riparian.pin``
      - ``tracks_overlay_basecase_riparian/`` + baseline ``output/patchworks_k3z_validated/forestmodel.xml`` + ``output/patchworks_k3z_overlay_basecase_riparian_validated/fragments/fragments.shp``
@@ -155,7 +164,11 @@ How to Choose a Surface
    ``PCT -> CT -> F1 -> F2 -> F3`` scaffold on one launchable K3Z surface.
 4. Choose one of ``pct_light``, ``pct_moderate``, or ``pct_heavy`` when
    the class exercise needs PCT intensity comparison without CT or fertilization.
-5. Choose one of the four overlay subvariants only when the exercise is about
+5. Choose ``intensive_light_standstructure`` only when you are explicitly
+   validating the first optional BTC stand-structure bank or extending that
+   proving-ground pattern; it is not the default teaching surface for current
+   student projects.
+6. Choose one of the four overlay subvariants only when the exercise is about
    alternative retained-area policy on top of the accepted baseline.
 
 Overlay Provenance and Join Contract
