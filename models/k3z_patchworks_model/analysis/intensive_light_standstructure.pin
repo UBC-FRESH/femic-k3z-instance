@@ -1,0 +1,7 @@
+/*
+ * Full-intensive light proving-ground subvariant with unattended BTC
+ * stand-structure bank surfaces.
+ */
+
+String tracks_path_prefix = "../tracks_intensive_light_standstructure/";
+sourceRelative("intensive_variant_common.bsh");

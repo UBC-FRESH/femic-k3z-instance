@@ -122,6 +122,8 @@ Surface Selection Cheatsheet
      - ``config/patchworks.runtime.intensive_moderate.windows.yaml`` + ``analysis/intensive_moderate.pin``
    * - full-intensive heavy surface
      - ``config/patchworks.runtime.intensive_heavy.windows.yaml`` + ``analysis/intensive_heavy.pin``
+   * - stand-structure proving ground
+     - ``config/patchworks.runtime.intensive_light_standstructure.windows.yaml`` + ``analysis/intensive_light_standstructure.pin``
    * - retained-area sensitivity only
      - one of the overlay runtime configs + the matching ``analysis/overlay_*.pin``
 
@@ -304,6 +306,45 @@ Variant review points:
 - Patchworks smoke expectation: pulling on ``F3`` treated area should induce
   ``F2`` -> ``F1`` -> ``CT`` -> ``PCT`` -> ``CC``.
 - Deep reference: :doc:`silviculture-logic`
+
+Optional Stand-Structure Proving-Ground Workflow
+------------------------------------------------
+
+Use this only when you intentionally want the first optional unattended BTC
+stand-structure bank on a safe K3Z proving-ground surface rather than on the
+ordinary student-facing variants.
+
+.. code-block:: bash
+
+   femic patchworks matrix-build --config config/patchworks.runtime.intensive_light_standstructure.windows.yaml --run-id k3z_intensive_light_standstructure
+
+Variant review points:
+
+- ``config/patchworks.variant.intensive_light_standstructure.yaml`` is the
+  proving-ground variant spec.
+- ``config/silviculture.k3z.intensive_light_standstructure.yaml`` enables the
+  first optional BTC indicator bank:
+  - ``stand-structure-basic``
+- ``models/k3z_patchworks_model/analysis/intensive_light_standstructure.pin``
+  is the Patchworks launch entrypoint.
+- ``models/k3z_patchworks_model/tracks_intensive_light_standstructure/`` is
+  the compiled proving-ground surface.
+- The proving-ground tracks should now expose AU-wise managed stand-structure
+  feature rows:
+  - ``feature.MAI.managed.<au_token>``
+  - ``feature.BasalArea000.managed.<au_token>``
+  - ``feature.DBHg000.managed.<au_token>``
+  - ``feature.SPH000.managed.<au_token>``
+  - ``feature.StemCount000.managed.<au_token>``
+  - ``feature.StemCount125.managed.<au_token>``
+  - ``feature.StemCount175.managed.<au_token>``
+- These rows should appear only on the proving-ground surface during the first
+  rollout; the ordinary ``base``, ``ctfert_*``, ``pct_*``, and
+  ``intensive_*`` tracks should remain free of these new Patchworks bindings.
+- Read the live proving-ground accounts directly as AU-wise mean managed
+  feature values because the ``protoaccounts.csv -> accounts.csv`` promotion
+  layer applies the same area-normalization contract used by QMD, height, and
+  standing stems-per-ha feature surfaces.
 
 Baseline Overlay Subvariant Workflow
 ------------------------------------
