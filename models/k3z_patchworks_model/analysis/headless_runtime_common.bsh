@@ -79,24 +79,11 @@ boolean femicConfigureHeadlessFromArgs() {
 }
 
 void femicRunHeadlessStage() {
-   boolean startedScheduler = false;
    try {
       femicHeadlessTrace("run stage entered; isSuspended=" + control.isSuspended());
       if (femicHeadlessIterations > 0) {
-         if (control.isSuspended()) {
-            femicHeadlessTrace("scheduler suspended; issuing resume");
-            try {
-               control.resume();
-               startedScheduler = true;
-               femicHeadlessTrace("resume completed");
-            } catch (IllegalStateException ex) {
-               if (String.valueOf(ex).indexOf("Not suspended") < 0)
-                  throw ex;
-               femicHeadlessTrace("resume raced with active scheduler; continuing");
-            }
-         } else {
-            femicHeadlessTrace("scheduler already active; skip explicit resume");
-         }
+         femicHeadlessTrace("delegating scheduler start to waitFor*; initial isSuspended="
+                            + control.isSuspended());
 
          if (femicHeadlessImprovement > 0.0d)
             femicHeadlessTrace("waiting for progress: attempts="
@@ -120,10 +107,8 @@ void femicRunHeadlessStage() {
       if (!control.isSuspended()) {
          femicHeadlessTrace("issuing suspend after wait");
          control.suspend();
-      } else if (startedScheduler) {
-         femicHeadlessTrace("scheduler already suspended before cleanup");
       } else {
-         femicHeadlessTrace("leaving scheduler state unchanged (already suspended)");
+         femicHeadlessTrace("scheduler already suspended before cleanup");
       }
    }
 
