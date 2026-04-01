@@ -182,9 +182,9 @@ Variant review points:
   AU/species/log-grade value accounts as modeled teaching outputs built from
   those proxy choices.
 - The full AU/species/log-grade volume and value families are compiled into the
-  rebuilt track surfaces, but the shipped PIN files now prefer
-  ``products.default.csv`` / ``accounts.default.csv`` when those filtered
-  files exist so students are not flooded by default.
+  rebuilt track surfaces, but the shipped PIN files now keep canonical
+  ``products.csv`` live and hide the large teaching surface only through
+  ``accounts.default.csv`` so students are not flooded by default.
 - To opt into the full log-grade teaching surface in a live Patchworks session,
   set ``boolean enableLogGradeAccounts = true;`` near the top of the relevant
   ``analysis/*.pin`` file before launch.

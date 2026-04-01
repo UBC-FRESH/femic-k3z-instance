@@ -160,9 +160,10 @@ How to Choose a Surface
    about SI-specific fertilization response across the six ``L/M/H`` CT-eligible
    ``CWHvm_FDC+HW`` / ``CWHvm_CW+HW`` AUs.
    These pins now keep the AU/species/log-grade volume/value bridge hidden by
-   default through filtered ``products.default.csv`` / ``accounts.default.csv``
-   companions; set ``boolean enableLogGradeAccounts = true;`` in the pin when
-   you explicitly want the full log-grade teaching surface.
+   default through ``accounts.default.csv`` only; set
+   ``boolean enableLogGradeAccounts = true;`` in the pin when you explicitly
+   want the full log-grade teaching surface. The canonical ``products.csv``
+   track structure remains live either way.
    When enabled, the value side uses shipped coast-market teaching matrices:
    managed/treatment-driven harvest defaults to ``second_growth_coast_2025``
    and unmanaged/natural-origin harvest defaults to ``old_growth_coast_2025``.

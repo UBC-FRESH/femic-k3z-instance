@@ -23,21 +23,21 @@ sourceRelative("headless_runtime_common.bsh");
 
 String tracks_path_prefix = "../tracks_pct_light/";
 
-String femicTrackCsv(String stem) {
-   String defaultPath = tracks_path_prefix + stem + ".default.csv";
+String femicAccountCsv() {
+   String defaultPath = tracks_path_prefix + "accounts.default.csv";
    if (!enableLogGradeAccounts && AttributeStore.absoluteFile(defaultPath).exists()) {
       return defaultPath;
    }
-   return tracks_path_prefix + stem + ".csv";
+   return tracks_path_prefix + "accounts.csv";
 }
 
 blocks = tracks_path_prefix+"blocks.csv";
 curves = tracks_path_prefix+"curves.csv";
 features = tracks_path_prefix+"features.csv";
-products = femicTrackCsv("products");
+products = tracks_path_prefix+"products.csv";
 tracknames = tracks_path_prefix+"tracknames.csv";
 treatments = tracks_path_prefix+"treatments.csv";
-accounts = femicTrackCsv("accounts");
+accounts = femicAccountCsv();
 stratas = tracks_path_prefix+"strata.csv";
 if (AttributeStore.absoluteFile(tracks_path_prefix+"packages.csv").exists() &&
     AttributeStore.absoluteFile(tracks_path_prefix+"packageSequences.csv").exists()) {
