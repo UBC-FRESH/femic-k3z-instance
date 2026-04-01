@@ -138,10 +138,12 @@ Variant-specific expectations:
   ``cc_pl_pct_ct`` as the treatment-history state.
 - the accepted PCT-only fragments surfaces preserve the baseline 218-fragment
   geometry footprint exactly.
-- PCT-only fragment differences are limited to treatment-path consequences in
-  the exported ForestModel/tracks surface; the checked-in fragments surface
-  itself should not diverge from baseline in
-  ``AU`` / ``IFM`` / ``RETENTION`` / ``ORIGIN`` / ``SILV_STATE``.
+- the accepted PCT-only fragments surfaces now use the tracked student
+  thinners overlay in ``tmp/k3z_pct_thinners_retention_join.csv`` instead of
+  the old uniform ``RETENTION = 0.05`` placeholder.
+- PCT-only fragment differences relative to baseline should therefore be
+  limited to ``RETENTION``; the checked-in fragments surface itself should not
+  diverge from baseline in ``AU`` / ``IFM`` / ``ORIGIN`` / ``SILV_STATE``.
 - Refresh the PCT-only ForestModel from canonical bundle/checkpoint inputs, but
   do not replace the checked-in PCT-only fragments surface blindly with raw
   export fragments unless the baseline-footprint invariants still hold.

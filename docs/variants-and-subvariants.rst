@@ -105,19 +105,19 @@ Variant Matrix
    * - ``pct_light``
      - ``config/patchworks.runtime.pct_light.windows.yaml`` + ``analysis/pct_light.pin``
      - ``tracks_pct_light/`` + ``output/patchworks_k3z_pct_light_validated/forestmodel.xml`` + ``output/patchworks_k3z_pct_light_validated/fragments/fragments.shp``
-     - Adds ``SILV_STATE`` plus a planted-only light PCT gate, but no CT or fertilization chain.
+     - Adds ``SILV_STATE`` plus a planted-only light PCT gate, no CT or fertilization chain, and uses the tracked student thinners ``RETENTION`` overlay instead of the old uniform ``0.05`` placeholder.
      - ``PCT`` treated products, AU-wise standing height, AU-wise standing stems-per-ha, AU-wise harvested-stem QMD numerator / treated-area / live ratio accounts for both ``PCT`` and ``CC``, plus species-wise managed yield / harvest-volume surfaces.
      - Light-intensity stand-tending teaching scaffold.
    * - ``pct_moderate``
      - ``config/patchworks.runtime.pct_moderate.windows.yaml`` + ``analysis/pct_moderate.pin``
      - ``tracks_pct_moderate/`` + ``output/patchworks_k3z_pct_moderate_validated/forestmodel.xml`` + ``output/patchworks_k3z_pct_moderate_validated/fragments/fragments.shp``
-     - Adds ``SILV_STATE`` plus a planted-only moderate PCT gate, but no CT or fertilization chain.
+     - Adds ``SILV_STATE`` plus a planted-only moderate PCT gate, no CT or fertilization chain, and uses the tracked student thinners ``RETENTION`` overlay instead of the old uniform ``0.05`` placeholder.
      - ``PCT`` treated products, AU-wise standing height, AU-wise standing stems-per-ha, AU-wise harvested-stem QMD numerator / treated-area / live ratio accounts for both ``PCT`` and ``CC``, plus species-wise managed yield / harvest-volume surfaces.
      - Moderate-intensity stand-tending teaching scaffold.
    * - ``pct_heavy``
      - ``config/patchworks.runtime.pct_heavy.windows.yaml`` + ``analysis/pct_heavy.pin``
      - ``tracks_pct_heavy/`` + ``output/patchworks_k3z_pct_heavy_validated/forestmodel.xml`` + ``output/patchworks_k3z_pct_heavy_validated/fragments/fragments.shp``
-     - Adds ``SILV_STATE`` plus a planted-only heavy PCT gate, but no CT or fertilization chain.
+     - Adds ``SILV_STATE`` plus a planted-only heavy PCT gate, no CT or fertilization chain, and uses the tracked student thinners ``RETENTION`` overlay instead of the old uniform ``0.05`` placeholder.
      - ``PCT`` treated products, AU-wise standing height, AU-wise standing stems-per-ha, AU-wise harvested-stem QMD numerator / treated-area / live ratio accounts for both ``PCT`` and ``CC``, plus species-wise managed yield / harvest-volume surfaces.
      - Heavy-intensity stand-tending teaching scaffold.
    * - ``intensive_light_standstructure``

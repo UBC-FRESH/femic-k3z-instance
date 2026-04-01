@@ -1,6 +1,10 @@
 variant_id: pct_light
 label: "K3Z optional PCT light subvariant"
-description: "Single-intensity K3Z PCT-only subvariant with light PCT (remove 1000 HW stems/ha)."
+description: "Single-intensity K3Z PCT-only subvariant with light PCT (remove 1000 HW stems/ha) and the student thinners RETENTION overlay."
+overlay:
+  source_table: tmp/k3z_pct_thinners_retention_join.csv
+  source_key: BLOCK
+  retention_column: retention_thinners
 patchworks:
   runtime_config: config/patchworks.runtime.pct_light.windows.yaml
   analysis_pin: models/k3z_patchworks_model/analysis/pct_light.pin
@@ -17,10 +21,12 @@ build:
     Treat the export primarily as the canonical PCT-only light-subvariant
     ForestModel refresh. The accepted fragments surface must stay aligned to
     the baseline 218-fragment teaching footprint exactly with no
-    AU/IFM/RETENTION/ORIGIN/SILV_STATE drift before matrix build.
+    AU/IFM/ORIGIN/SILV_STATE drift before matrix build; RETENTION should come
+    from the tracked student thinners overlay in tmp/k3z_pct_thinners_retention_join.csv.
   matrix_build_command: >-
     femic patchworks matrix-build --instance-root external/femic-k3z-instance
     --config config/patchworks.runtime.pct_light.windows.yaml --run-id k3z_pct_light
 notes:
   - "Use this subvariant when a light PCT-only teaching surface is required."
   - "Patchworks launch entrypoint: analysis/pct_light.pin"
+  - "Accepted validated fragments now use the student thinners RETENTION values instead of the old uniform 0.05 placeholder."

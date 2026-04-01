@@ -273,6 +273,15 @@ Variant review points:
   CT-enabled variants.
 - Each ``output/patchworks_k3z_pct_*_validated/fragments/`` surface should
   preserve the accepted baseline 218-fragment geometry footprint exactly.
+- The accepted ``pct_*`` validated fragments now use the tracked student
+  thinners overlay in ``tmp/k3z_pct_thinners_retention_join.csv`` instead of
+  the old uniform ``RETENTION = 0.05`` placeholder. Refresh them reproducibly
+  with:
+
+  .. code-block:: bash
+
+     python tools/apply_pct_retention_overlay.py --instance-root .
+
 - Patchworks smoke expectation: pulling on the ``PCT`` treated-area target
   should induce the upstream chain ``CC``.
 - Each ``tracks_pct_*`` ``accounts.csv`` / ``products.csv`` should also
