@@ -44,6 +44,11 @@ Actions:
      the shipped checkpoint artifact (for K3Z this is now
      ``data/ria_vri_vclr1p_checkpoint1-tsak3z.feather`` rather than only the
      old generic ``checkpoint8`` path).
+   - If ``01a`` prep checkpoints are missing but ``au_table.csv`` persists,
+     confirm the post-TIPSY fallback rebuilt unmanaged species proportions from
+     ``data/vdyp_lyr-tsak3z.feather`` rather than dropping them to empty maps.
+     The repaired fallback is what restores companion ctfert species such as
+     ``DR``, ``BA``, and ``SS`` in the shipped K3Z teaching surfaces.
 3. Re-run deterministic rebuild with Patchworks enabled:
 
    .. code-block:: bash
