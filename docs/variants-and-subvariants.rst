@@ -159,6 +159,15 @@ How to Choose a Surface
 2. Choose ``ctfert_l15h5`` or ``ctfert_l20h0`` when the class exercise is
    about SI-specific fertilization response across the six ``L/M/H`` CT-eligible
    ``CWHvm_FDC+HW`` / ``CWHvm_CW+HW`` AUs.
+   These pins now keep the AU/species/log-grade volume/value bridge hidden by
+   default through filtered ``products.default.csv`` / ``accounts.default.csv``
+   companions; set ``boolean enableLogGradeAccounts = true;`` in the pin when
+   you explicitly want the full log-grade teaching surface.
+   When enabled, the value side uses shipped coast-market teaching matrices:
+   managed/treatment-driven harvest defaults to ``second_growth_coast_2025``
+   and unmanaged/natural-origin harvest defaults to ``old_growth_coast_2025``.
+   Species without direct report rows use explicit documented proxy mappings in
+   the FEMIC recipe layer rather than silent averaging.
 3. Choose one of ``intensive_light``, ``intensive_moderate``, or
    ``intensive_heavy`` when the class exercise needs the full
    ``PCT -> CT -> F1 -> F2 -> F3`` scaffold on one launchable K3Z surface.
@@ -215,6 +224,27 @@ account view.
 
 For the repeatable student/operator workflow, use
 :doc:`overlay-subvariants-workflow`.
+
+Log-Grade Teaching Bridge Note
+------------------------------
+
+The AU/species/log-grade volume and value families should be interpreted as a
+deliberate bridge between two teaching surfaces:
+
+- ecosystem-side harvested volume from the growth model; and
+- products-side grade/value accounting for forest-sector exploration.
+
+They are not a claim that FEMIC directly observed species-by-grade outturn in
+primary BTC output. Instead, FEMIC:
+
+1. takes the additive explicit BTC grade family ``D/F/H/I/J/U/X/Y``;
+2. normalizes it so grade totals match harvested-volume totals;
+3. combines those totals with AU/species volume shares; and
+4. applies shipped coast-market price matrices plus documented species proxies
+   to emit value accounts.
+
+That is a modeled teaching surface, but it is intentionally auditable and
+user-tweakable through the FEMIC recipe/overlay contract.
 
 Audit Checklist
 ---------------

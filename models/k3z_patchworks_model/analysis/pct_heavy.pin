@@ -9,6 +9,12 @@ Horizon.setHorizon(periods, 10);
 
 boolean useRoutes = false;
 boolean usePatches = false;
+/*
+ * Keep the very large AU/species/log-grade teaching surfaces hidden by
+ * default. Set true when you explicitly want the full log-grade volume and
+ * value bridge in the Patchworks UI.
+ */
+boolean enableLogGradeAccounts = false;
 
 sourceRelative("../scripts/targets/flowTargets.bsh");
 sourceRelative("../scripts/targets/qmdRatioAccounts.bsh");
@@ -17,13 +23,21 @@ sourceRelative("headless_runtime_common.bsh");
 
 String tracks_path_prefix = "../tracks_pct_heavy/";
 
+String femicTrackCsv(String stem) {
+   String defaultPath = tracks_path_prefix + stem + ".default.csv";
+   if (!enableLogGradeAccounts && AttributeStore.absoluteFile(defaultPath).exists()) {
+      return defaultPath;
+   }
+   return tracks_path_prefix + stem + ".csv";
+}
+
 blocks = tracks_path_prefix+"blocks.csv";
 curves = tracks_path_prefix+"curves.csv";
 features = tracks_path_prefix+"features.csv";
-products = tracks_path_prefix+"products.csv";
+products = femicTrackCsv("products");
 tracknames = tracks_path_prefix+"tracknames.csv";
 treatments = tracks_path_prefix+"treatments.csv";
-accounts = tracks_path_prefix+"accounts.csv";
+accounts = femicTrackCsv("accounts");
 stratas = tracks_path_prefix+"strata.csv";
 if (AttributeStore.absoluteFile(tracks_path_prefix+"packages.csv").exists() &&
     AttributeStore.absoluteFile(tracks_path_prefix+"packageSequences.csv").exists()) {

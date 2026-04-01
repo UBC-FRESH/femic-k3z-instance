@@ -167,6 +167,27 @@ Variant review points:
   ``J/U/X/Y`` material to reflect early-age thinning from below. This is a
   teaching-instance bridge between forest-growth and product-outturn logic, not
   a claim that FEMIC directly observes CT log grades in primary BTC output.
+- The shipped value side uses FEMIC-owned coast-market reference matrices under
+  ``src/femic/resources/patchworks/log_grade_price_matrices.yaml``.
+- Managed / treatment-driven harvest defaults to the
+  ``second_growth_coast_2025`` matrix.
+- Unmanaged / natural-origin harvest defaults to the
+  ``old_growth_coast_2025`` matrix.
+- Those matrices are a teaching/default contract, not a locked institutional
+  truth surface. Users can override them through FEMIC recipe overlays when
+  they want a different market story.
+- Some K3Z species do not appear as direct rows in the coast market reports.
+  FEMIC therefore applies explicit documented proxy mappings in the shipped
+  recipe rather than silently averaging or dropping those species. Read the
+  AU/species/log-grade value accounts as modeled teaching outputs built from
+  those proxy choices.
+- The full AU/species/log-grade volume and value families are compiled into the
+  rebuilt track surfaces, but the shipped PIN files now prefer
+  ``products.default.csv`` / ``accounts.default.csv`` when those filtered
+  files exist so students are not flooded by default.
+- To opt into the full log-grade teaching surface in a live Patchworks session,
+  set ``boolean enableLogGradeAccounts = true;`` near the top of the relevant
+  ``analysis/*.pin`` file before launch.
 - The CT/fert tracks also expose AU-wise standing stems-per-ha feature rows:
   - ``feature.StemsPerHa.managed.<au_token>``
   - ``feature.StemsPerHa.unmanaged.<au_token>``
