@@ -26,6 +26,7 @@ docs/_build/
 blocks/
 output/patchworks/
 vdyp_io/logs/
+vdyp_io/scratch/
 models/k3z_patchworks_model/analysis/headless_runs/
 models/k3z_patchworks_model/patchworksLog.csv
 models/k3z_patchworks_model/tracks*/accounts_backup_*.csv
