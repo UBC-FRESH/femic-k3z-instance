@@ -30,11 +30,17 @@ It is intended to show how a complete FEMIC instance is structured and versioned
 
 ## Quickstart
 
-1. Install FEMIC from source checkout:
+1. Install FEMIC and the K3Z-owned FEMIC extension package from source checkouts:
 
 ```bash
 python -m pip install /path/to/femic
+python -m pip install -e .
 ```
+
+The local `k3z_femic` package owns K3Z-specific FEMIC bindings and policy
+defaults, including K3Z FMG auxiliary support loading, target-stratum count,
+plot limits, and VDYP curve-selection policy. FEMIC core provides the generic
+engines and extension seams.
 
 2. Validate case configuration and required paths:
 

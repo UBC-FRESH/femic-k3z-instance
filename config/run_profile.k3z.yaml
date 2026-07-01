@@ -9,7 +9,15 @@ selection:
     species_combo_count: 2
     include_tm_species2_for_single: true
     top_area_coverage: 0.90
+    target_nstrata: 4
   strata: []
+plots:
+  tipsy_vdyp_ylim:
+    - 0.0
+    - 2000.0
+vdyp_curve_selection:
+  force_tail_blend: false
+  enable_late_gate_rescue: false
 modes:
   resume: false
   dry_run: false

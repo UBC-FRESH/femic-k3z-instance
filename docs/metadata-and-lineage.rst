@@ -31,8 +31,7 @@ how they are produced.
      - validation stage outputs
      - matrix build manifests + startup checks
    * - Rebuild evidence
-     - ``runtime/logs/`` for non-VDYP manifests/reports
-     - ``vdyp_io/logs/`` for VDYP-specific logs
+     - ``runtime/logs/`` for non-VDYP manifests/reports; ``vdyp_io/logs/`` for VDYP-specific logs
      - run-id workflow + matrix build
      - manifest/log timestamps + command status
 
