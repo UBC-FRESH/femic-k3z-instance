@@ -4,7 +4,7 @@ Operator Runbook
 Fresh Setup
 -----------
 
-1. Initialize submodules and environment.
+1. From the parent FEMIC checkout, run the FreshForge materialization workflow.
 2. Validate prerequisites with case preflight.
 3. Confirm Patchworks runtime config resolves correctly.
 4. On Windows, confirm native runtime prerequisites are present:
@@ -19,7 +19,22 @@ Fresh Setup
 
 .. code-block:: bash
 
-   git submodule update --init --recursive
+   freshforge providers
+   freshforge validate external/femic-k3z-instance/workflows/freshforge/k3z_materialization_workflow.yaml
+   freshforge inspect external/femic-k3z-instance/workflows/freshforge/k3z_materialization_workflow.yaml
+   freshforge plan external/femic-k3z-instance/workflows/freshforge/k3z_materialization_workflow.yaml
+   freshforge run external/femic-k3z-instance/workflows/freshforge/k3z_materialization_workflow.yaml --workdir runtime/freshforge --namespace k3z/materialization --json
+
+K3Z is currently a plain-git teaching snapshot. The FreshForge materialization
+workflow initializes the parent submodule, validates the parent Python
+environment, installs FEMIC/FreshForge and the editable K3Z package, verifies
+tracked K3Z paths, and writes a materialization report. It does not enable
+``arbutus-s3`` or run ``datalad get`` for K3Z.
+
+After materialization:
+
+.. code-block:: bash
+
    femic prep validate-case --run-config config/run_profile.k3z.yaml --tipsy-config-dir config/tipsy
    femic patchworks preflight --config config/patchworks.runtime.windows.yaml
 

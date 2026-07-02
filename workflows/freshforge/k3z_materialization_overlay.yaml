@@ -1,0 +1,31 @@
+instance:
+  root: external/femic-k3z-instance
+  submodule_path: external/femic-k3z-instance
+environment:
+  venv_path: .venv
+install:
+  extras:
+    - dev
+    - freshforge
+  requirements: []
+  editable_paths:
+    - external/femic-k3z-instance
+  packages: []
+annex:
+  enabled: false
+materialization:
+  required_paths:
+    - models
+    - config
+    - data
+    - docs
+    - workflows
+audit:
+  required_paths:
+    - models
+    - config
+    - data
+    - docs
+    - workflows
+report:
+  path: runtime/freshforge/k3z_materialization_report.json

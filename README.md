@@ -30,7 +30,23 @@ It is intended to show how a complete FEMIC instance is structured and versioned
 
 ## Quickstart
 
-1. Install FEMIC and the K3Z-owned FEMIC extension package from source checkouts:
+1. From the parent FEMIC checkout, use FreshForge to verify and materialize the
+   K3Z teaching snapshot:
+
+```bash
+freshforge providers
+freshforge validate external/femic-k3z-instance/workflows/freshforge/k3z_materialization_workflow.yaml
+freshforge inspect external/femic-k3z-instance/workflows/freshforge/k3z_materialization_workflow.yaml
+freshforge plan external/femic-k3z-instance/workflows/freshforge/k3z_materialization_workflow.yaml
+freshforge run external/femic-k3z-instance/workflows/freshforge/k3z_materialization_workflow.yaml --workdir runtime/freshforge --namespace k3z/materialization --json
+```
+
+K3Z currently uses plain-git materialization. The workflow verifies tracked
+paths and installs the editable K3Z package, but it does not enable
+`arbutus-s3` or run `datalad get`.
+
+2. Install FEMIC and the K3Z-owned FEMIC extension package from source checkouts
+   when working outside the parent FreshForge materialization path:
 
 ```bash
 python -m pip install /path/to/femic
@@ -42,19 +58,19 @@ defaults, including K3Z FMG auxiliary support loading, target-stratum count,
 plot limits, and VDYP curve-selection policy. FEMIC core provides the generic
 engines and extension seams.
 
-2. Validate case configuration and required paths:
+3. Validate case configuration and required paths:
 
 ```bash
 femic prep validate-case --run-config config/run_profile.k3z.yaml --tipsy-config-dir config/tipsy
 ```
 
-3. Run K3Z compile flow:
+4. Run K3Z compile flow:
 
 ```bash
 femic run --run-config config/run_profile.k3z.yaml
 ```
 
-4. Run the full reproducible K3Z rebuild sequence:
+5. Run the full reproducible K3Z rebuild sequence:
 
 ```bash
 femic instance rebuild \
@@ -64,7 +80,7 @@ femic instance rebuild \
   --run-id k3z_rebuild
 ```
 
-5. Rebuild-spec source of truth:
+6. Rebuild-spec source of truth:
 
 ```text
 config/rebuild.spec.yaml
