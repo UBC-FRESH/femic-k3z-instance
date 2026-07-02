@@ -26,6 +26,9 @@ k3z = "k3z_femic.fmg:provider_factory"
 [project.entry-points."femic.patchworks_variant_registries"]
 k3z = "k3z_femic.patchworks_variants:provider_factory"
 
+[project.entry-points."femic.instance_catalogs"]
+k3z = "k3z_femic.instance_catalog:provider_factory"
+
 [tool.setuptools.packages.find]
 where = ["src"]
 
