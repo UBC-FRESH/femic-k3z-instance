@@ -4,6 +4,7 @@ __pycache__/
 *.pyo
 *.tmp
 *.log
+runtime/freshforge/
 *.egg-info/
 build/
 dist/

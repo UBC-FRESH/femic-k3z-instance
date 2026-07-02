@@ -1,0 +1,93 @@
+workflow:
+  id: k3z_materialization
+  name: K3Z FreshForge materialization workflow
+  description: Parent-checkout FreshForge graph for verifying the plain-git K3Z model instance with the generic FEMIC materialization provider.
+nodes:
+  - id: check_toolchain
+    provider: femic.materialization.check_toolchain
+    outputs:
+      toolchain: toolchain_ok
+    parameters:
+      overlay: external/femic-k3z-instance/workflows/freshforge/k3z_materialization_overlay.yaml
+  - id: check_python_environment
+    provider: femic.materialization.check_python_environment
+    needs:
+      - check_toolchain
+    inputs:
+      toolchain: check_toolchain.toolchain
+    outputs:
+      python_environment: python_environment_ok
+    parameters:
+      overlay: external/femic-k3z-instance/workflows/freshforge/k3z_materialization_overlay.yaml
+  - id: install_packages
+    provider: femic.materialization.install_packages
+    needs:
+      - check_python_environment
+    inputs:
+      python_environment: check_python_environment.python_environment
+    outputs:
+      packages: packages_installed
+    parameters:
+      overlay: external/femic-k3z-instance/workflows/freshforge/k3z_materialization_overlay.yaml
+  - id: init_submodules
+    provider: femic.materialization.init_submodules
+    needs:
+      - install_packages
+    inputs:
+      packages: install_packages.packages
+    outputs:
+      submodules: submodules_initialized
+    parameters:
+      overlay: external/femic-k3z-instance/workflows/freshforge/k3z_materialization_overlay.yaml
+  - id: init_annex
+    provider: femic.materialization.init_annex
+    needs:
+      - init_submodules
+    inputs:
+      submodules: init_submodules.submodules
+    outputs:
+      annex_repository: annex_disabled
+    parameters:
+      overlay: external/femic-k3z-instance/workflows/freshforge/k3z_materialization_overlay.yaml
+  - id: enable_special_remote
+    provider: femic.materialization.enable_special_remote
+    needs:
+      - init_annex
+    inputs:
+      annex_repository: init_annex.annex_repository
+    outputs:
+      special_remote: annex_disabled
+    parameters:
+      overlay: external/femic-k3z-instance/workflows/freshforge/k3z_materialization_overlay.yaml
+  - id: materialize_paths
+    provider: femic.materialization.materialize_paths
+    needs:
+      - enable_special_remote
+    inputs:
+      special_remote: enable_special_remote.special_remote
+    outputs:
+      materialized_paths: k3z_paths_present
+    parameters:
+      overlay: external/femic-k3z-instance/workflows/freshforge/k3z_materialization_overlay.yaml
+  - id: audit_annex_availability
+    provider: femic.materialization.audit_annex_availability
+    needs:
+      - materialize_paths
+    inputs:
+      materialized_paths: materialize_paths.materialized_paths
+    outputs:
+      annex_audit: annex_disabled
+    parameters:
+      overlay: external/femic-k3z-instance/workflows/freshforge/k3z_materialization_overlay.yaml
+  - id: write_materialization_report
+    provider: femic.materialization.write_materialization_report
+    needs:
+      - audit_annex_availability
+    inputs:
+      annex_audit: audit_annex_availability.annex_audit
+    outputs:
+      materialization_report: k3z_materialization_report
+    parameters:
+      overlay: external/femic-k3z-instance/workflows/freshforge/k3z_materialization_overlay.yaml
+    artifacts:
+      report: runtime/freshforge/k3z_materialization_report.json
