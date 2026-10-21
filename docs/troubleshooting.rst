@@ -42,7 +42,7 @@ Actions:
      ``treated_species_prop_*`` / ``untreated_species_prop_*`` rows; if they
      are absent, confirm the active post-TIPSY species-universe loader can see
      the shipped checkpoint artifact (for K3Z this is now
-     ``data/ria_vri_vclr1p_checkpoint1-tsak3z.feather`` rather than only the
+     ``data/vri_vclr1p_checkpoint1-tsak3z.feather`` rather than only the
      old generic ``checkpoint8`` path).
    - If ``01a`` prep checkpoints are missing but ``au_table.csv`` persists,
      confirm the post-TIPSY fallback rebuilt unmanaged species proportions from
