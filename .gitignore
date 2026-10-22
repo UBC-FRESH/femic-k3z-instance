@@ -14,7 +14,7 @@ dist/
 .env
 
 # Common generated caches (keep curated baseline files tracked)
-data/ria_vri_vclr1p_checkpoint*.feather
+data/vri_vclr1p_checkpoint*.feather
 data/vdyp_results*.pkl
 data/vdyp_prep*.pkl
 

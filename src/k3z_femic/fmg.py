@@ -30,7 +30,7 @@ K3Z_TSA_CODE = "k3z"
 TIPSY_PARAMS_FILENAME = "tipsy_params_tsak3z.xlsx"
 BTC_INPUT_FILENAME = "03_input-tsak3z.csv"
 TIPSY_CURVES_FILENAME = "tipsy_curves_tsak3z.csv"
-CHECKPOINT_FILENAME = "ria_vri_vclr1p_checkpoint1-tsak3z.feather"
+CHECKPOINT_FILENAME = "vri_vclr1p_checkpoint1-tsak3z.feather"
 VDYP_LAYER_FILENAME = "vdyp_lyr-tsak3z.feather"
 
 MANAGED_BANK_INDICATOR_COLUMNS = (
